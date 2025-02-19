@@ -1,6 +1,1 @@
-[1,"==> quarto preview index.qmd --to html --no-watch-inputs --no-browse\n\n"]
-[1,"pandoc \n  to: html\n  output-file: index.html\n  standalone: true\n  toc: true\n  number-sections: false\n  title-prefix: portfolio\n  section-divs: true\n  html-math-method: mathjax\n  wrap: none\n  default-image-extension: png\n  \nmetadata\n  crossref:\n    chapters: true\n  document-css: false\n  link-citations: true\n  date-format: long\n  lang: en\n  bibliography:\n    - references.bib\n  editor: visual\n  theme: cosmo\n  title: portfolio\n  author: Fiorella Guillen Hurtado\n  date: 19/2/2025\n  \n"]
-[1,"Output created: _book\\index.html\n\nPreparing to preview\n"]
-[1,"\n"]
-[1,"Watching files for changes\nBrowse at http://localhost:5736/\n"]
-[1,"GET: /\n"]
+[1,"Error occurred during cleanup: Error: El proceso no tiene acceso al archivo porque está siendo utilizado por otro proceso. (os error 32): remove 'C:\\Users\\FIORELLA\\AppData\\Local\\Temp\\quarto-sessione4d7a671e906e0c9'\n"]
