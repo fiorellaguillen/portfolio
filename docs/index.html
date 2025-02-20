@@ -180,13 +180,19 @@ ul.task-list li input[type="checkbox"] {
         #intro-container {
             flex-direction: column; /* Imagen arriba, texto abajo */
             text-align: center;
+            align-items: center; /* Centrar todo el contenido */
         }
         #text-container, #image-container {
             width: 100% !important;
             text-align: center;
         }
+        #image-container {
+            order: -1; /* Mueve la imagen al inicio */
+        }
         #profile-pic {
             max-width: 80%; /* Ajusta el tamaño en móvil */
+            display: block;
+            margin: 0 auto; /* Asegura que quede centrado */
         }
     }
 </style>
