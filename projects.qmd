@@ -24,8 +24,6 @@ This research examines the socio-economic variables most strongly linked to dwel
 
 ![](images/borough_clustering.jpg)
 
-## 
-
 ## **New York City evictions: an spatial and socioeconomic analysis**
 
 This analysis explores the relationship between economic deprivation and eviction rates across NYC boroughs, using median income as a key economic indicator. The findings reveal a strong inverse correlation, showing that a \$10,000 increase in median income corresponds to a 19.3% decrease in eviction rates. Additionally, spatial analysis highlights significant clustering of high-eviction areas, particularly in the north, including the Bronx, where statistical tests confirm spatial autocorrelation and concentrated eviction hotspots.
