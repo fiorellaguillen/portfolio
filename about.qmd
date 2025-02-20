@@ -1,53 +1,91 @@
-# About Me 
+# About Me
 
-I am a **postgraduate student in Urban Spatial Science** at The Bartlett, UCL, with a background in architecture and urbanism. My academic and professional journey has allowed me to develop expertise in geospatial analysis, urban planning, and sustainable mobility solutions.
+I am a **postgraduate student in Urban Spatial Science** at The Bartlett, UCL, with a background in architecture and urbanism. My academic and professional journey has allowed me to develop expertise in geospatial analysis and urban planning applied to different topics like mobility, housing planning, and urban policy.\
+\
+If you want to have a copy of my CV in pdf, you can get it [here](https://github.com/fiorellaguillen/CV/blob/master/CV_ROXANA_GUILLEN.pdf).
+
+------------------------------------------------------------------------
 
 ### 🎓 Education
 
--   **MSc Urban Spatial Science** – UCL, The Bartlett (2025)
+-   **MSc Urban Spatial Science** – UCL, The Bartlett, London, UK (2025)
+
+    Master’s programme focused on integrating data science and spatial analysis. Modules included Data Science for Spatial Systems, GIS, Quantitative Methods, Urban Simulation, Agent-based Modelling, Building Spatial Applications with Big Data, Remote Sensing, among others.
 
 -   **Bachelor in Architecture & Urbanism** – PUCP, Lima, Peru (2021)
 
--   **Study Abroad: Integrative Technologies & Architectural Design Research** – University of Stuttgart (2018-19)
+    11-semester programme with a strong focus on urbanism. Included modules in sustainable urban design, spatial analysis and urban planning. Awarded for an outstanding thesis on urban design, applying innovative approaches to vulnerable neighborhoods and housing.
 
-My work combines **data science, GIS, and urban design** to improve decision-making in cities. I have experience in urban analysis, transport planning, and climate adaptation research.
+-   **Study Abroad Semester: Integrative Technologies & Architectural Design Research** – University of Stuttgart, Stuttgart, Germany (2018-19)
 
-# Skills & Expertise 🛠️
+    Semester in the Integrative Technologies and Architectural Design Research (ITECH) programme, exploring the intersection of computational design, robotic fabrication, and architecture. Gained experience in parametric modeling, algorithmic design, and digital fabrication techniques.
 
-## Programming & Data Science
+-   **Adaptive Transport Machine Workshop** – Architectural Association Visiting School, London, UK (2017)
 
--   Python (Pandas, Geopandas, NetworkX)
+    Workshop on adaptive mobility systems, focusing on generative design and responsive urban transport solutions. Engaged in parametric design and fabrication exploring how computational tools can optimize urban mobility and its adaptability.
 
--   R (Geospatial Analysis, ggplot2, Leaflet)
+### 🛠️ Technical skills
 
--   SQL
+-   **Programming & Data Science:** Python (Pandas, Geopandas, NetworkX), R (Geospatial Analysis), SQL
 
-## Geospatial & Urban Analysis
+-   **Geospatial & Urban Analysis:** QGIS, Google Earth Engine, NetLogo
 
--   QGIS, Google Earth Engine
+-   **Machine Learning & Quantitative Methods:** Data Analysis, Regression, Clustering, Random Forests
 
--   Spatial Network Analysis, Agent-Based Modeling
+-   **Urban Simulation:** Spatial network analysis, Spatial Interaction Models, Agent-based modelling
 
--   Urban Simulation & Remote Sensing
+-   **Data Visualization:** Ggplot2, Matplotlib, Leaflet, Bokeh
 
-## Data Visualization & Design
+-   **Architectural Software:** AutoCAD, ArchiCAD, Rhinoceros, Grasshopper(parametric design)
 
--   ggplot2, Matplotlib, Bokeh, Leaflet
+-   **Graphic design:** Adobe Creative Suite (Photoshop, Illustrator, InDesign, Premiere)
 
--   AutoCAD, Rhinoceros, Grasshopper (Parametric Design)
+-   **Microsoft Office and Google Suites**
 
--   Adobe Creative Suite (Photoshop, Illustrator, InDesign)
+### 🛠️ Research and communication skills
 
-# Awards & Recognitions 🏆
+-   Research assistant on climate adaptation and resettlement strategies in flood-prone Amazonian communities.
 
-## **International Grand Prize for Sustainable Urban Design** (2021 & 2018)
+-   Awarded for an outstanding thesis on an alternative urban model for an Amazonian neighborhood.
 
--   Awarded for the **Special Landscape Project for the Rimac River**, a proposal for the revitalization of Lima’s historic public spaces.
+-   Work experience on qualitative analysis for urban spaces to inform urban policy in the public sector
 
-## **Bicentennial Generation Scholarship** (2022)
+-   Academic knowledge in quantitative analysis to analyse socio-demographic trends and mobility patterns.
 
--   Granted by the Peruvian Government for outstanding academic performance.
+-   Experience in developing urban mobility proposals integrating sustainable mobility and accessibility principles
 
-## **Faculty of Architecture Excellence Award** (2021)
+-   Strong communication & public speaking skills, actively collaborating as a Student Ambassador at The Bartlett
 
--   Recognized as one of the top students in the Faculty of Architecture and Urbanism at PUCP.
+-   Delivered presentations of my thesis research at academic events in Peru and Spain.
+
+-   Conducted fieldwork and stakeholder consultations with local authorities and communities for urban planning projects.
+
+-   Designed and facilitated workshops for participatory urban development initiatives.
+
+-   Curated and presented exhibitions showcasing urban research and policy proposals.
+
+### 🎤Languages
+
+-   Spanish Native
+
+-   English C1 level
+
+-   German B2 level
+
+### 🏆Awards & Recognitions
+
+#### Bicentennial Generation Scholarship (2024)
+
+-   Awarded to Peruvian professionals of high academic performance to finance their postgraduate studies.
+
+#### Circular economy and sustainability (2023)
+
+-   Received this award for one of the interventions of the Special Landscape Project for the Rimac river.
+
+#### International Grand Prize for Sustainable Urban Design (2021)
+
+-   Recognition for the Special Landscape Project for the Rimac River, a proposal for the recovery of historic public spaces in Lima.
+
+#### **Faculty of Architecture Excellence Award** (2018 & 2022)
+
+-   Received the Excellence award of the Architecture and Urbanism Faculty, for outstanding students of the faculty.
