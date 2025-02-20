@@ -20,7 +20,7 @@ This research analyzes the spatial distribution of cycling accidents in London, 
 
 This research examines the socio-economic variables most strongly linked to dwelling fire risk. The study, through the use of regression identifies ownership status and four-dimensional deprivation as key predictors, highlighting urban inequalities that increase vulnerability in certain communities. The results of the clustering analysis also serve as a valuable tool for guiding localized strategies and policies, ensuring they are tailored to the distinct socio-economic and spatial contexts of each cluster. In general, the findings emphasize that fire risk is a multidimensional issue, requiring mitigation strategies that extend beyond fire safety measures to address underlying socio-econ
 
--   ![](images/correlationmatrix1.png)
+![](images/correlationmatrix1.png)
 
 ![](images/borough_clustering.jpg)
 
