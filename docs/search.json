@@ -12,21 +12,21 @@
   {
     "objectID": "contact.html",
     "href": "contact.html",
-    "title": "4  Let’s connect! 📩",
+    "title": "4  Let’s connect!",
     "section": "",
-    "text": "If you would like to collaborate or discuss urban research, feel free to reach out!\n📧 Email: guillen.fiorella@outlook.com\n💻 GitHub: github.com/fiorellaguillenh\n🔗 LinkedIn: linkedin.com/in/fiorellaguillen",
+    "text": "If you would like to collaborate or discuss about research or projects in urban spatial science, feel free to reach out!",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Let's connect! 📩</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Let's connect!</span>"
     ]
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "1  About Me 🌍",
+    "title": "1  About Me",
     "section": "",
     "text": "1.0.1 🎓 Education\nI am a postgraduate student in Urban Spatial Science at The Bartlett, UCL, with a background in architecture and urbanism. My academic and professional journey has allowed me to develop expertise in geospatial analysis, urban planning, and sustainable mobility solutions.\nMy work combines data science, GIS, and urban design to improve decision-making in cities. I have experience in urban analysis, transport planning, and climate adaptation research.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>About Me 🌍</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>About Me</span>"
     ]
   },
   {
@@ -72,11 +72,11 @@
   {
     "objectID": "projects.html",
     "href": "projects.html",
-    "title": "2  Academic Projects 🏗️",
+    "title": "2  Academic Projects",
     "section": "",
-    "text": "2.1 Identification of associations between socio-economic factors and dwelling fires in London in 2021",
+    "text": "2.1 Assessing the Risks: Cycling Accident Severity in London\nThis research analyzes the spatial distribution of cycling accidents in London, classifying them by severity. The study employs Kernel Density Estimation (KDE) to visualize high-risk areas and develops a ranking tool to identify the most dangerous intersections for cyclists, aiding in traffic safety prioritization. Additionally, a regression analysis reveals key factors influencing accident severity, highlighting an inverse correlation between severe accidents and rush hour occurrences—suggesting that time of day plays a critical role in accident severity patterns.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Academic Projects 🏗️</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Academic Projects</span>"
     ]
   },
   {
@@ -112,41 +112,41 @@
   {
     "objectID": "experience.html",
     "href": "experience.html",
-    "title": "3  Work Experience 💼",
+    "title": "3  Work Experience",
     "section": "",
     "text": "3.1 Urban Designer | Municipality of Lima (2021-2024)",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Work Experience 💼</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Work Experience</span>"
     ]
   },
   {
     "objectID": "experience.html#urban-designer-municipality-of-lima-2021-2024",
     "href": "experience.html#urban-designer-municipality-of-lima-2021-2024",
-    "title": "3  Work Experience 💼",
+    "title": "3  Work Experience",
     "section": "",
     "text": "Led public space design, integrating sustainable mobility.\nDeveloped urban policies to improve accessibility.\nCoordinated with local authorities for project implementation.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Work Experience 💼</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Work Experience</span>"
     ]
   },
   {
     "objectID": "experience.html#student-ambassador-the-bartlett-ucl-2024-present",
     "href": "experience.html#student-ambassador-the-bartlett-ucl-2024-present",
-    "title": "3  Work Experience 💼",
+    "title": "3  Work Experience",
     "section": "3.2 Student Ambassador | The Bartlett, UCL (2024-Present)",
     "text": "3.2 Student Ambassador | The Bartlett, UCL (2024-Present)\n\nRepresenting MSc Urban Spatial Science at outreach events.\nSupporting student engagement and academic mentoring.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Work Experience 💼</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Work Experience</span>"
     ]
   },
   {
     "objectID": "experience.html#research-intern-climate-resettlement-project-2018",
     "href": "experience.html#research-intern-climate-resettlement-project-2018",
-    "title": "3  Work Experience 💼",
+    "title": "3  Work Experience",
     "section": "3.3 Research Intern | Climate Resettlement Project (2018)",
     "text": "3.3 Research Intern | Climate Resettlement Project (2018)\n\nAssisted in urban planning research for Amazonian resettlements.\nDesigned visual materials for research publications.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Work Experience 💼</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Work Experience</span>"
     ]
   },
   {
@@ -192,11 +192,11 @@
   {
     "objectID": "projects.html#identification-of-associations-between-socio-economic-factors-and-dwelling-fires-in-london-in-2021",
     "href": "projects.html#identification-of-associations-between-socio-economic-factors-and-dwelling-fires-in-london-in-2021",
-    "title": "2  Academic Projects 🏗️",
-    "section": "",
-    "text": "Developed an alternative urban model for flood-prone communities.\nApplied geospatial analysis to identify resettlement areas.\nPresented at academic events in Peru and Spain.",
+    "title": "2  Academic Projects",
+    "section": "2.2 Identification of associations between socio-economic factors and dwelling fires in London in 2021",
+    "text": "2.2 Identification of associations between socio-economic factors and dwelling fires in London in 2021\nThis research examines the socio-economic variables most strongly linked to dwelling fire risk. The study, through the use of regression identifies ownership status and four-dimensional deprivation as key predictors, highlighting urban inequalities that increase vulnerability in certain communities. The results of the clustering analysis also serve as a valuable tool for guiding localized strategies and policies, ensuring they are tailored to the distinct socio-economic and spatial contexts of each cluster. In general, the findings emphasize that fire risk is a multidimensional issue, requiring mitigation strategies that extend beyond fire safety measures to address underlying socio-econ",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Academic Projects 🏗️</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Academic Projects</span>"
     ]
   },
   {
@@ -222,81 +222,101 @@
   {
     "objectID": "projects.html#new-york-city-evictions-an-spatial-and-socioeconomic-analysis",
     "href": "projects.html#new-york-city-evictions-an-spatial-and-socioeconomic-analysis",
-    "title": "2  Academic Projects 🏗️",
-    "section": "2.3 New York City evictions: an spatial and socioeconomic analysis",
-    "text": "2.3 New York City evictions: an spatial and socioeconomic analysis\n\nUtilized Google Earth Engine to analyze land-use changes.\nDesigned an early warning system for vulnerable settlements.\nWorked on research collaboration between PUCP and UCL.",
+    "title": "2  Academic Projects",
+    "section": "2.4 New York City evictions: an spatial and socioeconomic analysis",
+    "text": "2.4 New York City evictions: an spatial and socioeconomic analysis\nThis analysis explores the relationship between economic deprivation and eviction rates across NYC boroughs, using median income as a key economic indicator. The findings reveal a strong inverse correlation, showing that a $10,000 increase in median income corresponds to a 19.3% decrease in eviction rates. Additionally, spatial analysis highlights significant clustering of high-eviction areas, particularly in the north, including the Bronx, where statistical tests confirm spatial autocorrelation and concentrated eviction hotspots.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Academic Projects 🏗️</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Academic Projects</span>"
     ]
   },
   {
     "objectID": "projects.html#alternative-urban-model-for-bajo-belen-iquitos",
     "href": "projects.html#alternative-urban-model-for-bajo-belen-iquitos",
-    "title": "2  Academic Projects 🏗️",
-    "section": "2.4 Alternative urban model for Bajo Belen, Iquitos",
-    "text": "2.4 Alternative urban model for Bajo Belen, Iquitos",
+    "title": "2  Academic Projects",
+    "section": "2.6 Alternative urban model for Bajo Belen, Iquitos",
+    "text": "2.6 Alternative urban model for Bajo Belen, Iquitos",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Academic Projects 🏗️</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Academic Projects</span>"
     ]
   },
   {
     "objectID": "about.html#programming-data-science",
     "href": "about.html#programming-data-science",
-    "title": "1  About Me 🌍",
+    "title": "1  About Me",
     "section": "2.1 Programming & Data Science",
     "text": "2.1 Programming & Data Science\n\nPython (Pandas, Geopandas, NetworkX)\nR (Geospatial Analysis, ggplot2, Leaflet)\nSQL",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>About Me 🌍</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>About Me</span>"
     ]
   },
   {
     "objectID": "about.html#geospatial-urban-analysis",
     "href": "about.html#geospatial-urban-analysis",
-    "title": "1  About Me 🌍",
+    "title": "1  About Me",
     "section": "2.2 Geospatial & Urban Analysis",
     "text": "2.2 Geospatial & Urban Analysis\n\nQGIS, Google Earth Engine\nSpatial Network Analysis, Agent-Based Modeling\nUrban Simulation & Remote Sensing",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>About Me 🌍</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>About Me</span>"
     ]
   },
   {
     "objectID": "about.html#data-visualization-design",
     "href": "about.html#data-visualization-design",
-    "title": "1  About Me 🌍",
+    "title": "1  About Me",
     "section": "2.3 Data Visualization & Design",
     "text": "2.3 Data Visualization & Design\n\nggplot2, Matplotlib, Bokeh, Leaflet\nAutoCAD, Rhinoceros, Grasshopper (Parametric Design)\nAdobe Creative Suite (Photoshop, Illustrator, InDesign)",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>About Me 🌍</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>About Me</span>"
     ]
   },
   {
     "objectID": "about.html#international-grand-prize-for-sustainable-urban-design-2021-2018",
     "href": "about.html#international-grand-prize-for-sustainable-urban-design-2021-2018",
-    "title": "1  About Me 🌍",
+    "title": "1  About Me",
     "section": "3.1 International Grand Prize for Sustainable Urban Design (2021 & 2018)",
     "text": "3.1 International Grand Prize for Sustainable Urban Design (2021 & 2018)\n\nAwarded for the Special Landscape Project for the Rimac River, a proposal for the revitalization of Lima’s historic public spaces.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>About Me 🌍</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>About Me</span>"
     ]
   },
   {
     "objectID": "about.html#bicentennial-generation-scholarship-2022",
     "href": "about.html#bicentennial-generation-scholarship-2022",
-    "title": "1  About Me 🌍",
+    "title": "1  About Me",
     "section": "3.2 Bicentennial Generation Scholarship (2022)",
     "text": "3.2 Bicentennial Generation Scholarship (2022)\n\nGranted by the Peruvian Government for outstanding academic performance.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>About Me 🌍</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>About Me</span>"
     ]
   },
   {
     "objectID": "about.html#faculty-of-architecture-excellence-award-2021",
     "href": "about.html#faculty-of-architecture-excellence-award-2021",
-    "title": "1  About Me 🌍",
+    "title": "1  About Me",
     "section": "3.3 Faculty of Architecture Excellence Award (2021)",
     "text": "3.3 Faculty of Architecture Excellence Award (2021)\n\nRecognized as one of the top students in the Faculty of Architecture and Urbanism at PUCP.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>About Me 🌍</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>About Me</span>"
+    ]
+  },
+  {
+    "objectID": "projects.html#section",
+    "href": "projects.html#section",
+    "title": "2  Academic Projects",
+    "section": "2.3 ",
+    "text": "2.3",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Academic Projects</span>"
+    ]
+  },
+  {
+    "objectID": "projects.html#section-1",
+    "href": "projects.html#section-1",
+    "title": "2  Academic Projects",
+    "section": "2.5 ",
+    "text": "2.5",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Academic Projects</span>"
     ]
   }
 ]
