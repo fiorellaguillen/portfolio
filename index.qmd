@@ -1,1 +1,31 @@
 # Hello World! {.unnumbered}
+
+Hi, and welcome to my portfolio!
+
+I am Fiorella Guillen, a postgraduate student in Urban Spatial Science at UCL with a background in architecture and urbanism. I have a strong interest in sustainable urban development and spatial analysis, and I'm passionate about leveraging data-driven solutions to tackle urban challenges. My previous experience and current studies have equipped me with strong analytical and research skills with experience in urban analysis, transport networks and urban policy. This space serves as a showcase for my academic projects, professional experience, and research in urban science.
+
+Here, you'll find insights into my work, including spatial data analysis, urban resilience strategies, and case studies on sustainable cities. I will also share my past experience in urban planning and how it has shaped my approach to tackling real-world challenges.
+
+Feel free to explore my projects, and don’t hesitate to reach out!
+
+🔍 **Explore My Work:**
+
+-   📊 Projects
+
+-   💼 Experience
+
+-   🏆 Awards
+
+📩 **Get in Touch:**
+
+-   📧 Email
+
+-   💻 [GitHub](https://github.com/fiorellaguillen)
+
+-   🔗 [LinkedIn](https://www.linkedin.com/in/fiorellaguillen)
+
+Here
+
+{{< video https://youtu.be/yqOHqQDk1jY >}}
+
+{{\< video https://www.youtube.com/watch?v=g--IDi_i3xs}}

@@ -1,0 +1,13 @@
+# About Me 🌍
+
+I am a **postgraduate student in Urban Spatial Science** at The Bartlett, UCL, with a background in architecture and urbanism. My academic and professional journey has allowed me to develop expertise in geospatial analysis, urban planning, and sustainable mobility solutions.
+
+### 🎓 Education
+
+-   **MSc Urban Spatial Science** – UCL, The Bartlett (2025)
+
+-   **Bachelor in Architecture & Urbanism** – PUCP, Lima, Peru (2021)
+
+-   **Study Abroad: Integrative Technologies & Architectural Design Research** – University of Stuttgart (2018-19)
+
+My work combines **data science, GIS, and urban design** to improve decision-making in cities. I have experience in urban analysis, transport planning, and climate adaptation research.

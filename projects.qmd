@@ -1,0 +1,25 @@
+# Academic Projects 🏗️
+
+## **🌿 Sustainable Urban Design in the Amazon**
+
+-   Developed an **alternative urban model** for flood-prone communities.
+
+-   Applied **geospatial analysis** to identify resettlement areas.
+
+-   Presented at academic events in Peru and Spain.
+
+## **🚇 Transport Network Analysis for Sustainable Mobility**
+
+-   Evaluated **public transport accessibility** using NetworkX.
+
+-   Proposed **policy recommendations** for non-motorized mobility.
+
+-   Integrated GIS and spatial modeling techniques.
+
+## **📡 Remote Sensing for Climate Adaptation**
+
+-   Utilized Google Earth Engine to analyze land-use changes.
+
+-   Designed an early warning system for vulnerable settlements.
+
+-   Worked on research collaboration between PUCP and UCL.

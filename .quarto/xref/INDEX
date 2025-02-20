@@ -4,5 +4,23 @@
   },
   "intro.qmd": {
     "intro.html": "7a1c4118"
+  },
+  "about.qmd": {
+    "about.html": "bca9d50b"
+  },
+  "skills.qmd": {
+    "skills.html": "e5067326"
+  },
+  "projects.qmd": {
+    "projects.html": "906f87ae"
+  },
+  "experience.qmd": {
+    "experience.html": "cf7654fc"
+  },
+  "awards.qmd": {
+    "awards.html": "e8bfd54a"
+  },
+  "contact.qmd": {
+    "contact.html": "5d295d16"
   }
 }

@@ -1,0 +1,25 @@
+# Skills & Expertise 🛠️
+
+## Programming & Data Science
+
+-   Python (Pandas, Geopandas, NetworkX)
+
+-   R (Geospatial Analysis, ggplot2, Leaflet)
+
+-   SQL
+
+## Geospatial & Urban Analysis
+
+-   QGIS, Google Earth Engine
+
+-   Spatial Network Analysis, Agent-Based Modeling
+
+-   Urban Simulation & Remote Sensing
+
+## Data Visualization & Design
+
+-   ggplot2, Matplotlib, Bokeh, Leaflet
+
+-   AutoCAD, Rhinoceros, Grasshopper (Parametric Design)
+
+-   Adobe Creative Suite (Photoshop, Illustrator, InDesign)
