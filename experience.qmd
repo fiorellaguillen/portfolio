@@ -20,6 +20,8 @@ Part of the core team for the Special Landscape Project for the Rimac River (PEP
 
 -   Managed the visualization and dissemination of project progress through stakeholder meetings, exhibitions, videos and publications.
 
+![](images/peprr.png)
+
 {{< video https://www.youtube.com/watch?v=g--IDi_i3xs>}}
 
 ## **Urban Designer \| Cordillera Sur (02.2021 - 10.2021)**
@@ -29,6 +31,8 @@ Contributed to landscape, architecture, and urban design projects with a focus o
 -   Developed landscape design for memorial and public space projects, integrating ecological restoration principles.
 
 -   Designed visual communication materials for competitions and public presentations, showcasing urban proposals.
+
+![](images/cordillera.png){fig-align="center"}
 
 ## **Speaker \|** (12.2021 & 10.2021)
 
@@ -50,6 +54,8 @@ Presented a lecture in the module "Architecture and Cooperation 2021" given at t
 
 Contributed to an action-research project on climate-induced population resettlement in Peru, developed by PUCP’s Research Center for Architecture and the City in collaboration with UCL’s Development Planning Unit.
 
--   Assisted in creating visual materials and designing two research publications and one guide.
+-   Assisted in creating visual materials and designing two research publications and one planning guide.
 
 -   Supported research on urban planning and urban design guidelines for the peruvian Amazon.
+
+![](images/casa.png){fig-align="center"}
