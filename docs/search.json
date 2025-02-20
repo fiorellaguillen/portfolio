@@ -14,7 +14,7 @@
     "href": "contact.html",
     "title": "4  Let’s connect!",
     "section": "",
-    "text": "If you would like to collaborate or discuss about research or projects in urban spatial science, feel free to reach out!\n\n\n\n\n\n    \n    \n        \n            \n        \n    \n    \n    \n        \n        \n            \n            \n        \n    \n    \n    See profile",
+    "text": "If you would like to collaborate or discuss about research or projects in urban spatial science, feel free to reach out!\n\n    \n    \n        \n            \n        \n    \n    \n    \n        \n        \n            \n            \n        \n    \n    \n    See profile\n\n\n\n\n\n\n\n    \n    \n        \n            \n        \n    \n    \n    \n        \n        \n            \n            \n        \n    \n    \n    See profile",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Let's connect!</span>"
     ]
@@ -24,7 +24,7 @@
     "href": "about.html",
     "title": "1  About Me",
     "section": "",
-    "text": "I am a postgraduate student in Urban Spatial Science at The Bartlett, UCL, with a background in architecture and urbanism. My academic and professional journey has allowed me to develop expertise in geospatial analysis and urban planning applied to different topics like mobility, housing planning, and urban policy.\n\nIf you want to have a copy of my CV in pdf, you can get it here.\n\n\n1.0.1 🎓 Education\n\nMSc Urban Spatial Science – UCL, The Bartlett, London, UK (2025)\nMaster’s programme focused on integrating data science and spatial analysis. Modules included Data Science for Spatial Systems, GIS, Quantitative Methods, Urban Simulation, Agent-based Modelling, Building Spatial Applications with Big Data, Remote Sensing, among others.\nBachelor in Architecture & Urbanism – PUCP, Lima, Peru (2021)\n11-semester programme with a strong focus on urbanism. Included modules in sustainable urban design, spatial analysis and urban planning. Awarded for an outstanding thesis on urban design, applying innovative approaches to vulnerable neighborhoods and housing.\nStudy Abroad Semester: Integrative Technologies & Architectural Design Research – University of Stuttgart, Stuttgart, Germany (2018-19)\nSemester in the Integrative Technologies and Architectural Design Research (ITECH) programme, exploring the intersection of computational design, robotic fabrication, and architecture. Gained experience in parametric modeling, algorithmic design, and digital fabrication techniques.\nAdaptive Transport Machine Workshop – Architectural Association Visiting School, London, UK (2017)\nWorkshop on adaptive mobility systems, focusing on generative design and responsive urban transport solutions. Engaged in parametric design and fabrication exploring how computational tools can optimize urban mobility and its adaptability.\n\n\n\n1.0.2 🛠️ Technical skills\n\nProgramming & Data Science: Python (Pandas, Geopandas, NetworkX), R (Geospatial Analysis), SQL\nGeospatial & Urban Analysis: QGIS, Google Earth Engine, NetLogo\nMachine Learning & Quantitative Methods: Data Analysis, Regression, Clustering, Random Forests\nUrban Simulation: Spatial network analysis, Spatial Interaction Models, Agent-based modelling\nData Visualization: Ggplot2, Matplotlib, Leaflet, Bokeh\nArchitectural Software: AutoCAD, ArchiCAD, Rhinoceros, Grasshopper(parametric design)\nGraphic design: Adobe Creative Suite (Photoshop, Illustrator, InDesign, Premiere)\nMicrosoft Office and Google Suites\n\n\n\n1.0.3 🛠️ Research and communication skills\n\nResearch assistant on climate adaptation and resettlement strategies in flood-prone Amazonian communities.\nAwarded for an outstanding thesis on an alternative urban model for an Amazonian neighborhood.\nWork experience on qualitative analysis for urban spaces to inform urban policy in the public sector\nAcademic knowledge in quantitative analysis to analyse socio-demographic trends and mobility patterns.\nExperience in developing urban mobility proposals integrating sustainable mobility and accessibility principles\nStrong communication & public speaking skills, actively collaborating as a Student Ambassador at The Bartlett\nDelivered presentations of my thesis research at academic events in Peru and Spain.\nConducted fieldwork and stakeholder consultations with local authorities and communities for urban planning projects.\nDesigned and facilitated workshops for participatory urban development initiatives.\nCurated and presented exhibitions showcasing urban research and policy proposals.\n\n\n\n1.0.4 🎤Languages\n\nSpanish Native\nEnglish C1 level\nGerman B2 level\n\n\n\n1.0.5 🏆Awards & Recognitions\n\n1.0.5.1 Bicentennial Generation Scholarship (2024)\n\nAwarded to Peruvian professionals of high academic performance to finance their postgraduate studies.\n\n\n\n1.0.5.2 Circular economy and sustainability (2023)\n\nReceived this award for one of the interventions of the Special Landscape Project for the Rimac river.\n\n\n\n1.0.5.3 International Grand Prize for Sustainable Urban Design (2021)\n\nRecognition for the Special Landscape Project for the Rimac River, a proposal for the recovery of historic public spaces in Lima.\n\n\n\n1.0.5.4 Faculty of Architecture Excellence Award (2018 & 2022)\n\nReceived the Excellence award of the Architecture and Urbanism Faculty, for outstanding students of the faculty.",
+    "text": "1.1 🎓 Education\nI am a postgraduate student in Urban Spatial Science at The Bartlett, UCL, with a background in architecture and urbanism. My academic and professional journey has allowed me to develop expertise in geospatial analysis and urban planning applied to different topics like mobility, housing planning, and urban policy.\n\nIf you want to have a copy of my CV in pdf, you can get it here.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>About Me</span>"
     ]
@@ -377,6 +377,56 @@
     "text": "3.4 Speaker | (12.2021 & 10.2021)\n\n3.4.1 Friedrich Ebert Foundation & ‘Acuerdo por Iquitos’ Foundation\nPresented two lectures in the forum ‘A better urban future for Iquitos’:\n\nInhabiting the river: alternative urban model for the neighborhood of Bajo Belen, Iquitos.\nInhabiting the river: rethinking housing and the Amazonian neighborhood in Bajo Belen, Iquitos.\n\n\n\n3.4.2 UPC - Polytechnic University of Catalonia\nPresented a lecture in the module “Architecture and Cooperation 2021” given at the ETSAV-UPC.\n\nLecture: Inhabiting the river: towards an alternative urban model for the flood-prone neighborhood of Bajo Belen.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Work Experience</span>"
+    ]
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "1  About Me",
+    "section": "",
+    "text": "MSc Urban Spatial Science – UCL, The Bartlett, London, UK (2025)\nMaster’s programme focused on integrating data science and spatial analysis. Modules included Data Science for Spatial Systems, GIS, Quantitative Methods, Urban Simulation, Agent-based Modelling, Building Spatial Applications with Big Data, Remote Sensing, among others.\nBachelor in Architecture & Urbanism – PUCP, Lima, Peru (2021)\n11-semester programme with a strong focus on urbanism. Included modules in sustainable urban design, spatial analysis and urban planning. Awarded for an outstanding thesis on urban design, applying innovative approaches to vulnerable neighborhoods and housing.\nStudy Abroad Semester: Integrative Technologies & Architectural Design Research – University of Stuttgart, Stuttgart, Germany (2018-19)\nSemester in the Integrative Technologies and Architectural Design Research (ITECH) programme, exploring the intersection of computational design, robotic fabrication, and architecture. Gained experience in parametric modeling, algorithmic design, and digital fabrication techniques.\nAdaptive Transport Machine Workshop – Architectural Association Visiting School, London, UK (2017)\nWorkshop on adaptive mobility systems, focusing on generative design and responsive urban transport solutions. Engaged in parametric design and fabrication exploring how computational tools can optimize urban mobility and its adaptability.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>About Me</span>"
+    ]
+  },
+  {
+    "objectID": "about.html#technical-skills",
+    "href": "about.html#technical-skills",
+    "title": "1  About Me",
+    "section": "1.2 🛠️ Technical skills",
+    "text": "1.2 🛠️ Technical skills\n\nProgramming & Data Science: Python (Pandas, Geopandas, NetworkX), R (Geospatial Analysis), SQL\nGeospatial & Urban Analysis: QGIS, Google Earth Engine, NetLogo\nMachine Learning & Quantitative Methods: Data Analysis, Regression, Clustering, Random Forests\nUrban Simulation: Spatial network analysis, Spatial Interaction Models, Agent-based modelling\nData Visualization: Ggplot2, Matplotlib, Leaflet, Bokeh\nArchitectural Software: AutoCAD, ArchiCAD, Rhinoceros, Grasshopper(parametric design)\nGraphic design: Adobe Creative Suite (Photoshop, Illustrator, InDesign, Premiere)\nMicrosoft Office and Google Suites",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>About Me</span>"
+    ]
+  },
+  {
+    "objectID": "about.html#research-and-communication-skills",
+    "href": "about.html#research-and-communication-skills",
+    "title": "1  About Me",
+    "section": "1.3 🛠️ Research and communication skills",
+    "text": "1.3 🛠️ Research and communication skills\n\nResearch assistant on climate adaptation and resettlement strategies in flood-prone Amazonian communities.\nAwarded for an outstanding thesis on an alternative urban model for an Amazonian neighborhood.\nWork experience on qualitative analysis for urban spaces to inform urban policy in the public sector\nAcademic knowledge in quantitative analysis to analyse socio-demographic trends and mobility patterns.\nExperience in developing urban mobility proposals integrating sustainable mobility and accessibility principles\nStrong communication & public speaking skills, actively collaborating as a Student Ambassador at The Bartlett\nDelivered presentations of my thesis research at academic events in Peru and Spain.\nConducted fieldwork and stakeholder consultations with local authorities and communities for urban planning projects.\nDesigned and facilitated workshops for participatory urban development initiatives.\nCurated and presented exhibitions showcasing urban research and policy proposals.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>About Me</span>"
+    ]
+  },
+  {
+    "objectID": "about.html#languages",
+    "href": "about.html#languages",
+    "title": "1  About Me",
+    "section": "1.4 🎤Languages",
+    "text": "1.4 🎤Languages\n\nSpanish Native\nEnglish C1 level\nGerman B2 level",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>About Me</span>"
+    ]
+  },
+  {
+    "objectID": "about.html#awards-recognitions",
+    "href": "about.html#awards-recognitions",
+    "title": "1  About Me",
+    "section": "1.5 🏆Awards & Recognitions",
+    "text": "1.5 🏆Awards & Recognitions\nBicentennial Generation Scholarship (2024)\n\nAwarded to Peruvian professionals of high academic performance to finance their postgraduate studies.\n\nCircular economy and sustainability (2023)\n\nReceived this award for one of the interventions of the Special Landscape Project for the Rimac river.\n\nInternational Grand Prize for Sustainable Urban Design (2021)\n\nRecognition for the Special Landscape Project for the Rimac River, a proposal for the recovery of historic public spaces in Lima.\n\nFaculty of Architecture Excellence Award (2018 & 2022)\n\nReceived the Excellence award of the Architecture and Urbanism Faculty, for outstanding students of the faculty.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>About Me</span>"
     ]
   }
 ]

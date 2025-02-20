@@ -20,7 +20,7 @@ Feel free to explore my projects, and don’t hesitate to reach out!
 
 ------------------------------------------------------------------------
 
-### Have a quick look at some of my projects! 
+### Have a quick look at some of my projects!
 
 ::::::: {style="display: flex; justify-content: space-between; gap: 10px;"}
 ::: {style="width: 23%;"}

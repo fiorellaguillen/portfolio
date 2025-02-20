@@ -3,24 +3,16 @@
 If you would like to collaborate or discuss about research or projects in urban spatial science, feel free to reach out!
 
 ```{=html}
-<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-```
-
-::: {.badge-base .LI-profile-badge data-locale="en_US" data-size="medium" data-theme="light" data-type="HORIZONTAL" data-vanity="fiorellaguillenh" data-version="v1"}
-<a class="badge-base__link LI-simple-link" href="https://uk.linkedin.com/in/fiorellaguillenh?trk=profile-badge">
-:::
-
-```{=html}
 <div class="github-card" id="github-card">
-    <!-- Header con el logo de GitHub con texto -->
+    <!-- Header con el logo de GitHub -->
     <div class="github-header">
         <a id="github-profile-link" href="#" target="_blank">
             <img id="github-logo" src="https://pngimg.com/uploads/github/github_PNG23.png" alt="GitHub Logo">
         </a>
     </div>
     
-    <div class="header">
-        <img id="github-avatar" src="" alt="GitHub Avatar">
+    <div class="github-body">
+        <img id="github-avatar" class="github-avatar" src="" alt="GitHub Avatar">
         <div>
             <h3 id="github-name"></h3>
             <p id="github-username"></p>
@@ -30,8 +22,6 @@ If you would like to collaborate or discuss about research or projects in urban 
     <a id="github-link" href="#" target="_blank" class="github-button">See profile</a>
 </div>
 ```
-
-
 
 ```{=html}
 <script>
@@ -48,8 +38,6 @@ If you would like to collaborate or discuss about research or projects in urban 
 </script>
 ```
 
-
-
 ```{=html}
 <style>
     .github-card {
@@ -62,30 +50,35 @@ If you would like to collaborate or discuss about research or projects in urban 
         background-color: white;
         position: relative;
     }
-    /* Header con el logo de GitHub (texto completo) */
+    
+    /* Estilos para el header y el logo */
     .github-header {
         display: flex;
         justify-content: left;
-        padding: 10px 0;
+        padding: 1px 0;
         border-bottom: 1px solid #ddd;
-        background-color: ##e0e0de;
+        background-color: #fffff
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
     }
-    .github-header img {
-        width: 120px; /* Ajustamos tamaño para que se vea bien */
+    .github-header img#github-logo {
+        width: 100px; /* Ajusta el tamaño del logo */
         height: auto;
     }
-    .github-card .header {
+
+    /* Estilos para la foto de perfil */
+    .github-body {
         display: flex;
         align-items: center;
         padding: 10px;
     }
-    .github-card img {
+    .github-avatar {
         border-radius: 50%;
-        height: 50px;
+        height: 60px; /* Ajusta solo la foto de perfil */
+        width: 60px;
         margin-right: 10px;
     }
+
     .github-card h3 {
         margin: 0;
         font-size: 15px;
@@ -95,23 +88,129 @@ If you would like to collaborate or discuss about research or projects in urban 
         font-size: 14px;
         color: #555;
     }
-    /* Botón "Ver perfil" con borde azul y texto en negrita */
+
+    /* Botón "See profile" con borde azul y texto en negrita */
     .github-button {
         display: block;
         text-align: center;
         text-decoration: none;
-        color: #1563c2;
+        color: #0366d6;
         padding: 6px;
-        border: 2px solid #1563c2;
+        border: 2px solid #0366d6;
         border-radius: 6px;
         margin-top: 10px;
-        font-weight: bold; /* Texto en negrita */
+        font-weight: bold;
         background-color: white;
     }
     .github-button:hover {
-        background-color: #1563c2;
+        background-color: #0366d6;
         color: white;
     }
 </style>
+```
 
+::: {style="height: 20px;"}
+:::
 
+```{=html}
+<div class="linkedin-card" id="linkedin-card">
+    <!-- Header con el logo de LinkedIn -->
+    <div class="linkedin-header">
+        <a id="linkedin-profile-link" href="#" target="_blank">
+            <img id="linkedin-logo" src="https://logos-world.net/wp-content/uploads/2020/05/Linkedin-Logo.png" alt="LinkedIn Logo">
+        </a>
+    </div>
+    
+    <div class="linkedin-body">
+        <img id="linkedin-avatar" class="linkedin-avatar" src="" alt="LinkedIn Avatar">
+        <div>
+            <h3 id="linkedin-name"></h3>
+            <p id="linkedin-username"></p>
+        </div>
+    </div>
+    <p id="linkedin-bio"></p>
+    <a id="linkedin-link" href="#" target="_blank" class="linkedin-button">See profile</a>
+</div>
+```
+
+```{=html}
+<script>
+    document.getElementById('linkedin-avatar').src = "https://media.licdn.com/dms/image/v2/D5603AQEPsxN1hTK7kg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1730133140348?e=1745452800&v=beta&t=730lcQVjH_IU4qJk-dpOafFrg7WGmaUuuWDi5X_N92Y";
+    document.getElementById('linkedin-name').textContent = "Roxana Fiorella Guillen Hurtado";
+    document.getElementById('linkedin-username').textContent = "@fiorellaguillenh";
+    document.getElementById('linkedin-bio').textContent = "MSc Urban Spatial Science 2024-25 | UCL";
+    document.getElementById('linkedin-link').href = "https://www.linkedin.com/in/fiorellaguillenh/";
+    document.getElementById('linkedin-profile-link').href = "https://www.linkedin.com/in/fiorellaguillenh/";
+</script>
+```
+
+```{=html}
+<style>
+    .linkedin-card {
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        width: 280px;
+        font-family: Arial, sans-serif;
+        padding: 15px;
+        text-align: left;
+        background-color: white;
+        position: relative;
+    }
+    
+    /* Estilos para el header y el logo */
+    .linkedin-header {
+        display: flex;
+        justify-content: left;
+        padding: 01x 0;
+        border-bottom: 1px solid #ddd;
+        background-color: #ffffff;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .linkedin-header img#linkedin-logo {
+        width: 80px; /* Ajusta el tamaño del logo */
+        height: auto;
+    }
+
+    /* Estilos para la foto de perfil */
+    .linkedin-body {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+    }
+    .linkedin-avatar {
+        border-radius: 50%;
+        height: 60px; /* Ajusta solo la foto de perfil */
+        width: 60px;
+        margin-right: 10px;
+    }
+
+    .linkedin-card h3 {
+        margin: 0;
+        font-size: 15px;
+    }
+    .linkedin-card p {
+        margin: 5px 0;
+        font-size: 14px;
+        color: #555;
+    }
+
+    /* Botón "See profile" con borde azul y texto en negrita */
+    .linkedin-button {
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        color: #0a66c2;
+        padding: 6px;
+        border: 2px solid #0a66c2;
+        border-radius: 6px;
+        margin-top: 10px;
+        font-weight: bold;
+        background-color: white;
+    }
+    .linkedin-button:hover {
+        background-color: #0a66c2;
+        color: white;
+    }
+</style>
+```
