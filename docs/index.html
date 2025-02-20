@@ -156,20 +156,46 @@ ul.task-list li input[type="checkbox"] {
 <section id="roxana-fiorella-guillen-hurtado" class="level1 unnumbered">
 <h1 class="unnumbered">Roxana Fiorella Guillen Hurtado</h1>
 <hr>
-<div style="display: flex; justify-content: space-between; align-items: center;">
-<div style="width: 52%; text-align: left;">
+<div id="intro-container" style="display: flex; justify-content: space-between; align-items: center;">
+<div id="text-container" style="width: 52%; text-align: left;">
 <p>Hello world, and welcome to my portfolio!</p>
 <p>I am Fiorella Guillen, a postgraduate student in Urban Spatial Science at UCL with a background in architecture and urbanism. I have a strong interest in sustainable urban development and spatial analysis, and I’m passionate about leveraging data-driven solutions to tackle urban challenges.</p>
 <p>Here, you’ll find insights into my work and academic projects, including spatial data analysis, and my past experience in urban planning.</p>
 <p>Feel free to explore my projects, and don’t hesitate to reach out!</p>
 </div>
-<div style="width: 50%;text-align: right;">
-<p><img src="images/foto.png" class="img-fluid" width="300"></p>
+<div id="image-container" style="width: 50%; text-align: right;">
+<p><img src="images/foto.png" id="profile-pic" class="img-fluid" width="300"></p>
 </div>
 </div>
+<style>
+    /* Mantener el diseño original en pantallas grandes */
+    #intro-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* Ajuste para pantallas pequeñas */
+    @media (max-width: 768px) {
+        #intro-container {
+            flex-direction: column; /* Imagen arriba, texto abajo */
+            text-align: center;
+        }
+        #text-container, #image-container {
+            width: 100% !important;
+            text-align: center;
+        }
+        #profile-pic {
+            max-width: 80%; /* Ajusta el tamaño en móvil */
+        }
+    }
+</style>
 <hr>
 <section id="have-a-quick-look-at-some-of-my-projects" class="level3">
 <h3 class="anchored" data-anchor-id="have-a-quick-look-at-some-of-my-projects">Have a quick look at some of my projects!</h3>
+<div style="height: 20px;">
+
+</div>
 <div style="display: flex; justify-content: space-between; gap: 10px;">
 <div style="width: 23%;">
 <p><a href="projects.html#assessing-the-risks-cycling-accident-severity-in-london"><img src="images/icon1.png" class="img-fluid"></a></p>

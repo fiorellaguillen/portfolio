@@ -2,8 +2,8 @@
 
 ------------------------------------------------------------------------
 
-::::: {style="display: flex; justify-content: space-between; align-items: center;"}
-::: {style="width: 52%; text-align: left;"}
+::::: {#intro-container style="display: flex; justify-content: space-between; align-items: center;"}
+::: {#text-container style="width: 52%; text-align: left;"}
 Hello world, and welcome to my portfolio!
 
 I am Fiorella Guillen, a postgraduate student in Urban Spatial Science at UCL with a background in architecture and urbanism. I have a strong interest in sustainable urban development and spatial analysis, and I'm passionate about leveraging data-driven solutions to tackle urban challenges.
@@ -13,14 +13,44 @@ Here, you'll find insights into my work and academic projects, including spatial
 Feel free to explore my projects, and don’t hesitate to reach out!
 :::
 
-::: {style="width: 50%;text-align: right;"}
-![](images/foto.png){width="300"}
+::: {#image-container style="width: 50%; text-align: right;"}
+![](images/foto.png){#profile-pic width="300"}
 :::
 :::::
+
+```{=html}
+<style>
+    /* Mantener el diseño original en pantallas grandes */
+    #intro-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* Ajuste para pantallas pequeñas */
+    @media (max-width: 768px) {
+        #intro-container {
+            flex-direction: column; /* Imagen arriba, texto abajo */
+            text-align: center;
+        }
+        #text-container, #image-container {
+            width: 100% !important;
+            text-align: center;
+        }
+        #profile-pic {
+            max-width: 80%; /* Ajusta el tamaño en móvil */
+        }
+    }
+</style>
+```
 
 ------------------------------------------------------------------------
 
 ### Have a quick look at some of my projects!
+
+::: {style="height: 20px;"}
+:::
+
 
 ::::::: {style="display: flex; justify-content: space-between; gap: 10px;"}
 ::: {style="width: 23%;"}
