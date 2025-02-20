@@ -1,20 +1,24 @@
 # Academic Projects 🏗️
 
-## **🌿 Sustainable Urban Design in the Amazon**
+## **🌿** Identification of associations between socio-economic factors and dwelling fires in London in 2021
 
 -   Developed an **alternative urban model** for flood-prone communities.
 
 -   Applied **geospatial analysis** to identify resettlement areas.
 
--   Presented at academic events in Peru and Spain.
+-   Presented at academic events in Peru and Spain.![](images/correlationmatrix1.png)
 
-## **🚇 Transport Network Analysis for Sustainable Mobility**
+![](images/borough_clustering.jpg)
 
--   Evaluated **public transport accessibility** using NetworkX.
+## **🚇 Assessing the Risks: Cycling Accident Severity in London**
 
--   Proposed **policy recommendations** for non-motorized mobility.
+<iframe src="general_map.html" width="100%" height="500px">
 
--   Integrated GIS and spatial modeling techniques.
+</iframe>
+
+<iframe src="interactive_map.html" width="100%" height="500px">
+
+</iframe>
 
 ## **📡 Remote Sensing for Climate Adaptation**
 

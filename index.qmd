@@ -10,15 +10,13 @@ Feel free to explore my projects, and don’t hesitate to reach out!
 
 🔍 **Explore My Work:**
 
--   📊 Projects
+-   📊 [Projects](projects.qmd)
 
--   💼 Experience
+-   💼 [Experience](experience.qmd)
 
--   🏆 Awards
+-   🏆 [Awards](awards.qmd)
 
 📩 **Get in Touch:**
-
--   📧 Email
 
 -   💻 [GitHub](https://github.com/fiorellaguillen)
 

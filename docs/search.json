@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "portfolio",
+    "title": "Fiorella’s portfolio",
     "section": "",
-    "text": "Hello World!\nHi, and welcome to my portfolio!\nI am Fiorella Guillen, a postgraduate student in Urban Spatial Science at UCL with a background in architecture and urbanism. I have a strong interest in sustainable urban development and spatial analysis, and I’m passionate about leveraging data-driven solutions to tackle urban challenges. My previous experience and current studies have equipped me with strong analytical and research skills with experience in urban analysis, transport networks and urban policy. This space serves as a showcase for my academic projects, professional experience, and research in urban science.\nHere, you’ll find insights into my work, including spatial data analysis, urban resilience strategies, and case studies on sustainable cities. I will also share my past experience in urban planning and how it has shaped my approach to tackling real-world challenges.\nFeel free to explore my projects, and don’t hesitate to reach out!\n🔍 Explore My Work:\n\n📊 Projects\n💼 Experience\n🏆 Awards\n\n📩 Get in Touch:\n\n📧 Email\n💻 GitHub\n🔗 LinkedIn\n\nHere\n\n{{&lt; video https://www.youtube.com/watch?v=g–IDi_i3xs}}",
+    "text": "Hello World!\nHi, and welcome to my portfolio!\nI am Fiorella Guillen, a postgraduate student in Urban Spatial Science at UCL with a background in architecture and urbanism. I have a strong interest in sustainable urban development and spatial analysis, and I’m passionate about leveraging data-driven solutions to tackle urban challenges. My previous experience and current studies have equipped me with strong analytical and research skills with experience in urban analysis, transport networks and urban policy. This space serves as a showcase for my academic projects, professional experience, and research in urban science.\nHere, you’ll find insights into my work, including spatial data analysis, urban resilience strategies, and case studies on sustainable cities. I will also share my past experience in urban planning and how it has shaped my approach to tackling real-world challenges.\nFeel free to explore my projects, and don’t hesitate to reach out!\n🔍 Explore My Work:\n\n📊 Projects\n💼 Experience\n🏆 Awards\n\n📩 Get in Touch:\n\n💻 GitHub\n🔗 LinkedIn\n\nHere\n\n{{&lt; video https://www.youtube.com/watch?v=g–IDi_i3xs}}",
     "crumbs": [
       "Hello World!"
     ]
@@ -74,7 +74,7 @@
     "href": "projects.html",
     "title": "3  Academic Projects 🏗️",
     "section": "",
-    "text": "3.1 🌿 Sustainable Urban Design in the Amazon",
+    "text": "3.1 🌿 Identification of associations between socio-economic factors and dwelling fires in London in 2021",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Academic Projects 🏗️</span>"
     ]
@@ -187,6 +187,26 @@
     "text": "5.3 Faculty of Architecture Excellence Award (2021)\n\nRecognized as one of the top students in the Faculty of Architecture and Urbanism at PUCP.",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Awards & Recognitions 🏆</span>"
+    ]
+  },
+  {
+    "objectID": "projects.html#identification-of-associations-between-socio-economic-factors-and-dwelling-fires-in-london-in-2021",
+    "href": "projects.html#identification-of-associations-between-socio-economic-factors-and-dwelling-fires-in-london-in-2021",
+    "title": "3  Academic Projects 🏗️",
+    "section": "",
+    "text": "Developed an alternative urban model for flood-prone communities.\nApplied geospatial analysis to identify resettlement areas.\nPresented at academic events in Peru and Spain.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Academic Projects 🏗️</span>"
+    ]
+  },
+  {
+    "objectID": "projects.html#assessing-the-risks-cycling-accident-severity-in-london",
+    "href": "projects.html#assessing-the-risks-cycling-accident-severity-in-london",
+    "title": "3  Academic Projects 🏗️",
+    "section": "3.2 🚇 Assessing the Risks: Cycling Accident Severity in London",
+    "text": "3.2 🚇 Assessing the Risks: Cycling Accident Severity in London",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Academic Projects 🏗️</span>"
     ]
   }
 ]
