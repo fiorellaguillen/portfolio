@@ -1,29 +1,41 @@
-# Hello World! {.unnumbered}
+# Roxana Fiorella Guillen Hurtado {.unnumbered}
 
-Hi, and welcome to my portfolio!
+------------------------------------------------------------------------
 
-I am Fiorella Guillen, a postgraduate student in Urban Spatial Science at UCL with a background in architecture and urbanism. I have a strong interest in sustainable urban development and spatial analysis, and I'm passionate about leveraging data-driven solutions to tackle urban challenges. My previous experience and current studies have equipped me with strong analytical and research skills with experience in urban analysis, transport networks and urban policy. This space serves as a showcase for my academic projects, professional experience, and research in urban science.
+::::: {style="display: flex; justify-content: space-between; align-items: center;"}
+::: {style="width: 52%; text-align: left;"}
+Hello world, and welcome to my portfolio!
 
-Here, you'll find insights into my work, including spatial data analysis, urban resilience strategies, and case studies on sustainable cities. I will also share my past experience in urban planning and how it has shaped my approach to tackling real-world challenges.
+I am Fiorella Guillen, a postgraduate student in Urban Spatial Science at UCL with a background in architecture and urbanism. I have a strong interest in sustainable urban development and spatial analysis, and I'm passionate about leveraging data-driven solutions to tackle urban challenges.
+
+Here, you'll find insights into my work and academic projects, including spatial data analysis, and my past experience in urban planning.
 
 Feel free to explore my projects, and don’t hesitate to reach out!
+:::
 
-🔍 **Explore My Work:**
+::: {style="width: 50%;text-align: right;"}
+![](images/foto.png){width="300"}
+:::
+:::::
 
--   📊 [Projects](projects.qmd)
+------------------------------------------------------------------------
 
--   💼 [Experience](experience.qmd)
+### Have a quick look at some of my projects!
 
--   🏆 [Awards](awards.qmd)
+::::::: {style="display: flex; justify-content: space-between; gap: 10px;"}
+::: {style="width: 23%;"}
+[![](images/icon1.png)](projects.html#assessing-the-risks-cycling-accident-severity-in-london)
+:::
 
-📩 **Get in Touch:**
+::: {style="width: 23%;"}
+[![](images/icon2.png)](projects.html#identification-of-associations-between-socio-economic-factors-and-dwelling-fires-in-london-in-2021)
+:::
 
--   💻 [GitHub](https://github.com/fiorellaguillen)
+::: {style="width: 23%;"}
+[![](images/icon4.png)](projects.html#new-york-city-evictions-an-spatial-and-socioeconomic-analysis)
+:::
 
--   🔗 [LinkedIn](https://www.linkedin.com/in/fiorellaguillen)
-
-Here
-
-{{< video https://youtu.be/yqOHqQDk1jY >}}
-
-{{\< video https://www.youtube.com/watch?v=g--IDi_i3xs}}
+::: {style="width: 23%;"}
+[![](images/icon3.png)](http://localhost:3738/projects.html#alternative-urban-model-for-bajo-belen-iquitos)
+:::
+:::::::

@@ -11,3 +11,43 @@ I am a **postgraduate student in Urban Spatial Science** at The Bartlett, UCL, w
 -   **Study Abroad: Integrative Technologies & Architectural Design Research** – University of Stuttgart (2018-19)
 
 My work combines **data science, GIS, and urban design** to improve decision-making in cities. I have experience in urban analysis, transport planning, and climate adaptation research.
+
+# Skills & Expertise 🛠️
+
+## Programming & Data Science
+
+-   Python (Pandas, Geopandas, NetworkX)
+
+-   R (Geospatial Analysis, ggplot2, Leaflet)
+
+-   SQL
+
+## Geospatial & Urban Analysis
+
+-   QGIS, Google Earth Engine
+
+-   Spatial Network Analysis, Agent-Based Modeling
+
+-   Urban Simulation & Remote Sensing
+
+## Data Visualization & Design
+
+-   ggplot2, Matplotlib, Bokeh, Leaflet
+
+-   AutoCAD, Rhinoceros, Grasshopper (Parametric Design)
+
+-   Adobe Creative Suite (Photoshop, Illustrator, InDesign)
+
+# Awards & Recognitions 🏆
+
+## **International Grand Prize for Sustainable Urban Design** (2021 & 2018)
+
+-   Awarded for the **Special Landscape Project for the Rimac River**, a proposal for the revitalization of Lima’s historic public spaces.
+
+## **Bicentennial Generation Scholarship** (2022)
+
+-   Granted by the Peruvian Government for outstanding academic performance.
+
+## **Faculty of Architecture Excellence Award** (2021)
+
+-   Recognized as one of the top students in the Faculty of Architecture and Urbanism at PUCP.

@@ -1,9 +1,11 @@
-# Get in Touch 📩
+# Let's connect! 📩
 
-If you would like to collaborate or discuss urban research, feel free to reach out!
+If you would like to collaborate or discuss about research or projects in urban spatial science, feel free to reach out!
 
-📧 Email: guillen.fiorella\@outlook.com\
-💻 GitHub: [github.com/fiorellaguillen](https://github.com/fiorellaguillen)\
-🔗 LinkedIn: [linkedin.com/in/fiorellaguillen](https://www.linkedin.com/in/fiorellaguillen)
+```{=html}
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+```
 
-Let's build smarter cities together! 🚀
+::: {.badge-base .LI-profile-badge data-locale="en_US" data-size="medium" data-theme="light" data-type="HORIZONTAL" data-vanity="fiorellaguillenh" data-version="v1"}
+<a class="badge-base__link LI-simple-link" href="https://uk.linkedin.com/in/fiorellaguillenh?trk=profile-badge">
+:::

@@ -1,6 +1,6 @@
 # Academic Projects 🏗️
 
-## **🌿** Identification of associations between socio-economic factors and dwelling fires in London in 2021
+## Identification of associations between socio-economic factors and dwelling fires in London in 2021
 
 -   Developed an **alternative urban model** for flood-prone communities.
 
@@ -10,7 +10,7 @@
 
 ![](images/borough_clustering.jpg)
 
-## **🚇 Assessing the Risks: Cycling Accident Severity in London**
+## **Assessing the Risks: Cycling Accident Severity in London**
 
 <iframe src="general_map.html" width="100%" height="500px">
 
@@ -20,10 +20,14 @@
 
 </iframe>
 
-## **📡 Remote Sensing for Climate Adaptation**
+## **New York City evictions: an spatial and socioeconomic analysis**
 
 -   Utilized Google Earth Engine to analyze land-use changes.
 
 -   Designed an early warning system for vulnerable settlements.
 
 -   Worked on research collaboration between PUCP and UCL.
+
+## **Alternative urban model for Bajo Belen, Iquitos**
+
+{{< video https://youtu.be/yqOHqQDk1jY >}}
