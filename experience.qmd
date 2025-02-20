@@ -1,23 +1,55 @@
 # Work Experience 
 
-## **Urban Designer \| Municipality of Lima** (2021-2024)
+## **Student Ambassador \| The Bartlett, UCL** ( 12. 2024 - Present)
 
--   Led public space design, integrating **sustainable mobility**.
+Represented The Bartlett in academic and outreach initiatives, engaging with prospective students and the university community.
 
--   Developed **urban policies** to improve accessibility.
+-   Provided guidance on the MSc Urban Spatial Science program through events, Q&A sessions, and mentoring.
 
--   Coordinated with local authorities for project implementation.
+-   Supported public engagement and communication, enhancing visibility of The Bartlett’s student experience in social media
+
+## **Urban Designer \| Municipality of Lima** (10. 2021 - 09. 2024)
+
+Part of the core team for the Special Landscape Project for the Rimac River (PEPRR), one of the largest urban projects in Peru, focused on revitalizing Lima’s Historic Centre.
+
+-   Led the urban analysis and design of public spaces, including plazas, streets, and avenues, incorporating sustainable mobility principles such as pedestrian-friendly streets and bicycle lane networks.
+
+-   Contributed to the redesign of vehicular and pedestrian transit, prioritizing accessibility and sustainable transport solutions.
+
+-   Developed design guidelines to inform urban policy and facilitate interinstitutional coordination with local authorities.
+
+-   Managed the visualization and dissemination of project progress through stakeholder meetings, exhibitions, videos and publications.
 
 {{< video https://www.youtube.com/watch?v=g--IDi_i3xs>}}
 
-## **Student Ambassador \| The Bartlett, UCL** (2024-Present)
+## **Urban Designer \| Cordillera Sur** (02.2021 - 10.2021)
 
--   Representing **MSc Urban Spatial Science** at outreach events.
+Contributed to landscape, architecture, and urban design projects with a focus on environmental and cultural sustainability.
 
--   Supporting student engagement and academic mentoring.
+-   Developed landscape design for memorial and public space projects, integrating ecological restoration principles.
 
-## **Research Intern \| Climate Resettlement Project** (2018)
+-   Designed visual communication materials for competitions and public presentations, showcasing urban proposals.
 
--   Assisted in **urban planning research** for Amazonian resettlements.
+## **Speaker \| Cordillera Sur** (12.2021 & 10.2021)
 
--   Designed visual materials for research publications.
+#### Friedrich Ebert Foundation & ‘Acuerdo por Iquitos’ Foundation
+
+Presented two lectures in the forum ‘A better urban future for Iquitos’:
+
+-   Inhabiting the river: alternative urban model for the neighborhood of Bajo Belen, Iquitos.
+
+-   Inhabiting the river: rethinking housing and the Amazonian neighborhood in Bajo Belen, Iquitos.
+
+#### **UPC - Polytechnic University of Catalonia**
+
+Presented a lecture in the module "Architecture and Cooperation 2021" given at the ETSAV-UPC.
+
+-   Lecture: Inhabiting the river: towards an alternative urban model for the flood-prone neighborhood of Bajo Belen.
+
+## **Research Intern \|** HOME \[Self-Sustainable Amazonian Cities\] - Research project (01. 2018 - 08.2018)
+
+Contributed to an action-research project on climate-induced population resettlement in Peru, developed by PUCP’s Research Center for Architecture and the City in collaboration with UCL’s Development Planning Unit.
+
+-   Assisted in creating visual materials and designing two research publications and one guide.
+
+-   Supported research on urban planning and urban design guidelines for the peruvian Amazon.
