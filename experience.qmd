@@ -1,6 +1,6 @@
 # Work Experience {.unnumbered}
 
-## **Student Ambassador \|** The Bartlett, UCL ( 12. 2024 - Present)
+### **Student Ambassador \|** The Bartlett, UCL ( 12. 2024 - Present)
 
 Represented The Bartlett in academic and outreach initiatives, engaging with prospective students and the university community.
 
@@ -8,7 +8,9 @@ Represented The Bartlett in academic and outreach initiatives, engaging with pro
 
 -   Supported public engagement and communication, enhancing visibility of The Bartlett’s student experience in social media through content creation.
 
-## **Urban Designer \|** Municipality of Lima (10. 2021 - 09. 2024)
+------------------------------------------------------------------------
+
+### **Urban Designer \|** Municipality of Lima (10. 2021 - 09. 2024)
 
 Part of the core team for the Special Landscape Project for the Rimac River (PEPRR), one of the largest urban projects in Peru, focused on revitalizing Lima’s Historic Centre.
 
@@ -24,7 +26,9 @@ Part of the core team for the Special Landscape Project for the Rimac River (PEP
 
 {{< video https://www.youtube.com/watch?v=g--IDi_i3xs>}}
 
-## **Urban Designer \| Cordillera Sur (02.2021 - 10.2021)**
+------------------------------------------------------------------------
+
+### **Urban Designer \|** Cordillera Sur (02.2021 - 10.2021)
 
 Contributed to landscape, architecture, and urban design projects with a focus on environmental and cultural sustainability.
 
@@ -34,9 +38,11 @@ Contributed to landscape, architecture, and urban design projects with a focus o
 
 ![](images/cordillera.png){fig-align="center"}
 
-## **Speaker \|** (12.2021 & 10.2021)
+------------------------------------------------------------------------
 
-### **Friedrich Ebert Foundation & ‘Acuerdo por Iquitos’ Foundation**
+### **Speaker \|** (12.2021 & 10.2021)
+
+#### **Friedrich Ebert Foundation & ‘Acuerdo por Iquitos’ Foundation**
 
 Presented two lectures in the forum ‘A better urban future for Iquitos’:
 
@@ -44,13 +50,15 @@ Presented two lectures in the forum ‘A better urban future for Iquitos’:
 
 -   Inhabiting the river: rethinking housing and the Amazonian neighborhood in Bajo Belen, Iquitos.
 
-### **UPC - Polytechnic University of Catalonia**
+#### **UPC - Polytechnic University of Catalonia**
 
 Presented a lecture in the module "Architecture and Cooperation 2021" given at the ETSAV-UPC.
 
 -   Lecture: Inhabiting the river: towards an alternative urban model for the flood-prone neighborhood of Bajo Belen.
 
-## **Research Intern \|** HOME \[Self-Sustainable Amazonian Cities\] - Research project (01. 2018 - 08.2018)
+------------------------------------------------------------------------
+
+### **Research Intern \|** HOME \[Self-Sustainable Amazonian Cities\] - Research project (01. 2018 - 08.2018)
 
 Contributed to an action-research project on climate-induced population resettlement in Peru, developed by PUCP’s Research Center for Architecture and the City in collaboration with UCL’s Development Planning Unit.
 
