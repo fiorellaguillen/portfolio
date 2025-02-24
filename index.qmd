@@ -71,6 +71,6 @@ Feel free to explore my projects, and don’t hesitate to reach out!
 :::
 
 ::: {style="width: 23%;"}
-[![](images/icon3.png)](http://localhost:3738/projects.html#alternative-urban-model-for-bajo-belen-iquitos)
+[![](images/icon3.png)](projects.html#alternative-urban-model-for-bajo-belen-iquitos)
 :::
 :::::::
