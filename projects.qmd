@@ -1,4 +1,4 @@
-# Academic Projects
+# Academic Projects {.unnumbered}
 
 ## **Assessing the Risks: Cycling Accident Severity in London**
 
