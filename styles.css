@@ -10,6 +10,14 @@
   box-shadow: 0 10px 10px 0 rgba(0,0,0,.05) 
 }
 
+.caption {
+  color: gray       /* Color gris para el texto */
+  font-size: 0.7rem;  /* Tamaño de fuente más pequeño */
+  font-style: italic; /* Opcional: estilo cursiva para diferenciar */
+  margin-top: 0.3em;  /* Espacio arriba para separar de la imagen */
+  text-align: left; /* Centrar texto, opcional */
+}
+
 /* Estilo del texto del navbar */
 .navbar-nav .nav-link {
   font-size: 1.0rem;
@@ -60,3 +68,78 @@ main.content {
   text-align: left; /* O 'center' si prefieres */
   line-height: 0.9;
 }
+/* ---------- ESTILO DE TARJETAS ---------- */
+.quarto-listing-container-grid .card {
+  border: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.quarto-listing-container-grid .card:hover {
+  transform: scale(1.02);
+}
+
+.quarto-listing-container-grid .card img {
+  object-fit: cover;
+  height: 220px;
+  width: 100%;
+}
+
+.quarto-listing-container-grid .card-title {
+  text-align: center;
+  margin: 1rem 0;
+  font-weight: 600;
+}
+
+
+  /**
+ * Image slider with pure CSS
+ * Original version in http://demosthenes.info/blog/css
+ */
+
+.image-slider {
+	position:relative;
+	display: inline-block;
+	line-height: 0;
+}
+
+/* Could use a pseudo-element, but they’re currently
+   super buggy. See: http://dabblet.com/gist/ab432c3f6a8f672cd077 */
+.image-slider > div {
+	position: absolute;
+	top: 0; bottom: 0; left: 0;
+    /* here the change */
+	width: 300px;
+	max-width: 100%;
+	overflow: hidden;
+	resize: horizontal;
+}
+
+/* Cross-browser resizer styling */
+.image-slider > div:before {
+	content: '';
+	position: absolute;
+	right: 0; bottom: 0;
+	width: 13px; height: 13px;
+	padding: 5px;
+	background: linear-gradient(-45deg, white 50%, transparent 0);
+	background-clip: content-box;
+	cursor: ew-resize;
+	-webkit-filter: drop-shadow(0 0 2px black);
+	filter: drop-shadow(0 0 2px black);
+}
+
+.image-slider img {
+	user-select: none;
+	max-width: 1000px;
+}
+
+<style>
+  .custom-line {
+    border: 1px solid black; 
+    margin-top: 1px;          
+    margin-bottom: 1px;   
+  }
+</style>

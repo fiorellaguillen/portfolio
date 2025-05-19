@@ -1,8 +1,9 @@
 ---
-title: "Alternative urban model for Bajo Belen, Iquitos"
+title: "Master Plan for the Rimac River, Lima"
 categories: ["Urban Design"]
-image: '../../images/clipboard-863593259.png'
+image: '/images/peprr.png'
 page-navigation: false
+lightbox: true
 format:
   html:
     toc: true
@@ -11,12 +12,72 @@ format:
 freeze: true
 ---
 
-### **Alternative urban model for Bajo Belen, Iquitos**
+The Rímac River Landscape Project(PEPRR), including 66 key interventions—ranging from local parks and plazas to major avenues and iconic public spaces— is one of Lima’s most comprehensive and ambitious urban projects. As part of its design, a detailed master plan was developed. This plan integrates urban, social, transport, and heritage factors to identify strategic opportunities for sustainable urban transformation.
 
-This research proposes a sustainable and adaptive urban model to address the challenges faced by the flood-prone neighborhood of Bajo Belen, a cultural and economic hub in the Peruvian Amazon. Amid threats of relocation and the loss of territorial identity, the model aims to preserve the essence of Bajo Belen while avoiding current issues such as disconnection, overcrowding, and vulnerability to flooding. The proposal consists of a two-scale intervention: first, a master plan with three key intervention areas—connector, mitigator, and landscape borders—and transversal axes to integrate them; second, an urban and architectural design framework for elements like commerce, roads, housing, communal spaces, docks, and pools, tailored to local techniques, climate, and culture. This intervention demonstrates the potential for a new way of inhabiting the river, preserving social, economic, and environmental connections while ensuring a safe and dignified future for the community.
+It follows the major goal of restoring the Rímac River as a vital ecological and urban backbone through an integrated system of accessible, sustainable public spaces and a mobility network prioritizing pedestrians and public transport. Sustainable mobility is emphasized with 20 km of bike lanes and 17 km of pedestrian-friendly paths.
 
-![](../../images/iso_pfc.gif){fig-align="center"}
+The project also focuses on creating 28 inclusive, resilient, and safe public spaces that help close gaps in access to services. Situated within Lima’s Historic Centre, PEPRR highlights the preservation of natural and cultural heritage—spanning pre-Hispanic, colonial, republican, and contemporary periods—while enhancing the area’s tourism appeal and stimulating local economic growth.
 
-![](../../images/pfc.gif){fig-align="center"}
+<p class="caption">
 
-{{< video https://youtu.be/yqOHqQDk1jY >}}
+PEPRR's Master Plan
+
+</p>
+
+![](/images/peprr.png){fig-align="center"}
+
+<p class="caption">
+
+PEPRR's Presentation video
+
+</p>
+
+{{< video https://www.youtube.com/watch?v=g--IDi_i3xs>}}
+
+### Renders
+
+:::: {#carouselExampleIndicators .carousel .slide data-ride="carousel"}
+<ol class="carousel-indicators">
+
+<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
+
+</li>
+
+<li data-target="#carouselExampleIndicators" data-slide-to="1">
+
+</li>
+
+<li data-target="#carouselExampleIndicators" data-slide-to="2">
+
+</li>
+
+</ol>
+
+::: carousel-inner
+```         
+<div class="carousel-item active">
+  <img class="d-block w-100" src="/images/peprr.png" alt="First slide">
+</div>
+<div class="carousel-item">
+  <img class="d-block w-100" src="/images/peprr.png" alt="Second slide">
+</div>
+<div class="carousel-item">
+  <img class="d-block w-100" src="/images/peprr.png" alt="Third slide">
+</div>
+```
+:::
+
+<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev"> [Previous]{.sr-only} </a> <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next"> [Next]{.sr-only} </a>
+::::
+
+:::: image-slider
+<div>
+
+<img src="/images/peprr.png"/>
+
+</div>
+
+<img src="/images/peprr.png"/>
+::::
+
+</div>

@@ -1,11 +1,16 @@
 ---
 title: "Projects"
+page-layout: full
+format:
+  html:
+    theme: zephyr
+    css: ../styles.css
 listing:
   type: grid
   contents: ../projects/**
   sort: "date desc"
   filter-ui: true
-  categories: true
+  categories: unnumbered
+  
   fields: [image, title]
-page-layout: full
 ---

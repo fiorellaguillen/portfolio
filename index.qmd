@@ -63,25 +63,4 @@ Feel free to explore my projects, and don’t hesitate to reach out! <br><br> [D
 
 ------------------------------------------------------------------------
 
-### Have a quick look at some of my projects!
-
-::: {style="height: 20px;"}
-:::
-
-::::::: {style="display: flex; justify-content: space-between; gap: 10px;"}
-::: {style="width: 23%;"}
-[![](images/icon1.png)](projects.html#assessing-the-risks-cycling-accident-severity-in-london)
-:::
-
-::: {style="width: 23%;"}
-[![](images/icon2.png)](projects.html#identification-of-associations-between-socio-economic-factors-and-dwelling-fires-in-london-in-2021)
-:::
-
-::: {style="width: 23%;"}
-[![](images/icon4.png)](projects.html#new-york-city-evictions-an-spatial-and-socioeconomic-analysis)
-:::
-
-::: {style="width: 23%;"}
-[![](images/icon3.png)](projects.html#alternative-urban-model-for-bajo-belen-iquitos)
-:::
-:::::::
+[Go to projects](https://fiorellaguillen.github.io/portfolio/projects/){.btn .btn-outline-light}

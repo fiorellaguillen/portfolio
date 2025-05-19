@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Portfolio",
     "section": "",
-    "text": "Roxana Fiorella  Guillen Hurtado  Welcome to my portfolio!\nI am Fiorella Guillen, a postgraduate student in Urban Spatial Science at UCL with a background in architecture and urbanism. I have a strong interest in sustainable urban development and spatial analysis, and I’m passionate about leveraging data-driven solutions to tackle urban challenges.\nHere, you’ll find insights into my work and academic projects, including spatial data analysis, and my past experience in urban planning.\nFeel free to explore my projects, and don’t hesitate to reach out!  Download Resumé (en) Download Portfolio (es)\n\n\n\n\n\n\n\n\n\n\n\nHave a quick look at some of my projects!"
+    "text": "Roxana Fiorella  Guillen Hurtado  Welcome to my portfolio!\nI am Fiorella Guillen, a postgraduate student in Urban Spatial Science at UCL with a background in architecture and urbanism. I have a strong interest in sustainable urban development and spatial analysis, and I’m passionate about leveraging data-driven solutions to tackle urban challenges.\nHere, you’ll find insights into my work and academic projects, including spatial data analysis, and my past experience in urban planning.\nFeel free to explore my projects, and don’t hesitate to reach out!  Download Resumé (en) Download Portfolio (es)\n\n\n\n\n\n\n\n\n\n\nGo to projects"
   },
   {
     "objectID": "contact.html",
@@ -462,9 +462,9 @@
   {
     "objectID": "projects/urban-design/peprr.html",
     "href": "projects/urban-design/peprr.html",
-    "title": "Alternative urban model for Bajo Belen, Iquitos",
+    "title": "Master Plan for the Rimac River, Lima",
     "section": "",
-    "text": "Alternative urban model for Bajo Belen, Iquitos\nThis research proposes a sustainable and adaptive urban model to address the challenges faced by the flood-prone neighborhood of Bajo Belen, a cultural and economic hub in the Peruvian Amazon. Amid threats of relocation and the loss of territorial identity, the model aims to preserve the essence of Bajo Belen while avoiding current issues such as disconnection, overcrowding, and vulnerability to flooding. The proposal consists of a two-scale intervention: first, a master plan with three key intervention areas—connector, mitigator, and landscape borders—and transversal axes to integrate them; second, an urban and architectural design framework for elements like commerce, roads, housing, communal spaces, docks, and pools, tailored to local techniques, climate, and culture. This intervention demonstrates the potential for a new way of inhabiting the river, preserving social, economic, and environmental connections while ensuring a safe and dignified future for the community."
+    "text": "The Rímac River Landscape Project(PEPRR), including 66 key interventions—ranging from local parks and plazas to major avenues and iconic public spaces— is one of Lima’s most comprehensive and ambitious urban projects. As part of its design, a detailed master plan was developed. This plan integrates urban, social, transport, and heritage factors to identify strategic opportunities for sustainable urban transformation.\nIt follows the major goal of restoring the Rímac River as a vital ecological and urban backbone through an integrated system of accessible, sustainable public spaces and a mobility network prioritizing pedestrians and public transport. Sustainable mobility is emphasized with 20 km of bike lanes and 17 km of pedestrian-friendly paths.\nThe project also focuses on creating 28 inclusive, resilient, and safe public spaces that help close gaps in access to services. Situated within Lima’s Historic Centre, PEPRR highlights the preservation of natural and cultural heritage—spanning pre-Hispanic, colonial, republican, and contemporary periods—while enhancing the area’s tourism appeal and stimulating local economic growth.\n\nPEPRR’s Master Plan\n\n\n\n\n\n\n\nPEPRR’s Presentation video\n\n\n\nRenders\n\n\n\n\n\n\n\n\n\n\n&lt;div class=\"carousel-item active\"&gt;\n  &lt;img class=\"d-block w-100\" src=\"/images/peprr.png\" alt=\"First slide\"&gt;\n&lt;/div&gt;\n&lt;div class=\"carousel-item\"&gt;\n  &lt;img class=\"d-block w-100\" src=\"/images/peprr.png\" alt=\"Second slide\"&gt;\n&lt;/div&gt;\n&lt;div class=\"carousel-item\"&gt;\n  &lt;img class=\"d-block w-100\" src=\"/images/peprr.png\" alt=\"Third slide\"&gt;\n&lt;/div&gt;\n\n Previous   Next"
   },
   {
     "objectID": "projects/urban-design/pfc.html",
@@ -478,6 +478,27 @@
     "href": "projects/index.html",
     "title": "Projects",
     "section": "",
-    "text": "Assessing the Risks: Cycling Accident Severity in London\n\n\n\n\n\n\n\n\n\n\n\n\n\nIdentification of associations between socio-economic factors and dwelling fires in London in 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew York City evictions: an spatial and socioeconomic analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlternative urban model for Bajo Belen, Iquitos\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlaza Sostenible\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Assessing the Risks: Cycling Accident Severity in London\n\n\n\n\n\n\n\n\n\n\n\n\n\nIdentification of associations between socio-economic factors and dwelling fires in London in 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew York City evictions: an spatial and socioeconomic analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\nMaster Plan for the Rimac River, Lima\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlaza Sostenible\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/urban-design/peprr.html#renders-1",
+    "href": "projects/urban-design/peprr.html#renders-1",
+    "title": "Master Plan for the Rimac River, Lima",
+    "section": "Renders",
+    "text": "Renders\n\n\n\n&lt;div class=\"swiper-slide\"&gt;&lt;img src=\"/images/render1.png\"/&gt;&lt;/div&gt;\n&lt;div class=\"swiper-slide\"&gt;&lt;img src=\"/images/render2.png\"/&gt;&lt;/div&gt;\n&lt;div class=\"swiper-slide\"&gt;&lt;img src=\"/images/render3.png\"/&gt;&lt;/div&gt;"
+  },
+  {
+    "objectID": "projects/urban-design/peprr.html#renders",
+    "href": "projects/urban-design/peprr.html#renders",
+    "title": "Master Plan for the Rimac River, Lima",
+    "section": "Renders",
+    "text": "Renders"
+  },
+  {
+    "objectID": "projects/urban-design/peprr.html#carrusel-de-imágenes",
+    "href": "projects/urban-design/peprr.html#carrusel-de-imágenes",
+    "title": "Master Plan for the Rimac River, Lima",
+    "section": "Carrusel de Imágenes",
+    "text": "Carrusel de Imágenes\n\n\n\n&lt;div class=\"carousel-slide\"&gt;&lt;img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/June_odd-eyed-cat_cropped.jpg/320px-June_odd-eyed-cat_cropped.jpg\" alt=\"Gato 1\"&gt;&lt;/div&gt;\n&lt;div class=\"carousel-slide\"&gt;&lt;img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Shaqi_jrvej.jpg/320px-Shaqi_jrvej.jpg\" alt=\"Gato 2\"&gt;&lt;/div&gt;\n&lt;div class=\"carousel-slide\"&gt;&lt;img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Blackcat-Lilith.jpg/320px-Blackcat-Lilith.jpg\" alt=\"Gato 3\"&gt;&lt;/div&gt;"
   }
 ]

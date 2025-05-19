@@ -4,6 +4,15 @@ project:
   
 editor: visual
 
+format:
+  html:
+    allow-html: true
+    theme: 
+      light: zephyr
+      dark: darkly 
+    css: styles.css
+    toc: false
+
 
 website:
   title: "Portfolio"
@@ -29,10 +38,3 @@ website:
         href: https://github.com/fiorellaguillen
       - icon: linkedin
         href: https://www.linkedin.com/in/fiorellaguillenh/
-format:
-  html:
-    theme: 
-      light: zephyr
-      dark: darkly
-    css: styles.css
-    toc: false
