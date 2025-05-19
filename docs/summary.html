@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Portfolio</title>
+<title>summary – Portfolio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -36,11 +70,11 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d166b450ba5a8e9f7a0ab969bf6592c1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d166b450ba5a8e9f7a0ab969bf6592c1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-299fde5381b5a602aab895950093955a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-ae2d0dcda2edce4ab590422bb373b64f.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-ddd961a2510921635943dfbbd19534c4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-ae2d0dcda2edce4ab590422bb373b64f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,7 +107,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -91,16 +125,16 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects/index.html"> 
+    <a class="nav-link" href="./projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./experience.html"> 
-<span class="menu-text">Work experience</span></a>
+<span class="menu-text">Resumé</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./contact.html"> 
@@ -115,80 +149,23 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
-<div class="spacer">
-
-</div>
-<div id="intro-container" style="display: flex; justify-content: space-between; align-items: center;">
-<div id="text-container" style="width: 52%; text-align: left;">
-<p><span class="main-title">Roxana Fiorella <br> Guillen Hurtado</span> <br><br> Welcome to my portfolio!</p>
-<p>I am Fiorella Guillen, a postgraduate student in Urban Spatial Science at UCL with a background in architecture and urbanism. I have a strong interest in sustainable urban development and spatial analysis, and I’m passionate about leveraging data-driven solutions to tackle urban challenges.</p>
-<p>Here, you’ll find insights into my work and academic projects, including spatial data analysis, and my past experience in urban planning.</p>
-<p>Feel free to explore my projects, and don’t hesitate to reach out! <br><br> <a href="images/resume.pdf" class="btn btn-outline-light">Download Resumé (en)</a> <a href="images/urban_design_portfolio.pdf" class="btn btn-outline-light">Download Portfolio (es)</a></p>
-</div>
-<div id="image-container" style="width: 50%; text-align: right;">
-<p><img src="images/foto.png" id="profile-pic" class="img-fluid" width="360"></p>
-</div>
-</div>
-<style>
-    /* Mantener el diseño original en pantallas grandes */
-    #intro-container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    /* Ajuste para pantallas pequeñas */
-    @media (max-width: 768px) {
-        #intro-container {
-            flex-direction: column; /* Imagen arriba, texto abajo */
-            text-align: center;
-            align-items: center; /* Centrar todo el contenido */
-        }
-        #text-container, #image-container {
-            width: 100% !important;
-            text-align: center;
-        }
-        #image-container {
-            order: -1; /* Mueve la imagen al inicio */
-        }
-        #profile-pic {
-            max-width: 80%; /* Ajusta el tamaño en móvil */
-            display: block;
-            margin: 0 auto; /* Asegura que quede centrado */
-        }
-    }
-</style>
-<div class="spacer">
-
-</div>
-<hr>
-<section id="have-a-quick-look-at-some-of-my-projects" class="level3">
-<h3 class="anchored" data-anchor-id="have-a-quick-look-at-some-of-my-projects">Have a quick look at some of my projects!</h3>
-<div style="height: 20px;">
-
-</div>
-<div style="display: flex; justify-content: space-between; gap: 10px;">
-<div style="width: 23%;">
-<p><a href="projects.html#assessing-the-risks-cycling-accident-severity-in-london"><img src="images/icon1.png" class="img-fluid"></a></p>
-</div>
-<div style="width: 23%;">
-<p><a href="projects.html#identification-of-associations-between-socio-economic-factors-and-dwelling-fires-in-london-in-2021"><img src="images/icon2.png" class="img-fluid"></a></p>
-</div>
-<div style="width: 23%;">
-<p><a href="projects.html#new-york-city-evictions-an-spatial-and-socioeconomic-analysis"><img src="images/icon4.png" class="img-fluid"></a></p>
-</div>
-<div style="width: 23%;">
-<p><a href="projects.html#alternative-urban-model-for-bajo-belen-iquitos"><img src="images/icon3.png" class="img-fluid"></a></p>
+<section id="summary" class="level1">
+<h1>Summary</h1>
+<p>In summary, this book has no content whatsoever.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 2</code></pre>
 </div>
 </div>
 
@@ -332,7 +309,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return localAlternateSentinel;
     }
   }
-  const darkModeDefault = false;
+  const darkModeDefault = true;
   let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
   // Dark / light mode switch
   window.quartoToggleColorScheme = () => {

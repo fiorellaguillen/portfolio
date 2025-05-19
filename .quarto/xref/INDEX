@@ -22,5 +22,29 @@
   },
   "contact.qmd": {
     "contact.html": "5d295d16"
+  },
+  "references.qmd": {
+    "references.html": "4b479870"
+  },
+  "summary.qmd": {
+    "summary.html": "a8b4e1c2"
+  },
+  "projects/urban-data-science/cycling_accidents.qmd": {
+    "cycling_accidents.html": "f770605b"
+  },
+  "projects/urban-data-science/dwelling_fires.qmd": {
+    "dwelling_fires.html": "cfe8c922"
+  },
+  "projects/urban-data-science/nyc_evictions.qmd": {
+    "nyc_evictions.html": "599ed9d4"
+  },
+  "projects/urban-design/peprr.qmd": {
+    "peprr.html": "b6c06243"
+  },
+  "projects/urban-design/pfc.qmd": {
+    "pfc.html": "d1a9d474"
+  },
+  "projects/index.qmd": {
+    "index.html": "8af4ebd2"
   }
 }

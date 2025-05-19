@@ -1,20 +1,38 @@
 project:
-  type: book
+  type: website
   output-dir: docs
-
-book:
-  chapters:
-    - index.qmd
-    - about.qmd
-    - projects.qmd
-    - experience.qmd
-    - contact.qmd
-
-format:
-  html:
-    theme: cosmo
-  pdf:
-    documentclass: scrreprt
-
+  
 editor: visual
 
+
+website:
+  title: "Portfolio"
+  navbar:
+    style: "light"
+    align: center 
+    left:
+      - href: index.qmd
+        text: Home
+      - href: projects/index.qmd
+        text: Projects 
+      - href: experience.qmd
+        text: Work experience
+      - href: contact.qmd
+        text: Contact
+        
+
+
+  page-footer:
+    left: "© 2025 Fiorella Guillen"
+    right:
+      - icon: github
+        href: https://github.com/fiorellaguillen
+      - icon: linkedin
+        href: https://www.linkedin.com/in/fiorellaguillenh/
+format:
+  html:
+    theme: 
+      light: zephyr
+      dark: darkly
+    css: styles.css
+    toc: false
