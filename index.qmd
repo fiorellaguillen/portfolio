@@ -11,9 +11,8 @@ format:
 ::: spacer
 :::
 
-
-::::: {#intro-container style="display: flex; justify-content: space-between; align-items: center;"}
-::: {#text-container style="width: 52%; text-align: left;"}
+::::: {#intro-container style="display: flex; justify-content: space-between; align-items: center; position: relative;"}
+::: {#text-container style="width: 52%; text-align: left; position: relative;"}
 
 ::: main-title
 Roxana Fiorella <br> Guillen Hurtado<br><br> 
@@ -32,38 +31,67 @@ Feel free to explore my projects, and don’t hesitate to reach out! <br><br> [D
 :::
 :::::
 
+<!-- Imagen circular de fondo solo en móvil -->
+<div id="mobile-image-bg"></div>
+
 ```{=html}
 <style>
-    /* Mantener el diseño original en pantallas grandes */
+/* Imagen normal en escritorio */
+#profile-pic {
+  border-radius: 10px;
+}
+
+/* Mobile circle background image */
+#mobile-image-bg {
+    display: none;
+}
+
+/* Estilo general desktop */
+#intro-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
     #intro-container {
-        display: flex;
-        justify-content: space-between;
+        flex-direction: row;
         align-items: center;
+        text-align: left;
     }
 
-    /* Ajuste para pantallas pequeñas */
-    @media (max-width: 768px) {
-        #intro-container {
-            flex-direction: column; /* Imagen arriba, texto abajo */
-            text-align: center;
-            align-items: center; /* Centrar todo el contenido */
-        }
-        #text-container, #image-container {
-            width: 100% !important;
-            text-align: center;
-        }
-        #image-container {
-            order: 1; /* Mueve la imagen al inicio */
-        }
-        #profile-pic {
-            max-width: 80%; /* Ajusta el tamaño en móvil */
-            display: block;
-            margin: 0 auto; /* Asegura que quede centrado */
-        }
+    #text-container {
+        width: 60% !important;
+        z-index: 2;
+        text-align: left;
     }
+
+    #image-container {
+        display: none; /* Oculta imagen normal */
+    }
+
+    #mobile-image-bg {
+        display: block;
+        position: absolute;
+        right: 5%;
+        top: 25%;
+        width: 180px;
+        height: 180px;
+        background-image: url('images/foto.png');
+        background-size: cover;
+        background-position: right;
+        border-radius: 50%;
+        z-index: 1;
+        opacity: 0.85;
+    }
+
+    #profile-pic {
+        display: none;
+    }
+}
 </style>
-```
-
 ::: spacer
 :::
 

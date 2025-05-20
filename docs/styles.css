@@ -167,7 +167,7 @@ main.content {
 
 /* Hover - Expande ancho y cambia estilo */
 .button:hover {
-  width: 20vw;
+  width: 30vw;
   border-radius: 35px;
   background-color: rgba(0, 106, 255, 1);
   padding-left: 20px;
@@ -177,13 +177,13 @@ main.content {
 
 .button:hover::after {
   opacity: 1;
-  transform: translateX(3vw); /* controlas aquí el desplazamiento del texto */
+  transform: translateX(8vw); /* controlas aquí el desplazamiento del texto */
 }
 
 
 /* Hover - flecha desplazada a la derecha y color blanco */
 .button:hover .svgIcon {
-  transform: translateX(15vw);
+  transform: translateX(25vw);
 }
 
 
