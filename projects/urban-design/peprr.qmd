@@ -19,31 +19,26 @@ It follows the major goal of restoring the Rímac River as a vital ecological an
 The project also focuses on creating 28 inclusive, resilient, and safe public spaces that help close gaps in access to services. Situated within Lima’s Historic Centre, PEPRR highlights the preservation of natural and cultural heritage—spanning pre-Hispanic, colonial, republican, and contemporary periods—while enhancing the area’s tourism appeal and stimulating local economic growth.
 
 ::: caption
-
 PEPRR's Master Plan
+:::
 
-::: 
 ![](/images/peprr.png){fig-align="center"}
 
 ::: caption
-
 PEPRR's Presentation video
-
 :::
 
 {{< video https://www.youtube.com/watch?v=g--IDi_i3xs>}}
 
 ### Renders
 
-::: {class="my-gallery"}
+::: my-gallery
 ![](/images/render1.png){group="my-gallery"}
 
 ![](/images/render2.png){group="my-gallery"}
 
 ![](/images/render3.png){group="my-gallery"}
 :::
-
-
 
 :::: image-slider
 <div>

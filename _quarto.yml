@@ -18,6 +18,7 @@ includes:
 
 website:
   title: "Portfolio"
+  favicon: "images/favicon.png"
   navbar:
     style: "light"
     align: center 
