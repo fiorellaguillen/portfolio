@@ -39,15 +39,3 @@ PEPRR's Presentation video
 
 ![](/images/render3.png){group="my-gallery"}
 :::
-
-:::: image-slider
-<div>
-
-<img src="/images/peprr.png"/>
-
-</div>
-
-<img src="/images/peprr.png"/>
-::::
-
-</div>

@@ -20,3 +20,15 @@ This research proposes a sustainable and adaptive urban model to address the cha
 ![](images/pfc.gif){fig-align="center"}
 
 {{< video https://youtu.be/yqOHqQDk1jY >}}
+
+:::: image-slider
+<div>
+
+<img src="/images/peprr.png"/>
+
+</div>
+
+<img src="/images/peprr.png"/>
+::::
+
+</div>
