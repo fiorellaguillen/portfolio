@@ -20,7 +20,7 @@
 /* Estilo del navbar terciario (fondo blanco, sin sombra) */
 .navbar {
   background-color: #ffffff !important;
-  box-shadow: 0 10px 10px 0 rgba(0,0,0,.05);
+  box-shadow: 0 20px 20px 0 rgba(0,0,0,.04);
   padding-bottom: 0.4rem;
   padding-top: 0.4rem;
 }
@@ -40,6 +40,47 @@
   color: #454545 !important;
   padding: 0.75rem 1.0rem;
 }
+
+/* Marca: "Portfolio" */
+.navbar-brand {
+  color: #717375 !important;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+/* Ícono hamburguesa: color negro visible */
+.navbar-toggler {
+  border-color: #717375 !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='2' stroke-linecap='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
+/* Asegura que íconos dentro del navbar (como dark mode toggle o search) sean visibles */
+.navbar i,
+.navbar .bi,
+.navbar button,
+.navbar svg {
+  color: #717375 !important;
+  fill: #717375 !important;
+}
+
+/* También asegura que botones dentro del navbar sean visibles */
+.navbar .btn {
+  color: #717375 !important;
+  border-color: #717375 !important;
+}
+
+/* En menú colapsado en móvil */
+.navbar-collapse {
+  background-color: #ffffff !important;
+}
+
+.navbar-collapse .nav-link {
+  color: #717375 !important;
+}
+
 
 /* Espaciado entre los ítems del menú */
 .navbar-nav .nav-item {
@@ -77,7 +118,7 @@ main.content {
 }
 
 .navbar-collapse .nav-link:hover {
-  background-color: #ffffff;
+  background-color: #333333;
   color: rgba(0, 106, 255, 0.8) !important;
   text-decoration: none;
 }

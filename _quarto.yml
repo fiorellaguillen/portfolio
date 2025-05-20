@@ -9,7 +9,6 @@ format:
     allow-html: true
     theme: 
       light: zephyr
-      dark: darkly 
     css: styles.css
     toc: false
 includes:
