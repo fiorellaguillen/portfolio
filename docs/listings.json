@@ -8,5 +8,15 @@
       "/projects/urban-design/peprr.html",
       "/projects/urban-design/pfc.html"
     ]
+  },
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/urban-data-science/cycling_accidents.html",
+      "/projects/urban-data-science/dwelling_fires.html",
+      "/projects/urban-data-science/nyc_evictions.html",
+      "/projects/urban-design/peprr.html",
+      "/projects/urban-design/pfc.html"
+    ]
   }
 ]

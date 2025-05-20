@@ -24,7 +24,7 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: projects/index.qmd
+      - href: projects.qmd
         text: Projects 
       - href: experience.qmd
         text: Work experience
