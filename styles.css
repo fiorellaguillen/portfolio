@@ -12,7 +12,7 @@
 
 .caption {
   color: gray       /* Color gris para el texto */
-  font-size: 0.7rem;  /* Tamaño de fuente más pequeño */
+  font-size: 0.6rem;  /* Tamaño de fuente más pequeño */
   font-style: italic; /* Opcional: estilo cursiva para diferenciar */
   margin-top: 0.3em;  /* Espacio arriba para separar de la imagen */
   text-align: left; /* Centrar texto, opcional */
@@ -55,7 +55,6 @@ main.content {
   font-weight: 600;
 }
 
-
 .spacer {
   height: 50px;
 }
@@ -92,7 +91,6 @@ main.content {
   margin: 1rem 0;
   font-weight: 600;
 }
-
 
   /**
  * Image slider with pure CSS
@@ -136,10 +134,25 @@ main.content {
 	max-width: 1000px;
 }
 
-<style>
-  .custom-line {
-    border: 1px solid black; 
-    margin-top: 1px;          
-    margin-bottom: 1px;   
-  }
-</style>
+```{css}
+.my-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.my-gallery img {
+  height: 250px;
+  width: auto;
+  object-fit: contain;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  cursor: zoom-in;
+}
+
+.my-gallery img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+```
