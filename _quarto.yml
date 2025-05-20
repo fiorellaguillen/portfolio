@@ -24,13 +24,13 @@ website:
     align: center 
     left:
       - href: index.qmd
-        text: Home
+        text: HOME
       - href: projects.qmd
-        text: Projects 
+        text: PROJECTS 
       - href: experience.qmd
-        text: Work experience
+        text: WORK EXPERIENCE
       - href: contact.qmd
-        text: Contact
+        text: CONTACT
         
 
 

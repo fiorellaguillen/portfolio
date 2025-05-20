@@ -1,3 +1,16 @@
+/* Título principal personalizado */
+.main-title {
+  font-size: 3rem; /* Puedes ajustar este valor: 2.5rem, 4rem, etc. */
+  font-weight: 800;
+  margin-bottom: 1rem;
+  text-align: left; /* O 'center' si prefieres */
+  line-height: 0.9;
+}
+
+.spacer {
+  height: 50px;
+}
+
 /* Centra el menú de navegación */
 .navbar-nav {
   justify-content: center;
@@ -7,7 +20,9 @@
 /* Estilo del navbar terciario (fondo blanco, sin sombra) */
 .navbar {
   background-color: #ffffff !important;
-  box-shadow: 0 10px 10px 0 rgba(0,0,0,.05) 
+  box-shadow: 0 10px 10px 0 rgba(0,0,0,.05);
+  padding-bottom: 0.4rem;
+  padding-top: 0.4rem;
 }
 
 .caption {
@@ -20,10 +35,10 @@
 
 /* Estilo del texto del navbar */
 .navbar-nav .nav-link {
-  font-size: 1.0rem;
-  font-weight: 500;
+  font-size: 0.9rem;
+  font-weight: 600;
   color: #454545 !important;
-  padding: 0.75rem 1.25rem;
+  padding: 0.75rem 1.0rem;
 }
 
 /* Espaciado entre los ítems del menú */
@@ -33,21 +48,40 @@
 
 /* Estilo cuando se pasa el mouse */
 .navbar-nav .nav-link:hover {
-  color: #0077cc !important;
+  color: rgba(0, 106, 255, 0.8)!important;
   text-decoration: underline;
 }
 
 /* Aumenta el espacio en el contenido */
 main.content {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 /* Espaciado extra entre secciones */
 .section {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
+/* Fondo visible y texto oscuro del menú desplegable */
+.navbar-collapse {
+  background-color: #ffffff !important;
+  padding: 1rem;
+}
+
+/* Enlaces dentro del menú colapsado */
+.navbar-collapse .nav-link {
+  color: #333333 !important;
+  font-size: 1rem;
+  padding: 0.75rem 0.75rem;
+}
+
+.navbar-collapse .nav-link:hover {
+  background-color: #ffffff;
+  color: rgba(0, 106, 255, 0.8) !important;
+  text-decoration: none;
+}
+/* ------------------ BOTON DE LANDING PAGE ------------------- */
 .button {
   display: flex;
   align-items: center;
@@ -84,7 +118,7 @@ main.content {
   font-size: 16px;
   font-weight: 600;
   position: absolute;
-  right: 20px;
+  left: 80px;
   opacity: 0;
   white-space: nowrap;
   transition: opacity 0.3s ease 0.2s;
@@ -92,7 +126,7 @@ main.content {
 
 /* Hover - Expande ancho y cambia estilo */
 .button:hover {
-  width: 500px;
+  width: 20vw;
   border-radius: 35px;
   background-color: rgba(0, 106, 255, 1);
   padding-left: 20px;
@@ -102,13 +136,13 @@ main.content {
 
 .button:hover::after {
   opacity: 1;
-  transform: translateX(-80px); /* controlas aquí el desplazamiento del texto */
+  transform: translateX(3vw); /* controlas aquí el desplazamiento del texto */
 }
 
 
 /* Hover - flecha desplazada a la derecha y color blanco */
 .button:hover .svgIcon {
-  transform: translateX(400px);
+  transform: translateX(15vw);
 }
 
 
@@ -116,18 +150,7 @@ main.content {
   fill: white;
 }
 
-.spacer {
-  height: 50px;
-}
 
-/* Título principal personalizado */
-.main-title {
-  font-size: 3rem; /* Puedes ajustar este valor: 2.5rem, 4rem, etc. */
-  font-weight: 800;
-  margin-bottom: 1rem;
-  text-align: left; /* O 'center' si prefieres */
-  line-height: 0.9;
-}
 /* ---------- ESTILO DE TARJETAS ---------- */
 .quarto-listing-container-grid .card {
   border: none;

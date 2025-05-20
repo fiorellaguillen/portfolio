@@ -10,9 +10,14 @@ format:
 ::: spacer
 :::
 
+
 ::::: {#intro-container style="display: flex; justify-content: space-between; align-items: center;"}
 ::: {#text-container style="width: 52%; text-align: left;"}
-[Roxana Fiorella <br> Guillen Hurtado]{.main-title} <br><br> Welcome to my portfolio!
+
+::: main-title
+Roxana Fiorella <br> Guillen Hurtado<br><br> 
+:::
+Welcome to my portfolio!
 
 I am Fiorella Guillen, a postgraduate student in Urban Spatial Science at UCL with a background in architecture and urbanism. I have a strong interest in sustainable urban development and spatial analysis, and I'm passionate about leveraging data-driven solutions to tackle urban challenges.
 
@@ -47,7 +52,7 @@ Feel free to explore my projects, and don’t hesitate to reach out! <br><br> [D
             text-align: center;
         }
         #image-container {
-            order: -1; /* Mueve la imagen al inicio */
+            order: 1; /* Mueve la imagen al inicio */
         }
         #profile-pic {
             max-width: 80%; /* Ajusta el tamaño en móvil */
@@ -61,8 +66,4 @@ Feel free to explore my projects, and don’t hesitate to reach out! <br><br> [D
 ::: spacer
 :::
 
-<a href="https://fiorellaguillen.github.io/portfolio/projects.html" class="button" >
-  <svg class="svgIcon" viewBox="0 0 508 512">
-    <path d="M256 48l240 208-240 208-33.94-39.47L382.06 256 222.06 87.47z"></path>
-  </svg>
-</a>
+<a href="https://fiorellaguillen.github.io/portfolio/projects.html" class="button" > <svg class="svgIcon" viewBox="0 0 508 512"> <path d="M256 48l240 208-240 208-33.94-39.47L382.06 256 222.06 87.47z"></path> </svg> </a>
