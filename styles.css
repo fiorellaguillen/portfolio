@@ -1,23 +1,87 @@
-
-.name-box {
-    display: inline-block;
-    background-color: white;
-    font-size: 3rem;
-    font-weight: 800;/* tamaño en pantallas grandes */
-    margin-bottom: 1rem;
-    text-align: left; /* O 'center' si prefieres */
-    line-height: 0.9;
+/* Estilo general */
+#profile-pic-small {
+  display: none;
+  width: 150px;
+  height: 150px;            /* ← altura fija igual al ancho */
+  border-radius: 50%;       /* ← hace que se vea circular */
+  object-fit: cover;        /* ← mantiene proporciones centradas */
+  margin-top: 1em;
 }
 
-/* Ajuste solo en móvil */
+/* Imagen redondeada */
+#profile-pic {
+  border-radius: 10px;
+}
+
+/* Desktop layout */
+#intro-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.name-box {
+  background-color: white;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: .9;
+  display: inline-block;
+}
+
+.desktop-line {
+  display: block;
+}
+
+.mobile-line {
+  display: none;
+}
+
+/* --- Mobile styles --- */
 @media (max-width: 768px) {
-    .name-box {
-        font-size: 2rem; /* reduce el tamaño en móvil */
-        font-weight: 800;/* tamaño en pantallas grandes */
-        margin-bottom: 1rem;
-        text-align: left; /* O 'center' si prefieres */
-        line-height: 0.9;
-        }
+  #intro-container {
+    display: block;
+  }
+
+  #intro-header {
+    display: flex;
+    align-items: center;
+  }
+
+  .name-box {
+    font-size: 2.45rem;
+    line-height: .9;
+  }
+
+  .desktop-line {
+    display: none;
+  }
+
+  .mobile-line {
+    display: block;
+  }
+
+  #profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  #profile-pic-small {
+    display: block;
+    margin-top: -5px;
+  }
+  #profile-pic-large {
+    display: none;
+  }
+
+  #text-container {
+    width: 100% !important;
+  }
+
+  #image-container {
+    display: none;
+  }
 }
 
 
@@ -40,8 +104,8 @@
 }
 
 .caption {
-  color: gray       /* Color gris para el texto */
-  font-size: 0.6rem;  /* Tamaño de fuente más pequeño */
+  color: gray;       /* Color gris para el texto */
+  font-size: 0.9rem !important;  /* Tamaño de fuente más pequeño */
   font-style: italic; /* Opcional: estilo cursiva para diferenciar */
   margin-top: 0.3em;  /* Espacio arriba para separar de la imagen */
   text-align: left; /* Centrar texto, opcional */
@@ -272,25 +336,34 @@ main.content {
 	max-width: 1000px;
 }
 
-```{css}
-.my-gallery {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1em;
-  align-items: flex-start;
-  justify-content: center;
+
+/* Gallery parameters */
+.my-gallery-outer {
+  width: 100%;
+  overflow-x: auto;
+  box-sizing: border-box;
 }
 
+
 .my-gallery img {
-  height: 250px;
-  width: auto;
-  object-fit: contain;
-  transition: transform 0.4s ease, box-shadow 0.4s ease;
-  cursor: zoom-in;
+  height: 200px;
+  width: calc((100% - 1em) / 3);
+  object-fit: cover;
 }
 
 .my-gallery img:hover {
   transform: scale(1.02);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
-```
+
+@media (max-width: 600px) {
+  .my-gallery {
+    gap: 0.5em;
+  }
+
+  .my-gallery img {
+    height: 100px;
+    width: calc((100% - 1em) / 3);
+    object-fit: cover;
+  }
+}
