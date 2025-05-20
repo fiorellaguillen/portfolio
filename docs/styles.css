@@ -1,27 +1,25 @@
 
-/* Estilo del fondo blanco solo para el nombre */
 .name-box {
     display: inline-block;
     background-color: white;
+    font-size: 3rem;
+    font-weight: 800;/* tamaño en pantallas grandes */
+    margin-bottom: 1rem;
+    text-align: left; /* O 'center' si prefieres */
+    line-height: 0.9;
 }
 
-/* Ajuste opcional solo para móviles si prefieres que solo ahí aparezca */
+/* Ajuste solo en móvil */
 @media (max-width: 768px) {
     .name-box {
-        background-color: white;
-    }
+        font-size: 2rem; /* reduce el tamaño en móvil */
+        font-weight: 800;/* tamaño en pantallas grandes */
+        margin-bottom: 1rem;
+        text-align: left; /* O 'center' si prefieres */
+        line-height: 0.9;
+        }
 }
 
-
-
-/* Título principal personalizado */
-.main-title {
-  font-size: 3rem; /* Puedes ajustar este valor: 2.5rem, 4rem, etc. */
-  font-weight: 800;
-  margin-bottom: 1rem;
-  text-align: left; /* O 'center' si prefieres */
-  line-height: 0.9;
-}
 
 .spacer {
   height: 50px;
