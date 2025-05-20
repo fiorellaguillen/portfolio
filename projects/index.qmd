@@ -5,6 +5,9 @@ format:
   html:
     theme: zephyr
     css: ../styles.css
+    allow-html: true
+includes:
+  in_header: "header.html" 
 listing:
   type: grid
   contents: ../projects/**

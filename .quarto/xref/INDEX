@@ -46,5 +46,11 @@
   },
   "projects/index.qmd": {
     "index.html": "8af4ebd2"
+  },
+  "projects/test.qmd": {
+    "test.html": "ec96018a"
+  },
+  "test.qmd": {
+    "test.html": "ff75c290"
   }
 }
