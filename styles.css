@@ -3,14 +3,12 @@
 .name-box {
     display: inline-block;
     background-color: white;
-    padding: 2px 2px;
 }
 
 /* Ajuste opcional solo para móviles si prefieres que solo ahí aparezca */
 @media (max-width: 768px) {
     .name-box {
         background-color: white;
-        padding: 2px 2px;
     }
 }
 
