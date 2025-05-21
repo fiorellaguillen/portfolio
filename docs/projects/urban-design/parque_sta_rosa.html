@@ -163,80 +163,89 @@ ul.task-list li input[type="checkbox"] {
 <section id="renders" class="level3">
 <h3 class="anchored" data-anchor-id="renders">Renders</h3>
 <div id="slider1" class="image-slider">
-<p><img src="../../images/cañete1_before.png"></p>
-<div>
-<p><img src="../../images/cañete1_after.png"></p>
+<p><img src="../../images/cañete1_before.png" alt="Antes del proyecto"></p>
+<div class="overlay">
+<p><img src="../../images/cañete1_after.png" alt="Después del proyecto"></p>
+</div>
+<div class="slider-handle">
+
 </div>
 </div>
 <div id="slider2" class="image-slider">
 <p><img src="../../images/starosa1_before.png"></p>
-<div>
+<div class="overlay">
 <p><img src="../../images/starosa1_after.png"></p>
+</div>
+<div class="slider-handle">
+
 </div>
 </div>
 <div id="slider3" class="image-slider">
 <p><img src="../../images/superunda1_before.png"></p>
-<div>
+<div class="overlay">
 <p><img src="../../images/superunda1_after.png"></p>
 </div>
+<div class="slider-handle">
+
+</div>
 </div>
 <script>
-    function syncInnerImageSize() {
-      const slider = document.getElementById('slider1');
-      const imgBase = slider.querySelector('img');
-      const overlayDiv = slider.querySelector('div');
-      const overlayImg = overlayDiv.querySelector('img');
+  function initImageSlider(slider) {
+    const overlay = slider.querySelector('.overlay');
+    const handle = slider.querySelector('.slider-handle');
+    const imgBase = slider.querySelector('img');
 
-      if (imgBase.complete) {
-        const rect = imgBase.getBoundingClientRect();
-        overlayImg.style.width = rect.width + 'px';
-        overlayImg.style.height = rect.height + 'px';
+    function syncOverlaySize() {
+      const rect = imgBase.getBoundingClientRect();
+      overlay.querySelector('img').style.width = rect.width + 'px';
+      overlay.querySelector('img').style.height = rect.height + 'px';
+    }
+
+    function updateSlider(x) {
+      const rect = slider.getBoundingClientRect();
+      let pos = Math.max(0, Math.min(x - rect.left, rect.width));
+      const percentage = (pos / rect.width) * 100;
+      overlay.style.width = percentage + '%';
+      handle.style.left = percentage + '%';
+    }
+
+    let isDragging = false;
+
+    function startDrag(e) {
+      isDragging = true;
+      e.preventDefault();
+    }
+
+    function stopDrag() {
+      isDragging = false;
+    }
+
+    function doDrag(e) {
+      if (!isDragging) return;
+      if (e.touches) {
+        updateSlider(e.touches[0].clientX);
       } else {
-        imgBase.onload = () => syncInnerImageSize();
+        updateSlider(e.clientX);
       }
     }
 
-    window.addEventListener('load', syncInnerImageSize);
-    window.addEventListener('resize', syncInnerImageSize);
-  </script>
-<script>
-    function syncInnerImageSize() {
-      const slider = document.getElementById('slider2');
-      const imgBase = slider.querySelector('img');
-      const overlayDiv = slider.querySelector('div');
-      const overlayImg = overlayDiv.querySelector('img');
+    window.addEventListener('resize', syncOverlaySize);
+    window.addEventListener('load', syncOverlaySize);
 
-      if (imgBase.complete) {
-        const rect = imgBase.getBoundingClientRect();
-        overlayImg.style.width = rect.width + 'px';
-        overlayImg.style.height = rect.height + 'px';
-      } else {
-        imgBase.onload = () => syncInnerImageSize();
-      }
-    }
+    handle.addEventListener('mousedown', startDrag);
+    handle.addEventListener('touchstart', startDrag);
+    window.addEventListener('mousemove', doDrag);
+    window.addEventListener('touchmove', doDrag);
+    window.addEventListener('mouseup', stopDrag);
+    window.addEventListener('touchend', stopDrag);
+  }
 
-    window.addEventListener('load', syncInnerImageSize);
-    window.addEventListener('resize', syncInnerImageSize);
-  </script>
-<script>
-    function syncInnerImageSize() {
-      const slider = document.getElementById('slider3');
-      const imgBase = slider.querySelector('img');
-      const overlayDiv = slider.querySelector('div');
-      const overlayImg = overlayDiv.querySelector('img');
-
-      if (imgBase.complete) {
-        const rect = imgBase.getBoundingClientRect();
-        overlayImg.style.width = rect.width + 'px';
-        overlayImg.style.height = rect.height + 'px';
-      } else {
-        imgBase.onload = () => syncInnerImageSize();
-      }
-    }
-
-    window.addEventListener('load', syncInnerImageSize);
-    window.addEventListener('resize', syncInnerImageSize);
-  </script>
+  // Inicializa todos los sliders automáticamente
+  window.addEventListener('DOMContentLoaded', () => {
+    const sliders = document.querySelectorAll('.image-slider');
+    sliders.forEach(slider => initImageSlider(slider));
+  });
+</script>
 
 
 </section>

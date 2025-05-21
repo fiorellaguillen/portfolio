@@ -304,9 +304,9 @@ main.content {
 /* ----------- image slider ------------- */
 .image-slider {
   position: relative;
-  line-height: 0;
-  max-width: 100%;
   width: 100%;
+  overflow: hidden;
+  touch-action: none;
 }
 
 .image-slider img {
@@ -317,22 +317,46 @@ main.content {
   pointer-events: none;
 }
 
-.image-slider > div {
-  position: absolute;
-  top: 0; left: 0;
-  bottom: 0;
-  overflow: hidden;
-  resize: horizontal;
-  width: 50%; /* se podrá redimensionar */
-  max-width: 100%;
-}
-
-.image-slider > div > img {
+.image-slider .overlay {
   position: absolute;
   top: 0;
   left: 0;
-  user-select: none;
-  pointer-events: none;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.image-slider .overlay img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+.image-slider .slider-handle {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 4px;
+  height: 100%;
+  background-color: #ffffffaa;
+  cursor: ew-resize;
+  z-index: 10;
+  transition: background-color 0.2s;
+}
+
+.image-slider .slider-handle::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -10px;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  background: #ffffffdd;
+  border-radius: 50%;
+  border: 1px solid #ccc;
 }
 
 
