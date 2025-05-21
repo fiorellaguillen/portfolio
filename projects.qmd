@@ -11,7 +11,7 @@ includes:
 listing:
   type: grid
   contents: /projects/**
-  sort: "name desc"
+  sort: "title desc"
   filter-ui: true
   categories: unnumbered
   
