@@ -1,0 +1,23 @@
+---
+title: "Crane habitat monitoring app"
+categories: ["Urban Data Science"]
+image: ../../images/dwelling_fires.png
+page-navigation: false
+format:
+  html:
+    toc: true
+    page-layout: full
+freeze: true
+---
+This interactive tool was developed to identify and map key habitat hotspots for the migratory White-naped Crane across East Asia, with a particular focus on areas outside formal nature reserves. By integrating GPS tracking data with environmental indicators—such as vegetation cover, temperature, pollution levels, and water availability—it assesses the ecological condition of these habitats and provides strong, data-driven support for off-reserve conservation efforts.
+Built on Google Earth Engine, the application features an intuitive interface that allows users to define custom regions along the migration corridor and explore seasonal and spatial trends in crane density and habitat quality.
+
+::: caption
+App demo
+:::
+
+::: column-page
+<iframe src="https://casa25gw.projects.earthengine.app/view/cranes-in-transit" width="100%" height="700px">
+
+</iframe>
+:::

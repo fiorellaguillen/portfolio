@@ -1,5 +1,5 @@
 ---
-title: "Hydrogeomorphological manual for the Rimac River"
+title: "Hydrogeomorphological Manual for the Rimac River"
 categories: ["Urban Design"]
 image: '/images/hidro_corte.png'
 page-navigation: false

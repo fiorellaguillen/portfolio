@@ -1,7 +1,7 @@
 ---
-title: "Santa Rosa Park Urban Revitalization"
+title: "Ayabaca Street: Urban Mobility and Public Space Improvement"
 categories: ["Urban Design"]
-image: '/images/starosa1_after.png'
+image: '/images/ayabaca1_after.png'
 page-navigation: false
 lightbox: true
 format:
@@ -10,60 +10,37 @@ format:
     page-layout: full
 freeze: true
 ---
-This project reimagines Santa Rosa Park and its surrounding streets - an area of historical, urban, and social significance in Lima’s Historic Center. The current car-centric design has diminished its heritage value and limited pedestrian and cyclist access.
 
-The proposal prioritizes sustainable and active mobility as a strategy for revitalization. Key interventions include diverting vehicular traffic away from Jr. Conde de Superunda, creating a shared street with widened sidewalks, and improving pedestrian connectivity between the park and the Basilica.
+This project focuses on enhancing sustainable urban mobility and revitalizing public space along Ayabaca street, within the district of Rímac in Lima. The intervention redefines the street as a space for people rather than cars, connecting it with nearby landmarks such as the Barraganes square and the adjacent church, while reinforcing local heritage elements like old tram lines and religious routes.
 
-A new bikeway will link the area to the Rímac River, while adjacent blocks will be upgraded with greenery and street furniture to foster local community life. The redesign of the park includes a unified layout that enhances the central plaza, integrates the Basilica’s presence with landscaped buffers, and highlights the historic Monserrate canal through special paving.
+The proposal promotes walkability, expands green areas, and introduces new public uses such as playgrounds, sports zones, and community gardens. Sidewalks and streets are reconfigured to respond to current mobility needs, and the public realm is upgraded with urban furniture, lighting, and vegetation.
 
-By integrating urban design with heritage conservation and mobility strategies, the project aims to strengthen the identity of this emblematic space and improve quality of life for its residents.
+Integrated into broader urban and heritage projects—including the Río Rímac Special Landscape Project—this intervention aims to reactivate neighborhood life, enhance cultural value, and improve the overall quality of the urban environment.
 
 ::: caption
 Project's plan
 :::
 
-![](/images/starosa_planta.png)
+![](/images/ayabaca_planta.png){fig-align="center"}
 
 ### Before and after
 
-::: caption
-Cañete street redesign
-:::
-
-
 ::::: {#slider1 .image-slider}
-<img src="/images/cañete1_before.png" alt="Antes del proyecto"/>
+<img src="/images/ayabaca1_before.png"/>
 
 ::: overlay
-<img src="/images/cañete1_after.png" alt="Después del proyecto"/>
+<img src="/images/ayabaca1_after.png"/>
 :::
 
 ::: slider-handle
 :::
 :::::
 
-::: caption
-Santa Rosa square redesign
-:::
 ::::: {#slider2 .image-slider}
-<img src="/images/starosa1_before.png"/>
+<img src="/images/ayabaca2_before.png"/>
 
 ::: overlay
-<img src="/images/starosa1_after.png"/>
-:::
-
-::: slider-handle
-:::
-:::::
-
-::: caption
-Conde de Superunda street redesign
-:::
-::::: {#slider3 .image-slider}
-<img src="/images/superunda1_before.png"/>
-
-::: overlay
-<img src="/images/superunda1_after.png"/>
+<img src="/images/ayabaca2_after.png"/>
 :::
 
 ::: slider-handle

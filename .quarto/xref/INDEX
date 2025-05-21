@@ -58,5 +58,20 @@
   },
   "projects/urban-design/parque_sta_rosa.qmd": {
     "parque_sta_rosa.html": "21e79f46"
+  },
+  "projects/urban-design/tacna.qmd": {
+    "tacna.html": "98efa4cd"
+  },
+  "projects/urban-design/pza_mercado.qmd": {
+    "pza_mercado.html": "9e9ef7f8"
+  },
+  "projects/urban-data-science/habitat_preservation.qmd": {
+    "habitat_preservation.html": "c0094095"
+  },
+  "projects/urban-data-science/bikesharing.qmd": {
+    "bikesharing.html": "5ec45f09"
+  },
+  "projects/urban-design/ayabaca.qmd": {
+    "ayabaca.html": "1dc0a5b3"
   }
 }

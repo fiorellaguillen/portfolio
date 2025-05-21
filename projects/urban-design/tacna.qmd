@@ -1,7 +1,7 @@
 ---
-title: "Santa Rosa Park Urban Revitalization"
+title: "Tacna Avenue Redesign"
 categories: ["Urban Design"]
-image: '/images/starosa1_after.png'
+image: '/images/tacna_after.png'
 page-navigation: false
 lightbox: true
 format:
@@ -10,60 +10,37 @@ format:
     page-layout: full
 freeze: true
 ---
-This project reimagines Santa Rosa Park and its surrounding streets - an area of historical, urban, and social significance in Lima’s Historic Center. The current car-centric design has diminished its heritage value and limited pedestrian and cyclist access.
+This project reimagines Tacna and Prolongacion Tacna Avenues as one of the main gateways to Lima’s Historic Center and the Rímac district. Building on the central segregated bus corridor proposed by ATU, the intervention enhances the plan by introducing key urban design strategies to elevate the spatial quality, comfort, and experience of pedestrians and transit users alike.
 
-The proposal prioritizes sustainable and active mobility as a strategy for revitalization. Key interventions include diverting vehicular traffic away from Jr. Conde de Superunda, creating a shared street with widened sidewalks, and improving pedestrian connectivity between the park and the Basilica.
+The new street section includes wide sidewalks, dedicated bus lanes with optimized stop locations based on pedestrian flow studies, and a fully segregated bikeway to encourage sustainable mobility. The layout also incorporates superblocks that restrict left turns and reduce vehicular conflict, allowing the creation of pedestrian-priority streets in adjacent blocks.
 
-A new bikeway will link the area to the Rímac River, while adjacent blocks will be upgraded with greenery and street furniture to foster local community life. The redesign of the park includes a unified layout that enhances the central plaza, integrates the Basilica’s presence with landscaped buffers, and highlights the historic Monserrate canal through special paving.
+In addition to its mobility function, the project envisions Tacna as a green corridor. Vegetation, urban furniture, and resting areas are introduced along the avenue. Three adjacent parks within the Rímac district are also being redesigned and integrated into the corridor through participatory processes.
 
-By integrating urban design with heritage conservation and mobility strategies, the project aims to strengthen the identity of this emblematic space and improve quality of life for its residents.
+This ongoing project is part of a broader strategy led by the Rímac River Special Landscape Project (PEPRR) to reknit urban and ecological systems along this critical axis.
 
 ::: caption
-Project's plan
+General view of the project
+:::
+![](/images/tacna_1.png)
+
+::: caption
+Typical section of the avenue
 :::
 
-![](/images/starosa_planta.png)
+
+![](/images/tacna_corte.png)
+::: caption
+Render of Prolongacion Tacna
+:::
+![](/images/tacna_2.png)
 
 ### Before and after
 
-::: caption
-Cañete street redesign
-:::
-
-
 ::::: {#slider1 .image-slider}
-<img src="/images/cañete1_before.png" alt="Antes del proyecto"/>
+<img src="/images/tacna_before.png"/>
 
 ::: overlay
-<img src="/images/cañete1_after.png" alt="Después del proyecto"/>
-:::
-
-::: slider-handle
-:::
-:::::
-
-::: caption
-Santa Rosa square redesign
-:::
-::::: {#slider2 .image-slider}
-<img src="/images/starosa1_before.png"/>
-
-::: overlay
-<img src="/images/starosa1_after.png"/>
-:::
-
-::: slider-handle
-:::
-:::::
-
-::: caption
-Conde de Superunda street redesign
-:::
-::::: {#slider3 .image-slider}
-<img src="/images/superunda1_before.png"/>
-
-::: overlay
-<img src="/images/superunda1_after.png"/>
+<img src="/images/tacna_after.png"/>
 :::
 
 ::: slider-handle
