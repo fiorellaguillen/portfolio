@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Santa Rosa Market square – Portfolio</title>
+<title>Santa Rosa Market Square – Portfolio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -133,7 +133,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Santa Rosa Market square</h1>
+<h1 class="title">Santa Rosa Market Square</h1>
   <div class="quarto-categories">
     <div class="quarto-category">Urban Design</div>
   </div>
@@ -153,99 +153,34 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>The Rímac River Landscape Project(PEPRR), including 66 key interventions—ranging from local parks and plazas to major avenues and iconic public spaces— is one of Lima’s most comprehensive and ambitious urban projects. As part of its design, a detailed master plan was developed. This plan integrates urban, social, transport, and heritage factors to identify strategic opportunities for sustainable urban transformation.</p>
-<p>It follows the major goal of restoring the Rímac River as a vital ecological and urban backbone through an integrated system of accessible, sustainable public spaces and a mobility network prioritizing pedestrians and public transport. Sustainable mobility is emphasized with 20 km of bike lanes and 17 km of pedestrian-friendly paths.</p>
-<p>The project also focuses on creating 28 inclusive, resilient, and safe public spaces that help close gaps in access to services. Situated within Lima’s Historic Centre, PEPRR highlights the preservation of natural and cultural heritage—spanning pre-Hispanic, colonial, republican, and contemporary periods—while enhancing the area’s tourism appeal and stimulating local economic growth.</p>
+<p>This project seeks to reclaim and redesign the public space around the Santa Rosa Flower Market, located along the Tacna Avenue corridor in Lima’s Historic Center. The intervention reimagines this key urban node as a vibrant plaza that prioritizes pedestrians, reorganizes vehicular flow, and enhances connections to surrounding heritage and mobility networks.</p>
+<p>The design draws inspiration from the historical Qhapaq Ñan route and incorporates local landmarks into a renewed civic experience. Through a phased approach, the first stage reclaims underused street areas to create a new plaza adjacent to the market, providing shaded resting spaces, green elements, and improved transit access. New pavement treatments, tree planting, street furniture, and interpretive features enrich the spatial quality and cultural value of the area.</p>
+<p>In the second phase, nearby Espinoza Street will be reconfigured with a single-level platform that balances vehicular access and pedestrian comfort. Wider sidewalks, improved crossings, and additional greenery will contribute to a safer, more inclusive environment.</p>
 <div class="caption">
-<p>Project’s plan</p>
+<p>Project isometric view</p>
 </div>
-<p><a href="../..\images/starosa_planta.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="../..\images/starosa_planta.png" class="img-fluid"></a></p>
+<p><a href="../..\images/pzamercado_iso.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="../..\images/pzamercado_iso.png" class="img-fluid"></a></p>
+<div class="caption">
+<p>Design of the square including heritage and contemporary aspects</p>
+</div>
+<p><a href="../..\images/pzamercado1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="../..\images/pzamercado1.png" class="img-fluid"></a></p>
+<div class="caption">
+<p>Integration of the bus stop on the design</p>
+</div>
+<p><a href="../..\images/pzamercado2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="../..\images/pzamercado2.png" class="img-fluid"></a></p>
+<div class="caption">
+<p>General view of the project</p>
+</div>
+<p><a href="../..\images/pzamercado3.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="../..\images/pzamercado3.png" class="img-fluid"></a></p>
 <section id="renders" class="level3">
 <h3 class="anchored" data-anchor-id="renders">Renders</h3>
-<div id="slider1" class="image-slider">
-<p><img src="../../images/cañete1_before.png" alt="Antes del proyecto"></p>
-<div class="overlay">
-<p><img src="../../images/cañete1_after.png" alt="Después del proyecto"></p>
-</div>
-<div class="slider-handle">
-
+<div class="my-gallery-outer">
+<div class="my-gallery">
+<p><a href="../..\images/pzamercado1.png" class="lightbox" data-gallery="my-gallery2"><img src="../..\images/pzamercado1.png" class="img-fluid"></a></p>
+<p><a href="../..\images/pzamercado2.png" class="lightbox" data-gallery="my-gallery2"><img src="../..\images/pzamercado2.png" class="img-fluid"></a></p>
+<p><a href="../..\images/pzamercado3.png" class="lightbox" data-gallery="my-gallery2"><img src="../..\images/pzamercado3.png" class="img-fluid"></a></p>
 </div>
 </div>
-<div id="slider2" class="image-slider">
-<p><img src="../../images/starosa1_before.png"></p>
-<div class="overlay">
-<p><img src="../../images/starosa1_after.png"></p>
-</div>
-<div class="slider-handle">
-
-</div>
-</div>
-<div id="slider3" class="image-slider">
-<p><img src="../../images/superunda1_before.png"></p>
-<div class="overlay">
-<p><img src="../../images/superunda1_after.png"></p>
-</div>
-<div class="slider-handle">
-
-</div>
-</div>
-<script>
-  function initImageSlider(slider) {
-    const overlay = slider.querySelector('.overlay');
-    const handle = slider.querySelector('.slider-handle');
-    const imgBase = slider.querySelector('img');
-
-    function syncOverlaySize() {
-      const rect = imgBase.getBoundingClientRect();
-      overlay.querySelector('img').style.width = rect.width + 'px';
-      overlay.querySelector('img').style.height = rect.height + 'px';
-    }
-
-    function updateSlider(x) {
-      const rect = slider.getBoundingClientRect();
-      let pos = Math.max(0, Math.min(x - rect.left, rect.width));
-      const percentage = (pos / rect.width) * 100;
-      overlay.style.width = percentage + '%';
-      handle.style.left = percentage + '%';
-    }
-
-    let isDragging = false;
-
-    function startDrag(e) {
-      isDragging = true;
-      e.preventDefault();
-    }
-
-    function stopDrag() {
-      isDragging = false;
-    }
-
-    function doDrag(e) {
-      if (!isDragging) return;
-      if (e.touches) {
-        updateSlider(e.touches[0].clientX);
-      } else {
-        updateSlider(e.clientX);
-      }
-    }
-
-    window.addEventListener('resize', syncOverlaySize);
-    window.addEventListener('load', syncOverlaySize);
-
-    handle.addEventListener('mousedown', startDrag);
-    handle.addEventListener('touchstart', startDrag);
-    window.addEventListener('mousemove', doDrag);
-    window.addEventListener('touchmove', doDrag);
-    window.addEventListener('mouseup', stopDrag);
-    window.addEventListener('touchend', stopDrag);
-  }
-
-  // Inicializa todos los sliders automáticamente
-  window.addEventListener('DOMContentLoaded', () => {
-    const sliders = document.querySelectorAll('.image-slider');
-    sliders.forEach(slider => initImageSlider(slider));
-  });
-</script>
 
 
 </section>

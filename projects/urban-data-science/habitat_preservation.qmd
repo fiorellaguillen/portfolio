@@ -1,7 +1,7 @@
 ---
-title: "Crane habitat monitoring app"
+title: "White-Crane Habitat Monitoring App"
 categories: ["Urban Data Science"]
-image: ../../images/dwelling_fires.png
+image: ../../images/cranes.png
 page-navigation: false
 format:
   html:
@@ -9,8 +9,8 @@ format:
     page-layout: full
 freeze: true
 ---
-This interactive tool was developed to identify and map key habitat hotspots for the migratory White-naped Crane across East Asia, with a particular focus on areas outside formal nature reserves. By integrating GPS tracking data with environmental indicators—such as vegetation cover, temperature, pollution levels, and water availability—it assesses the ecological condition of these habitats and provides strong, data-driven support for off-reserve conservation efforts.
-Built on Google Earth Engine, the application features an intuitive interface that allows users to define custom regions along the migration corridor and explore seasonal and spatial trends in crane density and habitat quality.
+
+This interactive tool was developed to **identify and map key habitat hotspots for the migratory White-naped Crane across East Asia**, with a particular focus on areas outside formal nature reserves. By integrating GPS tracking data with environmental indicators extracted from satellite imagery - such as vegetation cover, temperature, pollution levels, and water availability - it assesses the ecological condition of these habitats and **provides strong, data-driven support for off-reserve conservation efforts**. Built on **Google Earth Engine**, the application features an intuitive interface that allows users to define custom regions along the migration corridor and explore seasonal and spatial trends in crane density and habitat quality.
 
 ::: caption
 App demo
@@ -21,3 +21,5 @@ App demo
 
 </iframe>
 :::
+
+More information on the app and how it was build is available at: [App webpage](https://lzq407.github.io/CASA0025_Project_Template/)
