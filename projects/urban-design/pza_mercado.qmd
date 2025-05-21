@@ -21,17 +21,34 @@ In the second phase, nearby Espinoza Street will be reconfigured with a single-l
 Project isometric view
 :::
 
-![](/images/pzamercado_iso.png)
-![](/images/pzamercado1.png)
-![](/images/pzamercado2.png)
+![](/images/pzamercado_iso.png) 
+
+::: caption
+Design of the square including heritage and contemporary aspects
+:::
+
+![](/images/pzamercado1.png) 
+
+::: caption
+Integration of the bus stop on the design
+:::
+
+![](/images/pzamercado2.png) 
+
+::: caption
+General view of the project
+:::
+
 ![](/images/pzamercado3.png)
+
 ### Renders
+
 :::: my-gallery-outer
 ::: my-gallery
-![](/images/pzamercado1.png){group="my-gallery"}
+![](/images/pzamercado1.png){group="my-gallery2"}
 
-![](/images/pzamercado2.png){group="my-gallery"}
+![](/images/pzamercado2.png){group="my-gallery2"}
 
-![](/images/pzamercado3.png){group="my-gallery"}
+![](/images/pzamercado3.png){group="my-gallery2"}
 :::
 ::::
