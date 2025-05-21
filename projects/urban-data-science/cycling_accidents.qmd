@@ -1,7 +1,7 @@
 ---
 title: "Assessing the Risks: Cycling Accident Severity in London"
 categories: ["Urban Data Science"]
-image: ../../images/icon1.png
+image: ../../images/hotspot.png
 page-navigation: false
 format:
   html:

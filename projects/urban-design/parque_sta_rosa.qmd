@@ -1,0 +1,122 @@
+---
+title: "Santa Rosa square and streets"
+categories: ["Urban Design"]
+image: '/images/starosa1_after.png'
+page-navigation: false
+lightbox: true
+format:
+  html:
+    toc: true
+    page-layout: full
+freeze: true
+---
+
+The Rímac River Landscape Project(PEPRR), including 66 key interventions—ranging from local parks and plazas to major avenues and iconic public spaces— is one of Lima’s most comprehensive and ambitious urban projects. As part of its design, a detailed master plan was developed. This plan integrates urban, social, transport, and heritage factors to identify strategic opportunities for sustainable urban transformation.
+
+It follows the major goal of restoring the Rímac River as a vital ecological and urban backbone through an integrated system of accessible, sustainable public spaces and a mobility network prioritizing pedestrians and public transport. Sustainable mobility is emphasized with 20 km of bike lanes and 17 km of pedestrian-friendly paths.
+
+The project also focuses on creating 28 inclusive, resilient, and safe public spaces that help close gaps in access to services. Situated within Lima’s Historic Centre, PEPRR highlights the preservation of natural and cultural heritage—spanning pre-Hispanic, colonial, republican, and contemporary periods—while enhancing the area’s tourism appeal and stimulating local economic growth.
+
+::: caption
+Project's plan
+:::
+
+![](/images/starosa_planta.png)
+
+### Renders
+
+:::: {#slider1 .image-slider}
+<img src="/images/cañete1_before.png"/>
+
+<div>
+
+<img src="/images/cañete1_after.png"/>
+
+</div>
+::::
+
+:::: {#slider2 .image-slider}
+<img src="/images/starosa1_before.png"/>
+
+<div>
+
+<img src="/images/starosa1_after.png"/>
+
+</div>
+::::
+
+:::: {#slider3 .image-slider}
+<img src="/images/superunda1_before.png"/>
+
+<div>
+
+<img src="/images/superunda1_after.png"/>
+
+</div>
+::::
+
+```{=html}
+<script>
+    function syncInnerImageSize() {
+      const slider = document.getElementById('slider1');
+      const imgBase = slider.querySelector('img');
+      const overlayDiv = slider.querySelector('div');
+      const overlayImg = overlayDiv.querySelector('img');
+
+      if (imgBase.complete) {
+        const rect = imgBase.getBoundingClientRect();
+        overlayImg.style.width = rect.width + 'px';
+        overlayImg.style.height = rect.height + 'px';
+      } else {
+        imgBase.onload = () => syncInnerImageSize();
+      }
+    }
+
+    window.addEventListener('load', syncInnerImageSize);
+    window.addEventListener('resize', syncInnerImageSize);
+  </script>
+```
+
+```{=html}
+<script>
+    function syncInnerImageSize() {
+      const slider = document.getElementById('slider2');
+      const imgBase = slider.querySelector('img');
+      const overlayDiv = slider.querySelector('div');
+      const overlayImg = overlayDiv.querySelector('img');
+
+      if (imgBase.complete) {
+        const rect = imgBase.getBoundingClientRect();
+        overlayImg.style.width = rect.width + 'px';
+        overlayImg.style.height = rect.height + 'px';
+      } else {
+        imgBase.onload = () => syncInnerImageSize();
+      }
+    }
+
+    window.addEventListener('load', syncInnerImageSize);
+    window.addEventListener('resize', syncInnerImageSize);
+  </script>
+```
+
+```{=html}
+<script>
+    function syncInnerImageSize() {
+      const slider = document.getElementById('slider3');
+      const imgBase = slider.querySelector('img');
+      const overlayDiv = slider.querySelector('div');
+      const overlayImg = overlayDiv.querySelector('img');
+
+      if (imgBase.complete) {
+        const rect = imgBase.getBoundingClientRect();
+        overlayImg.style.width = rect.width + 'px';
+        overlayImg.style.height = rect.height + 'px';
+      } else {
+        imgBase.onload = () => syncInnerImageSize();
+      }
+    }
+
+    window.addEventListener('load', syncInnerImageSize);
+    window.addEventListener('resize', syncInnerImageSize);
+  </script>
+```

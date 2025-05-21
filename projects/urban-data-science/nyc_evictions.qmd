@@ -1,7 +1,7 @@
 ---
 title: "New York City evictions: an spatial and socioeconomic analysis"
 categories: ["Urban Data Science"]
-image: ../../images/icon4.png
+image: ../../images/local_moran.png
 page-navigation: false
 format:
   html:

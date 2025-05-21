@@ -52,5 +52,11 @@
   },
   "test.qmd": {
     "test.html": "ff75c290"
+  },
+  "projects/urban-design/hidro.qmd": {
+    "hidro.html": "c21abb5f"
+  },
+  "projects/urban-design/parque_sta_rosa.qmd": {
+    "parque_sta_rosa.html": "21e79f46"
   }
 }

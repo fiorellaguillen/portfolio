@@ -1,7 +1,7 @@
 ---
 title: "Identification of associations between socio-economic factors and dwelling fires in London in 2021"
 categories: ["Urban Data Science"]
-image: ../../images/icon2.png
+image: ../../images/dwelling_fires.png
 page-navigation: false
 format:
   html:

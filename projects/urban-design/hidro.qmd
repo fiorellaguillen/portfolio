@@ -1,0 +1,42 @@
+---
+title: "Hydrogeomorphological manual for the Rimac River"
+categories: ["Urban Design"]
+image: '/images/hidro_corte.png'
+page-navigation: false
+format:
+  html:
+    toc: true
+    page-layout: full
+    lightbox: true
+freeze: true
+---
+
+Developed as part of the *Special Landscape Project: Rímac River*, this study serves as a foundational tool for **proposing interventions along the riverbed and banks of the Rímac River**. It offers an initial approach to formulating strategies and general guidelines that strengthen the relationship between the Rímac River and the Historic Center of Lima (CHL).
+
+The study includes a comprehensive analysis from historical, hydrological, hydraulic, geomorphological, and landscape perspectives.
+
+Based on this diagnosis, a set of **guidelines** is proposed for the management and planning of urban-riverine spaces. These aim to **mitigate risks** related to erosion and flooding, while restoring the Rímac River’s role as a vital hydrological, environmental, and landscape resource.
+
+::: caption
+Typical proposed section for the Rimac River
+:::
+
+![](/images/hidro_corte.png){fig-align="center"}
+
+::: caption
+Riverbank intervention strategies' catalog
+:::
+
+![](/images/hidro_estrategias.png)
+
+### Maps
+
+:::: my-gallery-outer
+::: my-gallery
+![](/images/hidro4.png){group="my-gallery"}
+
+![](/images/hidro5.png){group="my-gallery"}
+
+![](/images/hidro6.png){group="my-gallery"}
+:::
+::::
