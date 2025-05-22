@@ -37,6 +37,14 @@ PEPRR's Presentation video
 
 {{< video https://www.youtube.com/watch?v=g--IDi_i3xs>}}
 
+Bringing this project to life was only possible thanks to collaborative work and strong partnerships with stakeholders from the public and private sectors, academia, and a participative approach with local communities.
+
+::: caption
+Stakeholder map
+:::
+
+![](/images/actores.png){fig-align="center"}
+
 ### Renders
 
 ::: minispacer

@@ -13,17 +13,13 @@ freeze: true
 
 This project reimagines Tacna and Prolongacion Tacna Avenues as one of the main gateways to Lima’s Historic Center and the Rímac district. Building on the central segregated bus corridor proposed by ATU, the intervention enhances the plan by **introducing key urban design strategies to elevate the spatial quality, comfort, and experience of pedestrians and transit users** alike.
 
-The new street section includes wide sidewalks, dedicated bus lanes with optimized stop locations based on pedestrian flow studies, and a fully segregated bikeway to encourage sustainable mobility. The layout also incorporates superblocks that restrict left turns and reduce vehicular conflict, allowing the creation of pedestrian-priority streets in adjacent blocks.
-
-In addition to its mobility function, the project envisions Tacna as a **green corridor**. Vegetation, urban furniture, and resting areas are introduced along the avenue. Three adjacent parks within the Rímac district are also being redesigned and integrated into the corridor through participatory processes.
-
-This ongoing project is part of a broader strategy led by the Rímac River Special Landscape Project (PEPRR) to reknit urban and ecological systems along this critical axis.
-
 ::: caption
 General view of the project
 :::
 
 ![](/images/tacna_1.png)
+
+The new street section includes wide sidewalks, dedicated bus lanes with optimized stop locations based on pedestrian flow studies, and a fully segregated bikeway to encourage sustainable mobility. The layout also incorporates superblocks that restrict left turns and reduce vehicular conflict, allowing the creation of pedestrian-priority streets in adjacent blocks.
 
 ::: caption
 Typical avenue section. Top: original section. Bottom: proposed section
@@ -31,14 +27,23 @@ Typical avenue section. Top: original section. Bottom: proposed section
 
 ![](/images/tacna_corte.png)
 
+In addition to its mobility function, the project envisions Tacna as a **green corridor**. Vegetation, urban furniture, and resting areas are introduced along the avenue. Three adjacent parks within the Rímac district are also being redesigned and integrated into the corridor through participatory processes.
+
 ::: caption
 Render of Prolongacion Tacna
 :::
 
 ![](/images/tacna_2.png)
 
+This ongoing project is part of a broader strategy led by the *Rímac River Special Landscape Project (PEPRR)* to reknit urban and ecological systems along this critical axis.
+
 ### Before and after
+
 ::: minispacer
+:::
+
+::: caption
+Tacna avenue redesign including new bike lane and BRT station
 :::
 
 ::::: {#slider1 .image-slider}

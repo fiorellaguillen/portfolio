@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Tacna Avenue Redesign – Portfolio</title>
+<title>London Dwelling Fires: associations with socio-economic factors – Portfolio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -39,10 +39,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-299fde5381b5a602aab895950093955a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-ddd961a2510921635943dfbbd19534c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -124,7 +121,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#before-and-after" id="toc-before-and-after" class="nav-link active" data-scroll-target="#before-and-after">Before and after</a></li>
+  <li><a href="#graphics" id="toc-graphics" class="nav-link active" data-scroll-target="#graphics">Graphics</a></li>
   </ul>
 </nav>
     </div>
@@ -133,9 +130,9 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Tacna Avenue Redesign</h1>
+<h1 class="title">London Dwelling Fires: associations with socio-economic factors</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Urban Design</div>
+    <div class="quarto-category">Urban Data Science</div>
   </div>
   </div>
 
@@ -153,96 +150,17 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This project reimagines Tacna and Prolongacion Tacna Avenues as one of the main gateways to Lima’s Historic Center and the Rímac district. Building on the central segregated bus corridor proposed by ATU, the intervention enhances the plan by <strong>introducing key urban design strategies to elevate the spatial quality, comfort, and experience of pedestrians and transit users</strong> alike.</p>
+<p>This research examines the <strong>socio-economic variables most strongly linked to dwelling fire risk</strong>. The study, through the use of regression identifies ownership status and four-dimensional deprivation as key predictors, highlighting urban inequalities that increase vulnerability in certain communities. The results of the clustering analysis also serve as a valuable tool for guiding localized strategies and policies, ensuring they are tailored to the distinct socio-economic and spatial contexts of each cluster. In general, the findings emphasize that fire risk is a multidimensional issue, requiring mitigation strategies that extend beyond fire safety measures to address underlying socio-economic factors.</p>
+<section id="graphics" class="level3">
+<h3 class="anchored" data-anchor-id="graphics">Graphics</h3>
 <div class="caption">
-<p>General view of the project</p>
+<p>Correlation matrix of main factors affecting dwelling fires</p>
 </div>
-<p><a href="../..\images/tacna_1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="../..\images/tacna_1.png" class="img-fluid"></a></p>
-<p>The new street section includes wide sidewalks, dedicated bus lanes with optimized stop locations based on pedestrian flow studies, and a fully segregated bikeway to encourage sustainable mobility. The layout also incorporates superblocks that restrict left turns and reduce vehicular conflict, allowing the creation of pedestrian-priority streets in adjacent blocks.</p>
+<p><img src="../..\images/correlationmatrix1.png" class="img-fluid"></p>
 <div class="caption">
-<p>Typical avenue section. Top: original section. Bottom: proposed section</p>
+<p>Clusters of boroughs by main socioeconomic factors involved in dwelling fires</p>
 </div>
-<p><a href="../..\images/tacna_corte.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="../..\images/tacna_corte.png" class="img-fluid"></a></p>
-<p>In addition to its mobility function, the project envisions Tacna as a <strong>green corridor</strong>. Vegetation, urban furniture, and resting areas are introduced along the avenue. Three adjacent parks within the Rímac district are also being redesigned and integrated into the corridor through participatory processes.</p>
-<div class="caption">
-<p>Render of Prolongacion Tacna</p>
-</div>
-<p><a href="../..\images/tacna_2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="../..\images/tacna_2.png" class="img-fluid"></a></p>
-<p>This ongoing project is part of a broader strategy led by the <em>Rímac River Special Landscape Project (PEPRR)</em> to reknit urban and ecological systems along this critical axis.</p>
-<section id="before-and-after" class="level3">
-<h3 class="anchored" data-anchor-id="before-and-after">Before and after</h3>
-<div class="minispacer">
-
-</div>
-<div class="caption">
-<p>Tacna avenue redesign including new bike lane and BRT station</p>
-</div>
-<div id="slider1" class="image-slider">
-<p><img src="../../images/tacna_before.png"></p>
-<div class="overlay">
-<p><img src="../../images/tacna_after.png"></p>
-</div>
-<div class="slider-handle">
-
-</div>
-</div>
-<script>
-  function initImageSlider(slider) {
-    const overlay = slider.querySelector('.overlay');
-    const handle = slider.querySelector('.slider-handle');
-    const imgBase = slider.querySelector('img');
-
-    function syncOverlaySize() {
-      const rect = imgBase.getBoundingClientRect();
-      overlay.querySelector('img').style.width = rect.width + 'px';
-      overlay.querySelector('img').style.height = rect.height + 'px';
-    }
-
-    function updateSlider(x) {
-      const rect = slider.getBoundingClientRect();
-      let pos = Math.max(0, Math.min(x - rect.left, rect.width));
-      const percentage = (pos / rect.width) * 100;
-      overlay.style.width = percentage + '%';
-      handle.style.left = percentage + '%';
-    }
-
-    let isDragging = false;
-
-    function startDrag(e) {
-      isDragging = true;
-      e.preventDefault();
-    }
-
-    function stopDrag() {
-      isDragging = false;
-    }
-
-    function doDrag(e) {
-      if (!isDragging) return;
-      if (e.touches) {
-        updateSlider(e.touches[0].clientX);
-      } else {
-        updateSlider(e.clientX);
-      }
-    }
-
-    window.addEventListener('resize', syncOverlaySize);
-    window.addEventListener('load', syncOverlaySize);
-
-    handle.addEventListener('mousedown', startDrag);
-    handle.addEventListener('touchstart', startDrag);
-    window.addEventListener('mousemove', doDrag);
-    window.addEventListener('touchmove', doDrag);
-    window.addEventListener('mouseup', stopDrag);
-    window.addEventListener('touchend', stopDrag);
-  }
-
-  // Inicializa todos los sliders automáticamente
-  window.addEventListener('DOMContentLoaded', () => {
-    const sliders = document.querySelectorAll('.image-slider');
-    sliders.forEach(slider => initImageSlider(slider));
-  });
-</script>
+<p><img src="../..\images/borough_clustering.jpg" class="img-fluid"></p>
 
 
 </section>
@@ -692,38 +610,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
-(function() {
-  let previousOnload = window.onload;
-  window.onload = () => {
-    if (previousOnload) {
-      previousOnload();
-    }
-    lightboxQuarto.on('slide_before_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      const href = trigger.getAttribute('href');
-      if (href !== null) {
-        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-        if (imgEl !== null) {
-          const srcAttr = imgEl.getAttribute("src");
-          if (srcAttr && srcAttr.startsWith("data:")) {
-            slideConfig.href = srcAttr;
-          }
-        }
-      } 
-    });
-  
-    lightboxQuarto.on('slide_after_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(slideNode);
-      }
-    });
-  
-  };
-  
-})();
-          </script>
 
 
 

@@ -707,7 +707,7 @@ main.content {
   .category-btn {
     min-width: calc(100vw /4);
     max-width: calc(100vw /2);
-    font-size: 0.68rem;
+    font-size: 0.66rem;
     padding: 0.4rem 0.1rem;
     text-align: center;
     justify-content: center;
