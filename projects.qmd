@@ -17,7 +17,7 @@ listing:
   fields: [image, title]
 ---
 
-:::section-title
+::: section-title
 Projects
 :::
 

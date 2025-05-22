@@ -42,7 +42,8 @@ General view of the project
 ![](/images/pzamercado3.png)
 
 ### Renders
-
+::: minispacer
+:::
 :::: my-gallery-outer
 ::: my-gallery
 ![](/images/pzamercado1.png){group="my-gallery2"}

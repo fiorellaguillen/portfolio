@@ -24,7 +24,12 @@ Project's plan
 ![](/images/ayabaca_planta.png){fig-align="center"}
 
 ### Before and after
+::: minispacer
+:::
 
+::: caption
+Children playground proposal and integration with Basilica
+:::
 ::::: {#slider1 .image-slider}
 <img src="/images/ayabaca1_before.png"/>
 
@@ -35,7 +40,9 @@ Project's plan
 ::: slider-handle
 :::
 :::::
-
+::: caption
+Aereal view of main intersection
+:::
 ::::: {#slider2 .image-slider}
 <img src="/images/ayabaca2_before.png"/>
 

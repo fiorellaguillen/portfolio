@@ -10,9 +10,9 @@ format:
 freeze: true
 ---
 
-This **agent-based model**, developed in **NetLogo**, simulates bikesharing dynamics in the City of London to assess how access to real-time information via a mobile app affects user behavior and system performance. The model uses spatially explicit data to compare informed and uninformed users in terms of trip success, time efficiency, and rerouting behavior.
+This **agent-based model**, developed in **NetLogo**, simulates bikesharing dynamics in the City of London to **assess how access to real-time information via a mobile app affects user behavior and system performance**. The model uses spatially explicit data to compare informed and uninformed users in terms of trip success, time efficiency, and rerouting behavior.
 
-It demonstrates my ability to integrate urban mobility data, behavioral modeling, and simulation techniques to support data-driven transport planning.
+Through this project, I integrated urban mobility data, behavioral modeling, and simulation techniques to support data-driven transport planning.
 
 ### Demo
 

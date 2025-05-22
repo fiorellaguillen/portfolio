@@ -26,7 +26,7 @@ General view of the project
 ![](/images/tacna_1.png)
 
 ::: caption
-Typical section of the avenue
+Typical avenue section. Top: original section. Bottom: proposed section
 :::
 
 ![](/images/tacna_corte.png)
@@ -38,6 +38,8 @@ Render of Prolongacion Tacna
 ![](/images/tacna_2.png)
 
 ### Before and after
+::: minispacer
+:::
 
 ::::: {#slider1 .image-slider}
 <img src="/images/tacna_before.png"/>

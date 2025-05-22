@@ -21,7 +21,15 @@ PEPRR's Master Plan
 
 It follows the major goal of restoring the Rímac River as a vital ecological and urban backbone through an integrated system of **accessible, sustainable public spaces and a mobility network prioritizing pedestrians and public transport**. Sustainable mobility is emphasized with 20 km of bike lanes and 17 km of pedestrian-friendly paths.
 
-The project also focuses on creating 28 inclusive, resilient, and safe public spaces that help close gaps in access to services. Situated within Lima’s Historic Centre, PEPRR highlights the preservation of natural and cultural heritage - spanning pre-Hispanic, colonial, republican, and contemporary periods - while enhancing the area’s tourism appeal and stimulating local economic growth.
+::: caption
+PEPRR's Indicators
+:::
+
+![](/images/indicadores2.png){fig-align="center"}
+
+![](/images/indicadores3.png){fig-align="center"}
+
+The project also focuses on creating 28 inclusive, resilient, and safe public spaces that help close gaps in access to services. Situated within Lima’s Historic Centre, PEPRR highlights the **preservation of natural and cultural heritage** - spanning pre-Hispanic, colonial, republican, and contemporary periods - while enhancing the area’s tourism appeal and stimulating local economic growth.
 
 ::: caption
 PEPRR's Presentation video
@@ -30,6 +38,9 @@ PEPRR's Presentation video
 {{< video https://www.youtube.com/watch?v=g--IDi_i3xs>}}
 
 ### Renders
+
+::: minispacer
+:::
 
 :::: my-gallery-outer
 ::: my-gallery

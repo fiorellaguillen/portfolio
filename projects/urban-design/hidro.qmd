@@ -17,6 +17,9 @@ The study includes a comprehensive analysis from historical, hydrological, hydra
 
 Based on this diagnosis, a set of **guidelines** is proposed for the management and planning of urban-riverine spaces. These aim to **mitigate risks** related to erosion and flooding, while restoring the Rímac River’s role as a vital hydrological, environmental, and landscape resource.
 
+::: minispacer
+:::
+
 ::: caption
 Typical proposed section for the Rimac River
 :::
@@ -30,7 +33,8 @@ Riverbank intervention strategies' catalog
 ![](/images/hidro_estrategias.png)
 
 ### Maps
-
+::: minispacer
+:::
 :::: my-gallery-outer
 ::: my-gallery
 ![Hydraulic variable diagnostics by study segments](/images/hidro4.png){.hide-caption group="my-gallery"}

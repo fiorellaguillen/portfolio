@@ -19,7 +19,11 @@ This analysis explores the **relationship between economic deprivation and evict
 Eviction hotspots in NYC
 :::
 
-![](/images/local_moran.png){fig-align="center"} ::: caption Regression results of median income as an independent variable :::
+![](/images/local_moran.png){fig-align="center"}
+
+::: caption
+Regression results of median income as an independent variable
+:::
 
 ![](/images/regression1.png){fig-align="center"}
 
