@@ -440,7 +440,7 @@ main.content {
 .timeline-content {
   flex: 1;
   background-color: #f8f9fa;
-  padding: 1rem;
+  padding: 1rem 1rem 0.5rem 1rem;
   border-radius: 0.5rem;
   box-shadow: 0 0 5px rgba(0,0,0,0.1);
   position: relative;
@@ -476,7 +476,7 @@ main.content {
 }
 
 .skill-group h4 {
-  margin-bottom: 0.1rem;
+  margin-bottom: 0.0rem;
   color: #000;
 }
 
@@ -542,11 +542,50 @@ main.content {
 .timeline-content p,
 .card-item p {
   font-size: 0.8rem; /* más pequeño que el texto normal */
-  margin-top: .8rem;
   line-height: 1.4;
 }
 
-/*titles */
+
+/*-------------expandable text ----------*/
+.expandable-text {
+  line-height: 1.4em;
+  max-height: 3.4em; /* 3 líneas */
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  position: relative;
+}
+
+/* Al expandir */
+.expandable-text.expanded {
+  max-height: none;
+  overflow: visible;
+}
+
+
+/* Botón mostrar/ocultar */
+.toggle-button {
+  background: none;
+  border: solid lightgrey;
+  border-width: 0.1px 0.1px;
+  height: 33px;
+  
+  color: grey;
+  cursor: pointer;
+  margin: 5px -1px;
+  padding: 0.4rem 0.4rem;
+  max-width: 95px;
+  font-size: 0.8rem;
+  font-weight: 400;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.toggle-button:hover {
+  text-decoration: underline;
+}
+
+
+/*--------------titles------------- */
 .section-title {
   text-align: center;
   font-size: 2rem;

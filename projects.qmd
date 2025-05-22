@@ -16,17 +16,24 @@ listing:
   categories: false
   fields: [image, title]
 ---
-<h3 class="section-title">
+
+:::section-title
 Projects
-</h3>
+:::
+
 :::: category-bar-wrapper
 ::: {.category-bar role="group" aria-label="Category filter"}
-      
-<button class="category-btn active" data-categories="all">ALL PROJECTS</button>
-<button class="category-btn" data-categories="VXJiYW4lMjBEZXNpZ24=">URBAN DESIGN</button>
-<button class="category-btn" data-categories="VXJiYW4lMjBEYXRhJTIwU2NpZW5jZQ==">URBAN DATA SCIENCE</button>
+<button class="category-btn active" data-categories="all">
+ALL PROJECTS
+</button>
 
+<button class="category-btn" data-categories="VXJiYW4lMjBEZXNpZ24=">
+URBAN DESIGN
+</button>
 
+<button class="category-btn" data-categories="VXJiYW4lMjBEYXRhJTIwU2NpZW5jZQ==">
+URBAN DATA SCIENCE
+</button>
 :::
 ::::
 

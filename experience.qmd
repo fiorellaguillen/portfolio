@@ -6,20 +6,26 @@ format:
     css: styles.css
 ---
 
-<h3 class="section-title">
+::: section-title
 Work experience
-</h3>
-
-:::spacer2
 :::
 
-::::::::::::::::::::::::::: timeline
-:::::: timeline-item
+::: minispacer
+:::
+
+::: minispacer
+:::
+
+::: minispacer
+:::
+
+::::::::::::::::::::::::::::::::::::::: timeline
+:::::::: timeline-item
 ::: timeline-date
 12.2024 - Present
 :::
 
-:::: timeline-content
+:::::: timeline-content
 ### Bartlett Student Ambassador
 
 #### UCL - The Bartlett Faculty of the Built Environment
@@ -27,20 +33,26 @@ Work experience
 ::: minispacer
 :::
 
+::: expandable-text
 Represented The Bartlett in academic and outreach initiatives, engaging with prospective students and the university community.
 
 • Provided guidance on the MSc Urban Spatial Science program through events, Q&A sessions, and mentoring.
 
 • Supported public engagement and communication, enhancing visibility of The Bartlett’s student experience in social media
-::::
-::::::
+:::
 
-:::::: timeline-item
+::: toggle-button
+Show more
+:::
+::::::
+::::::::
+
+:::::::: timeline-item
 ::: timeline-date
 10.2021 - 09.2024
 :::
 
-:::: timeline-content
+:::::: timeline-content
 ### Urban designer
 
 #### Municipality of Lima, Peru
@@ -48,6 +60,7 @@ Represented The Bartlett in academic and outreach initiatives, engaging with pro
 ::: minispacer
 :::
 
+::: expandable-text
 Part of the core team for the Special Landscape Project for the Rimac River (PEPRR), one of the largest urban projects in Peru, focused on revitalizing Lima’s Historic Centre.
 
 • Led the urban analysis and design of public spaces, including plazas, streets, and avenues, incorporating sustainable mobility principles such as pedestrian-friendly streets and bicycle lane networks.
@@ -57,15 +70,20 @@ Part of the core team for the Special Landscape Project for the Rimac River (PEP
 • Developed design guidelines to inform urban policy and facilitate interinstitutional coordination with local authorities.
 
 • Managed the visualization and dissemination of project progress through stakeholder meetings, exhibitions, videos and publications.
-::::
-::::::
+:::
 
-:::::: timeline-item
+::: toggle-button
+Show more
+:::
+::::::
+::::::::
+
+:::::::: timeline-item
 ::: timeline-date
 02.2021 - 10.2021
 :::
 
-:::: timeline-content
+:::::: timeline-content
 ### Urban Designer
 
 #### Cordillera Sur - Architecture Firm
@@ -73,20 +91,26 @@ Part of the core team for the Special Landscape Project for the Rimac River (PEP
 ::: minispacer
 :::
 
+::: expandable-text
 Contributed to landscape, architecture, and urban design projects with a focus on environmental and cultural sustainability.
 
 • Developed landscape design for memorial and public space projects, integrating ecological restoration principles.
 
 • Designed visual communication materials for competitions and public presentations, showcasing urban proposals.
-::::
-::::::
+:::
 
-:::::: timeline-item
+::: toggle-button
+Show more
+:::
+::::::
+::::::::
+
+:::::::: timeline-item
 ::: timeline-date
 12.2021
 :::
 
-:::: timeline-content
+:::::: timeline-content
 ### Speaker
 
 #### Friedrich Ebert Foundation & ‘Acuerdo por Iquitos’ Foundation
@@ -94,20 +118,26 @@ Contributed to landscape, architecture, and urban design projects with a focus o
 ::: minispacer
 :::
 
+::: expandable-text
 Presented two lectures in the forum ‘A better urban future for Iquitos’:
 
 • Inhabiting the river: alternative urban model for the neighborhood of Bajo Belen, Iquitos.
 
 • Inhabiting the river: rethinking housing and the Amazonian neighborhood in Bajo Belen, Iquitos.
-::::
-::::::
+:::
 
-:::::: timeline-item
+::: toggle-button
+Show more
+:::
+::::::
+::::::::
+
+:::::::: timeline-item
 ::: timeline-date
 10.2021
 :::
 
-:::: timeline-content
+:::::: timeline-content
 ### Speaker
 
 #### UPC - Polytechnic University of Catalonia 10.2021
@@ -115,18 +145,24 @@ Presented two lectures in the forum ‘A better urban future for Iquitos’:
 ::: minispacer
 :::
 
+::: expandable-text
 Presented a lecture in the module "Architecture and Cooperation 2021" given at the ETSAV-UPC.
 
 • Lecture: Inhabiting the river: towards an alternative urban model for the flood-prone neighborhood of Bajo Belen.
-::::
-::::::
+:::
 
-:::::: timeline-item
+::: toggle-button
+Show more
+:::
+::::::
+::::::::
+
+:::::::: timeline-item
 ::: timeline-date
 01.2018 - 08.2018
 :::
 
-:::: timeline-content
+:::::: timeline-content
 ### Research intern
 
 #### HOME \[Self-Sustainable Amazonian Cities\] - Research project
@@ -134,31 +170,41 @@ Presented a lecture in the module "Architecture and Cooperation 2021" given at t
 ::: minispacer
 :::
 
+::: expandable-text
 Contributed to an action-research project on climate-induced population resettlement in Peru, developed by PUCP’s Research Center for Architecture and the City in collaboration with UCL’s Development Planning Unit.
 
 • Assisted in creating visual materials and designing two research publications and one guide.
 
 • Supported research on urban planning and urban design guidelines for the peruvian Amazon.
-::::
-::::::
-:::::::::::::::::::::::::::
-
-::: spacer
 :::
 
-<h2 class="section-title">
+::: toggle-button
+Show more
+:::
+::::::
+::::::::
+:::::::::::::::::::::::::::::::::::::::
 
+::: minispacer
+:::
+
+::: minispacer
+:::
+
+::: minispacer
+:::
+
+::: section-title
 Education
+:::
 
-</h2>
-
-::::::::::::::::::::::::::::::: timeline
-:::::: timeline-item
+::::::::::::::::::::::::::::::::::::::::::::: timeline
+:::::::: timeline-item
 ::: timeline-date
 2024-2025
 :::
 
-:::: timeline-content
+:::::: timeline-content
 ### MSc Urban Spatial Science
 
 #### UCL - The Bartlett Centre for Advanced Spatial Analysis
@@ -166,16 +212,22 @@ Education
 ::: minispacer
 :::
 
+::: expandable-text
 Master’s programme focused on integrating data science and spatial analysis. Modules included Data Science for Spatial Systems, GIS, Quantitative Methods, Urban Simulation, Agent-based Modelling, Building Spatial Applications with Big Data, Remote Sensing, among others.
-::::
-::::::
+:::
 
-:::::: timeline-item
+::: toggle-button
+Show more
+:::
+::::::
+::::::::
+
+:::::::: timeline-item
 ::: timeline-date
 2014-2020
 :::
 
-:::: timeline-content
+:::::: timeline-content
 ### Bachelor in architecture
 
 #### PUCP - Faculty of Architecture and Urbanism
@@ -183,50 +235,22 @@ Master’s programme focused on integrating data science and spatial analysis. M
 ::: minispacer
 :::
 
+::: expandable-text
 11-semester programme with a strong focus on urbanism. Included modules in sustainable urban design, spatial analysis and urban planning. Awarded for an outstanding thesis on urban design, applying innovative approaches to vulnerable neighborhoods and housing.
-::::
+:::
+
+::: toggle-button
+Show more
+:::
 ::::::
+::::::::
 
-:::::: timeline-item
+:::::::: timeline-item
 ::: timeline-date
-2014-2020
+2024
 :::
 
-:::: timeline-content
-### Diploma in Interior Design
-
-#### Toulouse Lautrec Institute
-
-::: minispacer
-:::
-
-6-month specialization program in interior design, focused on spatial composition, color theory, lighting, and graphic design, aimed at enhancing creative and technical skills for interior architectural projects.
-::::
-::::::
-
-:::::: timeline-item
-::: timeline-date
-2014-2020
-:::
-
-:::: timeline-content
-### Movetia Workshop
-
-#### PUCP & Bern University of Applied Sciences (BFH)
-
-::: minispacer
-:::
-
-International workshop held in Switzerland focused on timber construction techniques. Participants collaboratively designed and built a wooden installation in a public space, integrating sustainable practices and hands-on learning.
-::::
-::::::
-
-:::::: timeline-item
-::: timeline-date
-2014-2020
-:::
-
-:::: timeline-content
+:::::: timeline-content
 ### Specialization Course in Legal and Physical Land Regularization
 
 #### CAP - Peruvian Association of Architects
@@ -234,16 +258,68 @@ International workshop held in Switzerland focused on timber construction techni
 ::: minispacer
 :::
 
+::: expandable-text
 Course designed to provide technical and legal expertise in the regularization of urban and rural properties, following Peruvian legislation and procedures to formalize property rights and improve land management.
-::::
-::::::
+:::
 
-:::::: timeline-item
+::: toggle-button
+Show more
+:::
+::::::
+::::::::
+
+:::::::: timeline-item
+::: timeline-date
+2023-2024
+:::
+
+:::::: timeline-content
+### Diploma in Interior Design
+
+#### Toulouse Lautrec Institute
+
+::: minispacer
+:::
+
+::: expandable-text
+6-month specialization program in interior design, focused on spatial composition, color theory, lighting, and graphic design, aimed at enhancing creative and technical skills for interior architectural projects.
+:::
+
+::: toggle-button
+Show more
+:::
+::::::
+::::::::
+
+:::::::: timeline-item
+::: timeline-date
+2022
+:::
+
+:::::: timeline-content
+### Movetia Workshop
+
+#### PUCP & Bern University of Applied Sciences (BFH)
+
+::: minispacer
+:::
+
+::: expandable-text
+International workshop held in Switzerland focused on timber construction techniques. Participants collaboratively designed and built a wooden installation in a public space, integrating sustainable practices and hands-on learning.
+:::
+
+::: toggle-button
+Show more
+:::
+::::::
+::::::::
+
+:::::::: timeline-item
 ::: timeline-date
 2018-2019
 :::
 
-:::: timeline-content
+:::::: timeline-content
 ### Study-Abroad Semester \| MSc. ITECH
 
 #### University of Stuttgart
@@ -251,16 +327,22 @@ Course designed to provide technical and legal expertise in the regularization o
 ::: minispacer
 :::
 
+::: expandable-text
 Semester in the Integrative Technologies and Architectural Design Research (ITECH) programme, exploring the intersection of computational design, robotic fabrication, and architecture. Gained experience in parametric modeling, algorithmic design, and digital fabrication techniques.
-::::
-::::::
+:::
 
-:::::: timeline-item
+::: toggle-button
+Show more
+:::
+::::::
+::::::::
+
+:::::::: timeline-item
 ::: timeline-date
 2017
 :::
 
-:::: timeline-content
+:::::: timeline-content
 ### Adaptive Transport Machine Workshop
 
 #### Architectural Association Visiting School
@@ -268,25 +350,29 @@ Semester in the Integrative Technologies and Architectural Design Research (ITEC
 ::: minispacer
 :::
 
+::: expandable-text
 Workshop on adaptive mobility systems, focusing on generative design and responsive urban transport solutions. Engaged in parametric design and fabrication exploring how computational tools can optimize urban mobility and its adaptability.
-::::
-::::::
-:::::::::::::::::::::::::::::::
-
-::: spacer
 :::
 
-<h2 class="section-title">
+::: toggle-button
+Show more
+:::
+::::::
+::::::::
+:::::::::::::::::::::::::::::::::::::::::::::
 
+::: spacer2
+:::
+
+::: section-title
 Skills
-
-</h2>
+:::
 
 ::::::: skills-section
 ::: skill-group
 #### Programming
 
-[Python]{.skill-badge} [R]{.skill-badge} [SQL]{.skill-badge} [JavaScript]{.skill-badge} [Netlogo]{.skill-badge} [Google Earth Engine]{.skill-badge}
+[Python]{.skill-badge} [R]{.skill-badge} [SQL]{.skill-badge} [Netlogo]{.skill-badge} [Google Earth Engine]{.skill-badge}
 :::
 
 ::: skill-group
@@ -308,14 +394,18 @@ Skills
 :::
 :::::::
 
+::: spacer2
+:::
+
+::: section-title
+Awards and Accreditations
+:::
+
 ::: minispacer
 :::
 
-<h2 class="section-title">
-
-Awards and Accreditations
-
-</h2>
+::: minispacer
+:::
 
 :::::::::: card-list
 ::: card-item
@@ -374,3 +464,43 @@ Received the Excellence award of the Architecture and Urbanism Faculty, for outs
 Received the Excellence award of the Architecture and Urbanism Faculty, for outstanding students of the faculty.
 :::
 ::::::::::
+
+```{=html}
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const buttons = document.querySelectorAll('.toggle-button');
+
+    buttons.forEach(button => {
+      button.addEventListener('click', () => {
+        const textContainer = button.previousElementSibling;
+        textContainer.classList.toggle('expanded');
+        button.textContent = textContainer.classList.contains('expanded') ? 'Show less' : 'Show more';
+      });
+    });
+  });
+</script>
+```
+
+
+```{=html}
+<script>
+  // Función para alternar el texto expandido
+  function toggleText(button) {
+    const textElement = button.previousElementSibling;
+    textElement.classList.toggle("expanded");
+
+    button.textContent = textElement.classList.contains("expanded")
+      ? "Mostrar menos"
+      : "Mostrar más";
+  }
+
+  // Asegurar que los estilos iniciales se apliquen correctamente
+  document.addEventListener("DOMContentLoaded", function () {
+    setTimeout(() => {
+      document.querySelectorAll(".expandable-text").forEach(el => {
+        el.classList.add("collapsed"); // Si necesitas esta clase
+      });
+    }, 50);
+  });
+</script>
+```
