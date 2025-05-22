@@ -12,18 +12,18 @@
   {
     "listing": "/projects.html",
     "items": [
-      "/projects/urban-data-science/habitat_preservation.html",
-      "/projects/urban-design/tacna.html",
-      "/projects/urban-design/parque_sta_rosa.html",
-      "/projects/urban-design/pza_mercado.html",
-      "/projects/urban-data-science/nyc_evictions.html",
-      "/projects/urban-design/peprr.html",
-      "/projects/urban-data-science/dwelling_fires.html",
-      "/projects/urban-data-science/bikesharing.html",
-      "/projects/urban-design/hidro.html",
-      "/projects/urban-design/ayabaca.html",
+      "/projects/urban-design/pfc.html",
       "/projects/urban-data-science/cycling_accidents.html",
-      "/projects/urban-design/pfc.html"
+      "/projects/urban-design/ayabaca.html",
+      "/projects/urban-design/hidro.html",
+      "/projects/urban-data-science/bikesharing.html",
+      "/projects/urban-data-science/dwelling_fires.html",
+      "/projects/urban-design/peprr.html",
+      "/projects/urban-data-science/nyc_evictions.html",
+      "/projects/urban-design/pza_mercado.html",
+      "/projects/urban-design/parque_sta_rosa.html",
+      "/projects/urban-design/tacna.html",
+      "/projects/urban-data-science/habitat_preservation.html"
     ]
   }
 ]

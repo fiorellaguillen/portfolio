@@ -10,13 +10,125 @@ format:
 freeze: true
 ---
 
-### **Alternative urban model for Bajo Belen, Iquitos**
+This research proposes a **sustainable and adaptive urban model to address the challenges faced by the flood-prone neighborhood of Bajo Belen**, a cultural and economic hub in the Peruvian Amazon.
 
-This research proposes a sustainable and adaptive urban model to address the challenges faced by the flood-prone neighborhood of Bajo Belen, a cultural and economic hub in the Peruvian Amazon. Amid threats of relocation and the loss of territorial identity, the model aims to preserve the essence of Bajo Belen while avoiding current issues such as disconnection, overcrowding, and vulnerability to flooding. The proposal consists of a two-scale intervention: first, a master plan with three key intervention areas—connector, mitigator, and landscape borders—and transversal axes to integrate them; second, an urban and architectural design framework for elements like commerce, roads, housing, communal spaces, docks, and pools, tailored to local techniques, climate, and culture. This intervention demonstrates the potential for a new way of inhabiting the river, preserving social, economic, and environmental connections while ensuring a safe and dignified future for the community.
+Amid threats of relocation and the loss of territorial identity, the model aims to preserve the essence of Bajo Belen while avoiding current issues such as disconnection, overcrowding, and vulnerability to flooding.
+
+The proposal consists of a **two-scale intervention**: first, a **master plan** with three key intervention areas—connector, mitigator, and landscape borders—and transversal axes to integrate them; second, an **urban and architectural design** framework for elements like commerce, roads, housing, communal spaces, docks, and pools, tailored to local techniques, climate, and culture.
+
+This intervention demonstrates the potential for a new way of inhabiting the river, preserving social, economic, and environmental connections while ensuring a safe and dignified future for the community.
+
+::: caption
+Project phases
+:::
 
 ![](../../images/iso_pfc.gif){fig-align="center"}
 
+### Renders
+
+::: minispacer
+:::
+
 ![](../../images/pfc.gif){fig-align="center"}
 
-{{< video https://youtu.be/yqOHqQDk1jY >}}
+### Flood and dry season adaptation
 
+::: minispacer
+:::
+
+::: caption
+Section of the project in both seasons
+:::
+
+::::: {#slider1 .image-slider}
+<img src="/images/pfc_vaciante.png"/>
+
+::: overlay
+<img src="/images/pfc_creciente.png"/>
+:::
+
+::: slider-handle
+:::
+:::::
+
+::: caption
+View of one of the piers in both seasons
+:::
+
+::::: {#slider2 .image-slider}
+<img src="/images/pfc_vaciante2.png"/>
+
+::: overlay
+<img src="/images/pfc_creciente2.png"/>
+:::
+
+::: slider-handle
+:::
+:::::
+
+```{=html}
+<script>
+  function initImageSlider(slider) {
+    const overlay = slider.querySelector('.overlay');
+    const handle = slider.querySelector('.slider-handle');
+    const imgBase = slider.querySelector('img');
+
+    function syncOverlaySize() {
+      const rect = imgBase.getBoundingClientRect();
+      overlay.querySelector('img').style.width = rect.width + 'px';
+      overlay.querySelector('img').style.height = rect.height + 'px';
+    }
+
+    function updateSlider(x) {
+      const rect = slider.getBoundingClientRect();
+      let pos = Math.max(0, Math.min(x - rect.left, rect.width));
+      const percentage = (pos / rect.width) * 100;
+      overlay.style.width = percentage + '%';
+      handle.style.left = percentage + '%';
+    }
+
+    let isDragging = false;
+
+    function startDrag(e) {
+      isDragging = true;
+      e.preventDefault();
+    }
+
+    function stopDrag() {
+      isDragging = false;
+    }
+
+    function doDrag(e) {
+      if (!isDragging) return;
+      if (e.touches) {
+        updateSlider(e.touches[0].clientX);
+      } else {
+        updateSlider(e.clientX);
+      }
+    }
+
+    window.addEventListener('resize', syncOverlaySize);
+    window.addEventListener('load', syncOverlaySize);
+
+    handle.addEventListener('mousedown', startDrag);
+    handle.addEventListener('touchstart', startDrag);
+    window.addEventListener('mousemove', doDrag);
+    window.addEventListener('touchmove', doDrag);
+    window.addEventListener('mouseup', stopDrag);
+    window.addEventListener('touchend', stopDrag);
+  }
+
+  // Inicializa todos los sliders automáticamente
+  window.addEventListener('DOMContentLoaded', () => {
+    const sliders = document.querySelectorAll('.image-slider');
+    sliders.forEach(slider => initImageSlider(slider));
+  });
+</script>
+```
+
+### Project video
+
+::: minispacer
+:::
+
+{{< video https://youtu.be/yqOHqQDk1jY >}}

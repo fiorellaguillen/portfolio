@@ -11,11 +11,11 @@ format:
 freeze: true
 ---
 
-This project focuses on enhancing sustainable urban mobility and revitalizing public space along Ayabaca street, within the district of Rímac in Lima. The intervention redefines the street as a space for people rather than cars, connecting it with nearby landmarks such as the Barraganes square and the adjacent church, while reinforcing local heritage elements like old tram lines and religious routes.
+This project focuses on **enhancing sustainable urban mobility and revitalizing public space along Ayabaca street**, within the district of Rímac in Lima. The intervention redefines the street as a space for people rather than cars, connecting it with nearby landmarks such as the Barraganes square and the adjacent church, while reinforcing local heritage elements like old tram lines and religious routes.
 
 The proposal promotes walkability, expands green areas, and introduces new public uses such as playgrounds, sports zones, and community gardens. Sidewalks and streets are reconfigured to respond to current mobility needs, and the public realm is upgraded with urban furniture, lighting, and vegetation.
 
-Integrated into broader urban and heritage projects—including the Río Rímac Special Landscape Project—this intervention aims to reactivate neighborhood life, enhance cultural value, and improve the overall quality of the urban environment.
+Integrated into the broader urban and heritage projects of the PEPRR, this intervention aims to **reactivate neighborhood life, enhance cultural value, and improve the overall quality of the urban environment**.
 
 ::: caption
 Project's plan

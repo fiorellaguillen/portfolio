@@ -33,10 +33,10 @@ Riverbank intervention strategies' catalog
 
 :::: my-gallery-outer
 ::: my-gallery
-![](/images/hidro4.png){group="my-gallery"}
+![Hydraulic variable diagnostics by study segments](/images/hidro4.png){.hide-caption group="my-gallery"}
 
-![](/images/hidro5.png){group="my-gallery"}
+![Flow depth during flood season of the Rímac River](/images/hidro5.png){.hide-caption group="my-gallery"}
 
-![](/images/hidro6.png){group="my-gallery"}
+![Maximum flow velocities of the Rímac River](/images/hidro6.png){.hide-caption group="my-gallery"}
 :::
 ::::

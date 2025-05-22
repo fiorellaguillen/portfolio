@@ -14,6 +14,8 @@ This **agent-based model**, developed in **NetLogo**, simulates bikesharing dyna
 
 It demonstrates my ability to integrate urban mobility data, behavioral modeling, and simulation techniques to support data-driven transport planning.
 
+### Demo
+
 ::: caption
 ABM demo
 :::

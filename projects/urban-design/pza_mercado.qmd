@@ -11,7 +11,7 @@ format:
 freeze: true
 ---
 
-This project seeks to reclaim and redesign the public space around the Santa Rosa Flower Market, located along the Tacna Avenue corridor in Lima’s Historic Center. The intervention reimagines this key urban node as a vibrant plaza that prioritizes pedestrians, reorganizes vehicular flow, and enhances connections to surrounding heritage and mobility networks.
+This project seeks to **reclaim and redesign the public space around the Santa Rosa Flower Market**, located along the Tacna Avenue corridor in Lima’s Historic Center. The intervention reimagines this key urban node as a **vibrant plaza that prioritizes pedestrians, reorganizes vehicular flow, and enhances connections to surrounding heritage and mobility networks**.
 
 The design draws inspiration from the historical Qhapaq Ñan route and incorporates local landmarks into a renewed civic experience. Through a phased approach, the first stage reclaims underused street areas to create a new plaza adjacent to the market, providing shaded resting spaces, green elements, and improved transit access. New pavement treatments, tree planting, street furniture, and interpretive features enrich the spatial quality and cultural value of the area.
 
@@ -21,19 +21,19 @@ In the second phase, nearby Espinoza Street will be reconfigured with a single-l
 Project isometric view
 :::
 
-![](/images/pzamercado_iso.png) 
+![](/images/pzamercado_iso.png)
 
 ::: caption
 Design of the square including heritage and contemporary aspects
 :::
 
-![](/images/pzamercado1.png) 
+![](/images/pzamercado1.png)
 
 ::: caption
 Integration of the bus stop on the design
 :::
 
-![](/images/pzamercado2.png) 
+![](/images/pzamercado2.png)
 
 ::: caption
 General view of the project

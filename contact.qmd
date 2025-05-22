@@ -1,30 +1,74 @@
-# Let's connect! {.unnumbered}
+<h3 class="section-title">
+Let's connect!
+</h3>
 
+:::spacer2
+:::
 If you would like to collaborate or discuss about research or projects in urban spatial science, feel free to reach out!
 
-```{=html}
-<div class="github-card" id="github-card">
-    <!-- Header con el logo de GitHub -->
-    <div class="github-header">
-        <a id="github-profile-link" href="#" target="_blank">
-            <img id="github-logo" src="https://pngimg.com/uploads/github/github_PNG23.png" alt="GitHub Logo">
-        </a>
-    </div>
-    
-    <div class="github-body">
-        <img id="github-avatar" class="github-avatar" src="" alt="GitHub Avatar">
-        <div>
-            <h3 id="github-name"></h3>
-            <p id="github-username"></p>
-        </div>
-    </div>
-    <p id="github-bio"></p>
-    <a id="github-link" href="#" target="_blank" class="github-button">See profile</a>
+::::::::::: card-container
+:::::: {#github-card .github-card}
+::: github-header
+<a id="github-profile-link" href="#" target="_blank"> <img src="https://pngimg.com/uploads/github/github_PNG23.png" alt="GitHub Logo" id="github-logo"/> </a>
+:::
+
+:::: github-body
+<img alt="GitHub Avatar" id="github-avatar" class="github-avatar"/>
+
+<div>
+
+<h3 id="github-name">
+
+</h3>
+
+<p id="github-username">
+
+</p>
+
 </div>
-```
+::::
+
+<p id="github-bio">
+
+</p>
+
+<a id="github-link" href="#" target="_blank" class="github-button">See profile</a>
+::::::
+
+:::::: {#linkedin-card .linkedin-card}
+::: linkedin-header
+<a id="linkedin-profile-link" href="#" target="_blank"> <img src="https://logos-world.net/wp-content/uploads/2020/05/Linkedin-Logo.png" alt="LinkedIn Logo" id="linkedin-logo"/> </a>
+:::
+
+:::: linkedin-body
+<img alt="LinkedIn Avatar" id="linkedin-avatar" class="linkedin-avatar"/>
+
+<div>
+
+<h3 id="linkedin-name">
+
+</h3>
+
+<p id="linkedin-username">
+
+</p>
+
+</div>
+::::
+
+<p id="linkedin-bio">
+
+</p>
+
+<a id="linkedin-link" href="#" target="_blank" class="linkedin-button">See profile</a>
+::::::
+:::::::::::
+
+<!-- Cierre del contenedor card-container -->
 
 ```{=html}
 <script>
+    // GitHub
     fetch('https://api.github.com/users/fiorellaguillen')
     .then(response => response.json())
     .then(data => {
@@ -33,63 +77,86 @@ If you would like to collaborate or discuss about research or projects in urban 
         document.getElementById('github-username').textContent = "@" + data.login;
         document.getElementById('github-bio').textContent = data.bio || "No bio available";
         document.getElementById('github-link').href = data.html_url;
-        document.getElementById('github-profile-link').href = data.html_url; // Enlace en el logo de GitHub
+        document.getElementById('github-profile-link').href = data.html_url;
     });
+
+    // LinkedIn (estático)
+    document.getElementById('linkedin-avatar').src = "https://media.licdn.com/dms/image/v2/D5603AQG2eh1cOz_Fpg/profile-displayphoto-shrink_400_400/B56ZU4S6xeHEAo-/0/1740406238917?e=1753315200&v=beta&t=RTY7gqTMHgd92WIA87uGp3QDm7DuS28HTU78Gwx_9AQ";
+    document.getElementById('linkedin-name').textContent = "Roxana Fiorella Guillen Hurtado";
+    document.getElementById('linkedin-username').textContent = "@fiorellaguillenh";
+    document.getElementById('linkedin-bio').textContent = "MSc Urban Spatial Science 2024-25 | UCL";
+    document.getElementById('linkedin-link').href = "https://www.linkedin.com/in/fiorellaguillenh/";
+    document.getElementById('linkedin-profile-link').href = "https://www.linkedin.com/in/fiorellaguillenh/";
 </script>
 ```
 
 ```{=html}
 <style>
-    .github-card {
-        border: 1px solid #ddd;
-        border-radius: 10px;
-        width: 280px;
-        font-family: Arial, sans-serif;
-        padding: 15px;
-        text-align: left;
-        background-color: white;
-        position: relative;
-    }
-    
-    /* Estilos para el header y el logo */
-    .github-header {
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    /* Quité align-items para que no centre verticalmente */
+    /* align-items: center; */
+    min-height: auto; /* No queremos que el contenedor tenga altura fija */
+}
+
+.github-card, .linkedin-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 280px;
+    min-height: 320px;   /* Altura mínima igual para ambas */
+    font-family: Arial, sans-serif;
+    padding: 15px;
+    text-align: left;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    align-self: flex-start; /* Alineación arriba */
+}
+
+    .github-header, .linkedin-header {
         display: flex;
         justify-content: left;
-        padding: 1px 0;
+        padding: 5px 0;
         border-bottom: 1px solid #ddd;
-        background-color: #fffff
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
     }
+
     .github-header img#github-logo {
-        width: 100px; /* Ajusta el tamaño del logo */
+        width: 100px;
         height: auto;
     }
 
-    /* Estilos para la foto de perfil */
-    .github-body {
+    .linkedin-header img#linkedin-logo {
+        width: 80px;
+        height: auto;
+    }
+
+    .github-body, .linkedin-body {
         display: flex;
         align-items: center;
-        padding: 10px;
+        padding: 10px 0;
     }
-    .github-avatar {
+
+    .github-avatar, .linkedin-avatar {
         border-radius: 50%;
-        height: 60px; /* Ajusta solo la foto de perfil */
+        height: 60px;
         width: 60px;
         margin-right: 10px;
     }
 
-    .github-card h3 {
+    .github-card h3, .linkedin-card h3 {
         margin: 0;
         font-size: 15px;
     }
-    .github-card p {
+
+    .github-card p, .linkedin-card p {
         margin: 5px 0;
         font-size: 14px;
         color: #555;
     }
 
-    /* Botón "See profile" con borde azul y texto en negrita */
     .github-button {
         display: block;
         text-align: center;
@@ -102,100 +169,12 @@ If you would like to collaborate or discuss about research or projects in urban 
         font-weight: bold;
         background-color: white;
     }
+
     .github-button:hover {
         background-color: #0366d6;
         color: white;
     }
-</style>
-```
 
-::: {style="height: 20px;"}
-:::
-
-```{=html}
-<div class="linkedin-card" id="linkedin-card">
-    <!-- Header con el logo de LinkedIn -->
-    <div class="linkedin-header">
-        <a id="linkedin-profile-link" href="#" target="_blank">
-            <img id="linkedin-logo" src="https://logos-world.net/wp-content/uploads/2020/05/Linkedin-Logo.png" alt="LinkedIn Logo">
-        </a>
-    </div>
-    
-    <div class="linkedin-body">
-        <img id="linkedin-avatar" class="linkedin-avatar" src="" alt="LinkedIn Avatar">
-        <div>
-            <h3 id="linkedin-name"></h3>
-            <p id="linkedin-username"></p>
-        </div>
-    </div>
-    <p id="linkedin-bio"></p>
-    <a id="linkedin-link" href="#" target="_blank" class="linkedin-button">See profile</a>
-</div>
-```
-
-```{=html}
-<script>
-    document.getElementById('linkedin-avatar').src = "https://media.licdn.com/dms/image/v2/D5603AQEPsxN1hTK7kg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1730133140348?e=1745452800&v=beta&t=730lcQVjH_IU4qJk-dpOafFrg7WGmaUuuWDi5X_N92Y";
-    document.getElementById('linkedin-name').textContent = "Roxana Fiorella Guillen Hurtado";
-    document.getElementById('linkedin-username').textContent = "@fiorellaguillenh";
-    document.getElementById('linkedin-bio').textContent = "MSc Urban Spatial Science 2024-25 | UCL";
-    document.getElementById('linkedin-link').href = "https://www.linkedin.com/in/fiorellaguillenh/";
-    document.getElementById('linkedin-profile-link').href = "https://www.linkedin.com/in/fiorellaguillenh/";
-</script>
-```
-
-```{=html}
-<style>
-    .linkedin-card {
-        border: 1px solid #ddd;
-        border-radius: 10px;
-        width: 280px;
-        font-family: Arial, sans-serif;
-        padding: 15px;
-        text-align: left;
-        background-color: white;
-        position: relative;
-    }
-    
-    /* Estilos para el header y el logo */
-    .linkedin-header {
-        display: flex;
-        justify-content: left;
-        padding: 01x 0;
-        border-bottom: 1px solid #ddd;
-        background-color: #ffffff;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }
-    .linkedin-header img#linkedin-logo {
-        width: 80px; /* Ajusta el tamaño del logo */
-        height: auto;
-    }
-
-    /* Estilos para la foto de perfil */
-    .linkedin-body {
-        display: flex;
-        align-items: center;
-        padding: 10px;
-    }
-    .linkedin-avatar {
-        border-radius: 50%;
-        height: 60px; /* Ajusta solo la foto de perfil */
-        width: 60px;
-        margin-right: 10px;
-    }
-
-    .linkedin-card h3 {
-        margin: 0;
-        font-size: 15px;
-    }
-    .linkedin-card p {
-        margin: 5px 0;
-        font-size: 14px;
-        color: #555;
-    }
-
-    /* Botón "See profile" con borde azul y texto en negrita */
     .linkedin-button {
         display: block;
         text-align: center;
@@ -208,6 +187,7 @@ If you would like to collaborate or discuss about research or projects in urban 
         font-weight: bold;
         background-color: white;
     }
+
     .linkedin-button:hover {
         background-color: #0a66c2;
         color: white;

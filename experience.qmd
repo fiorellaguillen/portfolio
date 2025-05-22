@@ -1,69 +1,376 @@
-# Work Experience {.unnumbered}
+---
+title: ""
+format:
+  html:
+    toc: false
+    css: styles.css
+---
 
-### **Student Ambassador \|** The Bartlett, UCL ( 12. 2024 - Present)
+<h3 class="section-title">
+Work experience
+</h3>
+
+:::spacer2
+:::
+
+::::::::::::::::::::::::::: timeline
+:::::: timeline-item
+::: timeline-date
+12.2024 - Present
+:::
+
+:::: timeline-content
+### Bartlett Student Ambassador
+
+#### UCL - The Bartlett Faculty of the Built Environment
+
+::: minispacer
+:::
 
 Represented The Bartlett in academic and outreach initiatives, engaging with prospective students and the university community.
 
--   Provided guidance on the MSc Urban Spatial Science program through events, Q&A sessions, and mentoring.
+• Provided guidance on the MSc Urban Spatial Science program through events, Q&A sessions, and mentoring.
 
--   Supported public engagement and communication, enhancing visibility of The Bartlett’s student experience in social media through content creation.
+• Supported public engagement and communication, enhancing visibility of The Bartlett’s student experience in social media
+::::
+::::::
 
-------------------------------------------------------------------------
+:::::: timeline-item
+::: timeline-date
+10.2021 - 09.2024
+:::
 
-### **Urban Designer \|** Municipality of Lima (10. 2021 - 09. 2024)
+:::: timeline-content
+### Urban designer
+
+#### Municipality of Lima, Peru
+
+::: minispacer
+:::
 
 Part of the core team for the Special Landscape Project for the Rimac River (PEPRR), one of the largest urban projects in Peru, focused on revitalizing Lima’s Historic Centre.
 
--   Led the urban analysis and design of public spaces, including plazas, streets, and avenues, incorporating sustainable mobility principles such as pedestrian-friendly streets and bicycle lane networks.
+• Led the urban analysis and design of public spaces, including plazas, streets, and avenues, incorporating sustainable mobility principles such as pedestrian-friendly streets and bicycle lane networks.
 
--   Contributed to the redesign of vehicular and pedestrian transit, prioritizing accessibility and sustainable transport solutions.
+• Contributed to the redesign of vehicular and pedestrian transit, prioritizing accessibility and sustainable transport solutions.
 
--   Developed design guidelines to inform urban policy and facilitate interinstitutional coordination with local authorities.
+• Developed design guidelines to inform urban policy and facilitate interinstitutional coordination with local authorities.
 
--   Managed the visualization and dissemination of project progress through stakeholder meetings, exhibitions, videos and publications.
+• Managed the visualization and dissemination of project progress through stakeholder meetings, exhibitions, videos and publications.
+::::
+::::::
 
-![](images/peprr.png)
+:::::: timeline-item
+::: timeline-date
+02.2021 - 10.2021
+:::
 
-{{< video https://www.youtube.com/watch?v=g--IDi_i3xs>}}
+:::: timeline-content
+### Urban Designer
 
-------------------------------------------------------------------------
+#### Cordillera Sur - Architecture Firm
 
-### **Urban Designer \|** Cordillera Sur (02.2021 - 10.2021)
+::: minispacer
+:::
 
 Contributed to landscape, architecture, and urban design projects with a focus on environmental and cultural sustainability.
 
--   Developed landscape design for memorial and public space projects, integrating ecological restoration principles.
+• Developed landscape design for memorial and public space projects, integrating ecological restoration principles.
 
--   Designed visual communication materials for competitions and public presentations, showcasing urban proposals.
+• Designed visual communication materials for competitions and public presentations, showcasing urban proposals.
+::::
+::::::
 
-![](images/cordillera.png){fig-align="center"}
+:::::: timeline-item
+::: timeline-date
+12.2021
+:::
 
-------------------------------------------------------------------------
+:::: timeline-content
+### Speaker
 
-### **Speaker \|** (12.2021 & 10.2021)
+#### Friedrich Ebert Foundation & ‘Acuerdo por Iquitos’ Foundation
 
-#### **Friedrich Ebert Foundation & ‘Acuerdo por Iquitos’ Foundation**
+::: minispacer
+:::
 
 Presented two lectures in the forum ‘A better urban future for Iquitos’:
 
--   Inhabiting the river: alternative urban model for the neighborhood of Bajo Belen, Iquitos.
+• Inhabiting the river: alternative urban model for the neighborhood of Bajo Belen, Iquitos.
 
--   Inhabiting the river: rethinking housing and the Amazonian neighborhood in Bajo Belen, Iquitos.
+• Inhabiting the river: rethinking housing and the Amazonian neighborhood in Bajo Belen, Iquitos.
+::::
+::::::
 
-#### **UPC - Polytechnic University of Catalonia**
+:::::: timeline-item
+::: timeline-date
+10.2021
+:::
+
+:::: timeline-content
+### Speaker
+
+#### UPC - Polytechnic University of Catalonia 10.2021
+
+::: minispacer
+:::
 
 Presented a lecture in the module "Architecture and Cooperation 2021" given at the ETSAV-UPC.
 
--   Lecture: Inhabiting the river: towards an alternative urban model for the flood-prone neighborhood of Bajo Belen.
+• Lecture: Inhabiting the river: towards an alternative urban model for the flood-prone neighborhood of Bajo Belen.
+::::
+::::::
 
-------------------------------------------------------------------------
+:::::: timeline-item
+::: timeline-date
+01.2018 - 08.2018
+:::
 
-### **Research Intern \|** HOME \[Self-Sustainable Amazonian Cities\] - Research project (01. 2018 - 08.2018)
+:::: timeline-content
+### Research intern
+
+#### HOME \[Self-Sustainable Amazonian Cities\] - Research project
+
+::: minispacer
+:::
 
 Contributed to an action-research project on climate-induced population resettlement in Peru, developed by PUCP’s Research Center for Architecture and the City in collaboration with UCL’s Development Planning Unit.
 
--   Assisted in creating visual materials and designing two research publications and one planning guide.
+• Assisted in creating visual materials and designing two research publications and one guide.
 
--   Supported research on urban planning and urban design guidelines for the peruvian Amazon.
+• Supported research on urban planning and urban design guidelines for the peruvian Amazon.
+::::
+::::::
+:::::::::::::::::::::::::::
 
-![](images/casa.png){fig-align="center"}
+::: spacer
+:::
+
+<h2 class="section-title">
+
+Education
+
+</h2>
+
+::::::::::::::::::::::::::::::: timeline
+:::::: timeline-item
+::: timeline-date
+2024-2025
+:::
+
+:::: timeline-content
+### MSc Urban Spatial Science
+
+#### UCL - The Bartlett Centre for Advanced Spatial Analysis
+
+::: minispacer
+:::
+
+Master’s programme focused on integrating data science and spatial analysis. Modules included Data Science for Spatial Systems, GIS, Quantitative Methods, Urban Simulation, Agent-based Modelling, Building Spatial Applications with Big Data, Remote Sensing, among others.
+::::
+::::::
+
+:::::: timeline-item
+::: timeline-date
+2014-2020
+:::
+
+:::: timeline-content
+### Bachelor in architecture
+
+#### PUCP - Faculty of Architecture and Urbanism
+
+::: minispacer
+:::
+
+11-semester programme with a strong focus on urbanism. Included modules in sustainable urban design, spatial analysis and urban planning. Awarded for an outstanding thesis on urban design, applying innovative approaches to vulnerable neighborhoods and housing.
+::::
+::::::
+
+:::::: timeline-item
+::: timeline-date
+2014-2020
+:::
+
+:::: timeline-content
+### Diploma in Interior Design
+
+#### Toulouse Lautrec Institute
+
+::: minispacer
+:::
+
+6-month specialization program in interior design, focused on spatial composition, color theory, lighting, and graphic design, aimed at enhancing creative and technical skills for interior architectural projects.
+::::
+::::::
+
+:::::: timeline-item
+::: timeline-date
+2014-2020
+:::
+
+:::: timeline-content
+### Movetia Workshop
+
+#### PUCP & Bern University of Applied Sciences (BFH)
+
+::: minispacer
+:::
+
+International workshop held in Switzerland focused on timber construction techniques. Participants collaboratively designed and built a wooden installation in a public space, integrating sustainable practices and hands-on learning.
+::::
+::::::
+
+:::::: timeline-item
+::: timeline-date
+2014-2020
+:::
+
+:::: timeline-content
+### Specialization Course in Legal and Physical Land Regularization
+
+#### CAP - Peruvian Association of Architects
+
+::: minispacer
+:::
+
+Course designed to provide technical and legal expertise in the regularization of urban and rural properties, following Peruvian legislation and procedures to formalize property rights and improve land management.
+::::
+::::::
+
+:::::: timeline-item
+::: timeline-date
+2018-2019
+:::
+
+:::: timeline-content
+### Study-Abroad Semester \| MSc. ITECH
+
+#### University of Stuttgart
+
+::: minispacer
+:::
+
+Semester in the Integrative Technologies and Architectural Design Research (ITECH) programme, exploring the intersection of computational design, robotic fabrication, and architecture. Gained experience in parametric modeling, algorithmic design, and digital fabrication techniques.
+::::
+::::::
+
+:::::: timeline-item
+::: timeline-date
+2017
+:::
+
+:::: timeline-content
+### Adaptive Transport Machine Workshop
+
+#### Architectural Association Visiting School
+
+::: minispacer
+:::
+
+Workshop on adaptive mobility systems, focusing on generative design and responsive urban transport solutions. Engaged in parametric design and fabrication exploring how computational tools can optimize urban mobility and its adaptability.
+::::
+::::::
+:::::::::::::::::::::::::::::::
+
+::: spacer
+:::
+
+<h2 class="section-title">
+
+Skills
+
+</h2>
+
+::::::: skills-section
+::: skill-group
+#### Programming
+
+[Python]{.skill-badge} [R]{.skill-badge} [SQL]{.skill-badge} [JavaScript]{.skill-badge} [Netlogo]{.skill-badge} [Google Earth Engine]{.skill-badge}
+:::
+
+::: skill-group
+#### Design software
+
+[Autocad]{.skill-badge} [Archicad]{.skill-badge} [Sketchup]{.skill-badge} [Rhinoceros]{.skill-badge} [Grasshopper]{.skill-badge} [Adobe suite]{.skill-badge}
+:::
+
+::: skill-group
+#### Soft Skills
+
+[Stakeholder engagement]{.skill-badge} [Effective communication]{.skill-badge} [Critical thinking]{.skill-badge} [Creativity]{.skill-badge}
+:::
+
+::: skill-group
+#### Languages
+
+[Spanish - Native]{.skill-badge} [English - Professional proficiency]{.skill-badge} [German - Intermediate proficiency]{.skill-badge}
+:::
+:::::::
+
+::: minispacer
+:::
+
+<h2 class="section-title">
+
+Awards and Accreditations
+
+</h2>
+
+:::::::::: card-list
+::: card-item
+### Registered Architect
+
+#### Peruvian Association of Architects
+
+Licensed and authorized to practice architecture in Peru, including the design, supervision, and execution of architectural and urban projects in accordance with national regulations.
+:::
+
+::: card-item
+### Urban Verifier
+
+#### SUNARP (National Superintendency of Public Registries)
+
+Accredited by SUNARP to verify and validate the technical and legal aspects of urban and rural property documentation, ensuring compliance with the requirements for registration in public records.
+:::
+
+::: card-item
+### Bicentennial Generation Scholarship
+
+#### Peruvian Government
+
+Awarded to Peruvian professionals of high academic performance to finance their postgraduate studies.
+:::
+
+::: card-item
+### International Grand Prize for Sustainable Urban Design
+
+#### V Edition of the Architectural and Urban Sustainable Design Award - ADUS 2021
+
+Recognition for the Special Landscape Project for the Rimac River, a proposal for the recovery of historic public spaces in Lima.
+:::
+
+::: card-item
+### Circular economy and sustainability
+
+#### International Biennial of Architecture and Urbanism - CAP, PERU
+
+Received this award for one of the interventions of the Special Landscape Project for the Rimac river.
+:::
+
+::: card-item
+### 2022 Excellence award
+
+#### Faculty of Architecture and Urbanism PUCP
+
+Received the Excellence award of the Architecture and Urbanism Faculty, for outstanding students of the faculty.
+:::
+
+::: card-item
+### 2018 Excellence award
+
+#### Faculty of Architecture and Urbanism PUCP
+
+Received the Excellence award of the Architecture and Urbanism Faculty, for outstanding students of the faculty.
+:::
+::::::::::

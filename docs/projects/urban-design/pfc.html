@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Plaza Sostenible – Portfolio</title>
+<title>Alternative urban model for Bajo Belen, Iquitos – Portfolio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -99,7 +99,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../experience.html"> 
-<span class="menu-text">WORK EXPERIENCE</span></a>
+<span class="menu-text">EXPERIENCE</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../contact.html"> 
@@ -121,7 +121,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#alternative-urban-model-for-bajo-belen-iquitos" id="toc-alternative-urban-model-for-bajo-belen-iquitos" class="nav-link active" data-scroll-target="#alternative-urban-model-for-bajo-belen-iquitos"><strong>Alternative urban model for Bajo Belen, Iquitos</strong></a></li>
+  <li><a href="#renders" id="toc-renders" class="nav-link active" data-scroll-target="#renders">Renders</a></li>
+  <li><a href="#flood-and-dry-season-adaptation" id="toc-flood-and-dry-season-adaptation" class="nav-link" data-scroll-target="#flood-and-dry-season-adaptation">Flood and dry season adaptation</a></li>
+  <li><a href="#project-video" id="toc-project-video" class="nav-link" data-scroll-target="#project-video">Project video</a></li>
   </ul>
 </nav>
     </div>
@@ -130,7 +132,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Plaza Sostenible</h1>
+<h1 class="title">Alternative urban model for Bajo Belen, Iquitos</h1>
   <div class="quarto-categories">
     <div class="quarto-category">Urban Design</div>
   </div>
@@ -150,18 +152,120 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="alternative-urban-model-for-bajo-belen-iquitos" class="level3">
-<h3 class="anchored" data-anchor-id="alternative-urban-model-for-bajo-belen-iquitos"><strong>Alternative urban model for Bajo Belen, Iquitos</strong></h3>
-<p>This research proposes a sustainable and adaptive urban model to address the challenges faced by the flood-prone neighborhood of Bajo Belen, a cultural and economic hub in the Peruvian Amazon. Amid threats of relocation and the loss of territorial identity, the model aims to preserve the essence of Bajo Belen while avoiding current issues such as disconnection, overcrowding, and vulnerability to flooding. The proposal consists of a two-scale intervention: first, a master plan with three key intervention areas—connector, mitigator, and landscape borders—and transversal axes to integrate them; second, an urban and architectural design framework for elements like commerce, roads, housing, communal spaces, docks, and pools, tailored to local techniques, climate, and culture. This intervention demonstrates the potential for a new way of inhabiting the river, preserving social, economic, and environmental connections while ensuring a safe and dignified future for the community.</p>
+<p>This research proposes a <strong>sustainable and adaptive urban model to address the challenges faced by the flood-prone neighborhood of Bajo Belen</strong>, a cultural and economic hub in the Peruvian Amazon.</p>
+<p>Amid threats of relocation and the loss of territorial identity, the model aims to preserve the essence of Bajo Belen while avoiding current issues such as disconnection, overcrowding, and vulnerability to flooding.</p>
+<p>The proposal consists of a <strong>two-scale intervention</strong>: first, a <strong>master plan</strong> with three key intervention areas—connector, mitigator, and landscape borders—and transversal axes to integrate them; second, an <strong>urban and architectural design</strong> framework for elements like commerce, roads, housing, communal spaces, docks, and pools, tailored to local techniques, climate, and culture.</p>
+<p>This intervention demonstrates the potential for a new way of inhabiting the river, preserving social, economic, and environmental connections while ensuring a safe and dignified future for the community.</p>
+<div class="caption">
+<p>Project phases</p>
+</div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../../images/iso_pfc.gif" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
 </div>
+<section id="renders" class="level3">
+<h3 class="anchored" data-anchor-id="renders">Renders</h3>
+<div class="minispacer">
+
+</div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../../images/pfc.gif" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
+</div>
+</section>
+<section id="flood-and-dry-season-adaptation" class="level3">
+<h3 class="anchored" data-anchor-id="flood-and-dry-season-adaptation">Flood and dry season adaptation</h3>
+<div class="minispacer">
+
+</div>
+<div class="caption">
+<p>Section of the project in both seasons</p>
+</div>
+<div id="slider1" class="image-slider">
+<p><img src="../../images/pfc_vaciante.png"></p>
+<div class="overlay">
+<p><img src="../../images/pfc_creciente.png"></p>
+</div>
+<div class="slider-handle">
+
+</div>
+</div>
+<div class="caption">
+<p>View of one of the piers in both seasons</p>
+</div>
+<div id="slider2" class="image-slider">
+<p><img src="../../images/pfc_vaciante2.png"></p>
+<div class="overlay">
+<p><img src="../../images/pfc_creciente2.png"></p>
+</div>
+<div class="slider-handle">
+
+</div>
+</div>
+<script>
+  function initImageSlider(slider) {
+    const overlay = slider.querySelector('.overlay');
+    const handle = slider.querySelector('.slider-handle');
+    const imgBase = slider.querySelector('img');
+
+    function syncOverlaySize() {
+      const rect = imgBase.getBoundingClientRect();
+      overlay.querySelector('img').style.width = rect.width + 'px';
+      overlay.querySelector('img').style.height = rect.height + 'px';
+    }
+
+    function updateSlider(x) {
+      const rect = slider.getBoundingClientRect();
+      let pos = Math.max(0, Math.min(x - rect.left, rect.width));
+      const percentage = (pos / rect.width) * 100;
+      overlay.style.width = percentage + '%';
+      handle.style.left = percentage + '%';
+    }
+
+    let isDragging = false;
+
+    function startDrag(e) {
+      isDragging = true;
+      e.preventDefault();
+    }
+
+    function stopDrag() {
+      isDragging = false;
+    }
+
+    function doDrag(e) {
+      if (!isDragging) return;
+      if (e.touches) {
+        updateSlider(e.touches[0].clientX);
+      } else {
+        updateSlider(e.clientX);
+      }
+    }
+
+    window.addEventListener('resize', syncOverlaySize);
+    window.addEventListener('load', syncOverlaySize);
+
+    handle.addEventListener('mousedown', startDrag);
+    handle.addEventListener('touchstart', startDrag);
+    window.addEventListener('mousemove', doDrag);
+    window.addEventListener('touchmove', doDrag);
+    window.addEventListener('mouseup', stopDrag);
+    window.addEventListener('touchend', stopDrag);
+  }
+
+  // Inicializa todos los sliders automáticamente
+  window.addEventListener('DOMContentLoaded', () => {
+    const sliders = document.querySelectorAll('.image-slider');
+    sliders.forEach(slider => initImageSlider(slider));
+  });
+</script>
+</section>
+<section id="project-video" class="level3">
+<h3 class="anchored" data-anchor-id="project-video">Project video</h3>
+<div class="minispacer">
+
 </div>
 <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/yqOHqQDk1jY" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 

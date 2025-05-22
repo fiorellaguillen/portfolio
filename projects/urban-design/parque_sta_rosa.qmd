@@ -10,13 +10,14 @@ format:
     page-layout: full
 freeze: true
 ---
-This project reimagines Santa Rosa Park and its surrounding streets - an area of historical, urban, and social significance in Lima’s Historic Center. The current car-centric design has diminished its heritage value and limited pedestrian and cyclist access.
 
-The proposal prioritizes sustainable and active mobility as a strategy for revitalization. Key interventions include diverting vehicular traffic away from Jr. Conde de Superunda, creating a shared street with widened sidewalks, and improving pedestrian connectivity between the park and the Basilica.
+This project reimagines Santa Rosa Park and its surrounding streets - an area of historical, urban, and social significance in Lima’s Historic Center, where the current car-centric design has diminished its heritage value and limited pedestrian and cyclist access.
+
+The proposal prioritizes **sustainable and active mobility as a strategy for revitalization**. Key interventions include diverting vehicular traffic away from Jr. Conde de Superunda, creating a shared street with widened sidewalks, and improving pedestrian connectivity between the park and the Basilica.
 
 A new bikeway will link the area to the Rímac River, while adjacent blocks will be upgraded with greenery and street furniture to foster local community life. The redesign of the park includes a unified layout that enhances the central plaza, integrates the Basilica’s presence with landscaped buffers, and highlights the historic Monserrate canal through special paving.
 
-By integrating urban design with heritage conservation and mobility strategies, the project aims to strengthen the identity of this emblematic space and improve quality of life for its residents.
+By integrating urban design with heritage conservation and mobility strategies, the project aims to **strengthen the identity of this emblematic space and improve quality of life for its residents**.
 
 ::: caption
 Project's plan
@@ -29,7 +30,6 @@ Project's plan
 ::: caption
 Cañete street redesign
 :::
-
 
 ::::: {#slider1 .image-slider}
 <img src="/images/cañete1_before.png" alt="Antes del proyecto"/>
@@ -45,6 +45,7 @@ Cañete street redesign
 ::: caption
 Santa Rosa square redesign
 :::
+
 ::::: {#slider2 .image-slider}
 <img src="/images/starosa1_before.png"/>
 
@@ -59,6 +60,7 @@ Santa Rosa square redesign
 ::: caption
 Conde de Superunda street redesign
 :::
+
 ::::: {#slider3 .image-slider}
 <img src="/images/superunda1_before.png"/>
 

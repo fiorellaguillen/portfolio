@@ -1,5 +1,5 @@
 ---
-title: "Projects"
+title: ""
 page-layout: full
 format:
   html:
@@ -7,13 +7,69 @@ format:
     css: /styles.css
     allow-html: true
 includes:
-  in_header: "header.html" 
+  in_header: header.html
 listing:
   type: grid
   contents: /projects/**
-  sort: "title desc"
-  filter-ui: true
-  categories: unnumbered
-  
+  sort: "title asc"
+  filter-ui: false
+  categories: false
   fields: [image, title]
 ---
+<h3 class="section-title">
+Projects
+</h3>
+:::: category-bar-wrapper
+::: {.category-bar role="group" aria-label="Category filter"}
+      
+<button class="category-btn active" data-categories="all">ALL PROJECTS</button>
+<button class="category-btn" data-categories="VXJiYW4lMjBEZXNpZ24=">URBAN DESIGN</button>
+<button class="category-btn" data-categories="VXJiYW4lMjBEYXRhJTIwU2NpZW5jZQ==">URBAN DATA SCIENCE</button>
+
+
+:::
+::::
+
+```{=html}
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const buttons = document.querySelectorAll(".category-btn");
+    const cards = document.querySelectorAll(".g-col-1"); // tarjetas que tienen data-categories
+
+    function decodeBase64(encoded) {
+      try {
+        return decodeURIComponent(escape(atob(encoded))).toLowerCase().trim();
+      } catch (e) {
+        return "";
+      }
+    }
+
+    buttons.forEach(button => {
+      button.addEventListener("click", () => {
+        buttons.forEach(btn => btn.classList.remove("active"));
+        button.classList.add("active");
+
+        const selectedEncoded = button.getAttribute("data-categories");
+        if (selectedEncoded === "all") {
+          cards.forEach(card => card.style.display = "block");
+          return;
+        }
+
+        cards.forEach(card => {
+          const cardEncoded = card.getAttribute("data-categories");
+          if (!cardEncoded) {
+            card.style.display = "none";
+            return;
+          }
+
+          if (cardEncoded === selectedEncoded) {
+            card.style.display = "block";
+          } else {
+            card.style.display = "none";
+          }
+        });
+      });
+    });
+  });
+</script>
+```

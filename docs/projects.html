@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Projects – Portfolio</title>
+<title>projects – Portfolio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-image','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -160,7 +160,7 @@ window.Quarto = {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./experience.html"> 
-<span class="menu-text">WORK EXPERIENCE</span></a>
+<span class="menu-text">EXPERIENCE</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./contact.html"> 
@@ -177,183 +177,91 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-unnumbered"><div class="category" data-category="VXJiYW4lMjBEYXRhJTIwU2NpZW5jZQ==">Urban Data Science</div><div class="category" data-category="VXJiYW4lMjBEZXNpZ24=">Urban Design</div></div></div>
+    
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Projects</h1>
+
+
+
+<h3 class="section-title anchored">
+Projects
+</h3>
+<div class="category-bar-wrapper">
+<div class="category-bar" role="group" aria-label="Category filter">
+<button class="category-btn active" data-categories="all">
+ALL PROJECTS
+</button>
+<button class="category-btn" data-categories="VXJiYW4lMjBEZXNpZ24=">
+URBAN DESIGN
+</button>
+<button class="category-btn" data-categories="VXJiYW4lMjBEYXRhJTIwU2NpZW5jZQ==">
+URBAN DATA SCIENCE
+</button>
 </div>
+</div>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const buttons = document.querySelectorAll(".category-btn");
+    const cards = document.querySelectorAll(".g-col-1"); // tarjetas que tienen data-categories
 
+    function decodeBase64(encoded) {
+      try {
+        return decodeURIComponent(escape(atob(encoded))).toLowerCase().trim();
+      } catch (e) {
+        return "";
+      }
+    }
 
+    buttons.forEach(button => {
+      button.addEventListener("click", () => {
+        buttons.forEach(btn => btn.classList.remove("active"));
+        button.classList.add("active");
 
-<div class="quarto-title-meta column-page-left">
+        const selectedEncoded = button.getAttribute("data-categories");
+        if (selectedEncoded === "all") {
+          cards.forEach(card => card.style.display = "block");
+          return;
+        }
 
-    
-  
-    
-  </div>
-  
+        cards.forEach(card => {
+          const cardEncoded = card.getAttribute("data-categories");
+          if (!cardEncoded) {
+            card.style.display = "none";
+            return;
+          }
 
-
-</header>
-
-
+          if (cardEncoded === selectedEncoded) {
+            card.style.display = "block";
+          } else {
+            card.style.display = "none";
+          }
+        });
+      });
+    });
+  });
+</script>
 
 
 
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="listing-actions-group">
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="VXJiYW4lMjBEYXRhJTIwU2NpZW5jZQ==" data-listing-file-modified-sort="1747846683329" data-listing-reading-time-sort="1" data-listing-word-count-sort="125">
-<a href="./projects/urban-data-science/habitat_preservation.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="0" data-categories="VXJiYW4lMjBEZXNpZ24=" data-listing-file-modified-sort="1747875051998" data-listing-reading-time-sort="3" data-listing-word-count-sort="484">
+<a href="./projects/urban-design/pfc.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="./images/cranes.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./images/pfc1.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-White-Crane Habitat Monitoring App
+Alternative urban model for Bajo Belen, Iquitos
 </h5>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="VXJiYW4lMjBEZXNpZ24=" data-listing-file-modified-sort="1747840385402" data-listing-reading-time-sort="3" data-listing-word-count-sort="499">
-<a href="./projects/urban-design/tacna.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./images/tacna_after.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Tacna Avenue Redesign
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="VXJiYW4lMjBEZXNpZ24=" data-listing-file-modified-sort="1747840404958" data-listing-reading-time-sort="3" data-listing-word-count-sort="503">
-<a href="./projects/urban-design/parque_sta_rosa.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./images/starosa1_after.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Santa Rosa Park Urban Revitalization
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="VXJiYW4lMjBEZXNpZ24=" data-listing-file-modified-sort="1747846679462" data-listing-reading-time-sort="1" data-listing-word-count-sort="185">
-<a href="./projects/urban-design/pza_mercado.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./images/pzamercado3.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Santa Rosa Market Square
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="VXJiYW4lMjBEYXRhJTIwU2NpZW5jZQ==" data-listing-file-modified-sort="1747846684745" data-listing-reading-time-sort="1" data-listing-word-count-sort="85">
-<a href="./projects/urban-data-science/nyc_evictions.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./images/local_moran.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-New York City evictions: an spatial and socioeconomic analysis
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="VXJiYW4lMjBEZXNpZ24=" data-listing-file-modified-sort="1747792930483" data-listing-reading-time-sort="1" data-listing-word-count-sort="176">
-<a href="./projects/urban-design/peprr.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./images/peprr.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Master Plan for the Rimac River, Lima
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="6" data-categories="VXJiYW4lMjBEYXRhJTIwU2NpZW5jZQ==" data-listing-file-modified-sort="1747846681428" data-listing-reading-time-sort="1" data-listing-word-count-sort="115">
-<a href="./projects/urban-data-science/dwelling_fires.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./images/dwelling_fires.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-London Dwelling Fires: associations with socio-economic factors
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="7" data-categories="VXJiYW4lMjBEYXRhJTIwU2NpZW5jZQ==" data-listing-file-modified-sort="1747838008818" data-listing-reading-time-sort="1" data-listing-word-count-sort="73">
-<a href="./projects/urban-data-science/bikesharing.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./images/bikesharing.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-London Bikesharing System Agent-Based Model
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="8" data-categories="VXJiYW4lMjBEZXNpZ24=" data-listing-file-modified-sort="1747841680204" data-listing-reading-time-sort="1" data-listing-word-count-sort="122">
-<a href="./projects/urban-design/hidro.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./images/hidro_corte.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Hydrogeomorphological Manual for the Rimac River
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="9" data-categories="VXJiYW4lMjBEZXNpZ24=" data-listing-file-modified-sort="1747840401503" data-listing-reading-time-sort="3" data-listing-word-count-sort="450">
-<a href="./projects/urban-design/ayabaca.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./images/ayabaca1_after.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Ayabaca Street: Urban Mobility and Public Space Improvement
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="10" data-categories="VXJiYW4lMjBEYXRhJTIwU2NpZW5jZQ==" data-listing-file-modified-sort="1747846687329" data-listing-reading-time-sort="1" data-listing-word-count-sort="105">
+<div class="g-col-1" data-index="1" data-categories="VXJiYW4lMjBEYXRhJTIwU2NpZW5jZQ==" data-listing-file-modified-sort="1747873158929" data-listing-reading-time-sort="1" data-listing-word-count-sort="105">
 <a href="./projects/urban-data-science/cycling_accidents.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -367,15 +275,141 @@ Assessing the Risks: Cycling Accident Severity in London
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="11" data-categories="VXJiYW4lMjBEZXNpZ24=" data-listing-file-modified-sort="1747796529879" data-listing-reading-time-sort="1" data-listing-word-count-sort="144">
-<a href="./projects/urban-design/pfc.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="2" data-categories="VXJiYW4lMjBEZXNpZ24=" data-listing-file-modified-sort="1747875063211" data-listing-reading-time-sort="3" data-listing-word-count-sort="449">
+<a href="./projects/urban-design/ayabaca.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="./images/pfc1.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./images/ayabaca1_after.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Alternative urban model for Bajo Belen, Iquitos
+Ayabaca Street: Urban Mobility and Public Space Improvement
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="VXJiYW4lMjBEZXNpZ24=" data-listing-file-modified-sort="1747875061079" data-listing-reading-time-sort="1" data-listing-word-count-sort="144">
+<a href="./projects/urban-design/hidro.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./images/hidro_corte.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Hydrogeomorphological Manual for the Rimac River
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="VXJiYW4lMjBEYXRhJTIwU2NpZW5jZQ==" data-listing-file-modified-sort="1747875072661" data-listing-reading-time-sort="1" data-listing-word-count-sort="73">
+<a href="./projects/urban-data-science/bikesharing.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./images/bikesharing.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+London Bikesharing System Agent-Based Model
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-categories="VXJiYW4lMjBEYXRhJTIwU2NpZW5jZQ==" data-listing-file-modified-sort="1747875070428" data-listing-reading-time-sort="1" data-listing-word-count-sort="115">
+<a href="./projects/urban-data-science/dwelling_fires.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./images/dwelling_fires.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+London Dwelling Fires: associations with socio-economic factors
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6" data-categories="VXJiYW4lMjBEZXNpZ24=" data-listing-file-modified-sort="1747875054565" data-listing-reading-time-sort="1" data-listing-word-count-sort="176">
+<a href="./projects/urban-design/peprr.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./images/peprr.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Master Plan for the Rimac River, Lima
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="7" data-categories="VXJiYW4lMjBEYXRhJTIwU2NpZW5jZQ==" data-listing-file-modified-sort="1747875065066" data-listing-reading-time-sort="1" data-listing-word-count-sort="88">
+<a href="./projects/urban-data-science/nyc_evictions.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./images/local_moran.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+New York City evictions: an spatial and socioeconomic analysis
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="8" data-categories="VXJiYW4lMjBEZXNpZ24=" data-listing-file-modified-sort="1747875059071" data-listing-reading-time-sort="1" data-listing-word-count-sort="182">
+<a href="./projects/urban-design/pza_mercado.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./images/pzamercado3.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Santa Rosa Market Square
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="9" data-categories="VXJiYW4lMjBEZXNpZ24=" data-listing-file-modified-sort="1747875049697" data-listing-reading-time-sort="3" data-listing-word-count-sort="504">
+<a href="./projects/urban-design/parque_sta_rosa.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./images/starosa1_after.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Santa Rosa Park Urban Revitalization
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="10" data-categories="VXJiYW4lMjBEZXNpZ24=" data-listing-file-modified-sort="1747875056619" data-listing-reading-time-sort="3" data-listing-word-count-sort="499">
+<a href="./projects/urban-design/tacna.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./images/tacna_after.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Tacna Avenue Redesign
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="11" data-categories="VXJiYW4lMjBEYXRhJTIwU2NpZW5jZQ==" data-listing-file-modified-sort="1747870691677" data-listing-reading-time-sort="1" data-listing-word-count-sort="125">
+<a href="./projects/urban-data-science/habitat_preservation.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./images/cranes.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+White-Crane Habitat Monitoring App
 </h5>
 </div>
 </div>
