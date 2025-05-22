@@ -481,7 +481,6 @@ Received the Excellence award of the Architecture and Urbanism Faculty, for outs
 </script>
 ```
 
-
 ```{=html}
 <script>
   // Función para alternar el texto expandido

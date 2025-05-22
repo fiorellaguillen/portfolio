@@ -140,11 +140,7 @@
   color: #717375 !important;
   font-weight: bold;
   font-size: 1.1rem;
-}
-
-/* Ícono hamburguesa: color negro visible */
-.navbar-toggler {
-  border-color: #717375 !important;
+  margin-left: 0.5rem;
 }
 
 .navbar-toggler-icon {
@@ -448,15 +444,17 @@ main.content {
 
 .timeline-item {
   display: flex;
-  gap: 1.5rem;
+  gap: 1.1rem;
   position: relative;
 }
 
 .timeline-date {
-  flex: 0 0 60px;
+  flex: 0 0 72px;
   font-weight: bold;
   color: #007BFF;
   margin-left: 10px;
+  margin-top: 5px;
+  font-size:0.9rem;
 }
  
 .timeline-content {
@@ -470,12 +468,12 @@ main.content {
 
 .timeline-content h3 {
   margin: 0;
-  font-size: 1.2rem;
+  font-size: 1.15rem;
 }
 
 .timeline-content h4 {
   margin-top: 0.2rem;
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #6c757d;
 }
 
@@ -498,8 +496,12 @@ main.content {
 }
 
 .skill-group h4 {
-  margin-bottom: 0.0rem;
-  color: #000;
+  margin-top: 0.1rem !important;
+  margin-bottom: 0.5rem;
+  color: #212529;
+  font-size: 1rem;
+  font-weight: 600;
+  
 }
 
 .skill-badge {
@@ -550,15 +552,14 @@ main.content {
 
 .card-item h3 {
   margin: 0;
-  font-size: 1.2rem;
+  font-size: 1.15rem;
 }
 
 .card-item h4 {
-  margin-top: 0.3rem;
-  font-size: 1rem;
+  margin-top: 0.2rem;
+  font-size: 0.9rem;
   color: #6c757d;
 }
-
 
 /* Aplica a todas las cajas de experiencia y awards */
 .timeline-content p,
@@ -567,6 +568,9 @@ main.content {
   line-height: 1.4;
 }
 
+.card-item p {
+  margin: 0rem !important;
+}
 
 /*-------------expandable text ----------*/
 .expandable-text {
@@ -610,14 +614,16 @@ main.content {
 /*--------------titles------------- */
 .section-title {
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.9rem;
   font-weight: 700;
+  line-height: 1.1;
   margin-top: 0rem;
   margin-bottom: 0rem;
   color: #343a40; /* gris oscuro para mejor contraste */
   border-bottom: none !important;
   padding-bottom: 0 !important;
 }
+
 
 
 /*filtro para projects */
