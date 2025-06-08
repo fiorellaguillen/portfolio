@@ -372,13 +372,13 @@ Skills
 ::: skill-group
 #### Programming
 
-[Python]{.skill-badge} [R]{.skill-badge} [SQL]{.skill-badge} [Netlogo]{.skill-badge} [Google Earth Engine]{.skill-badge}
+[Python]{.skill-badge} [R]{.skill-badge} [SQL]{.skill-badge} [Netlogo]{.skill-badge} [Google Earth Engine]{.skill-badge} [QGIS]{.skill-badge}
 :::
 
 ::: skill-group
 #### Design software
 
-[Autocad]{.skill-badge} [Archicad]{.skill-badge} [Sketchup]{.skill-badge} [Rhinoceros]{.skill-badge} [Grasshopper]{.skill-badge} [Adobe suite]{.skill-badge}
+[Autocad]{.skill-badge} [Archicad]{.skill-badge} [Sketchup]{.skill-badge} [Rhinoceros]{.skill-badge} [Grasshopper]{.skill-badge} [Lumion]{.skill-badge} [Adobe suite]{.skill-badge}
 :::
 
 ::: skill-group
