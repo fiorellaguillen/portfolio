@@ -25,7 +25,7 @@ I am Fiorella Guillen, a postgraduate student in **Urban Spatial Science** at UC
 
 Here, you'll find insights into my work and academic projects, including spatial data analysis, and my experience in urban planning.
 
-Feel free to explore my projects, and don’t hesitate to reach out! <br><br> [Download Resumé (en)](images/resume.pdf){.btn .btn-outline-light} [Download Portfolio (es)](images/urban_design_portfolio.pdf){.btn .btn-outline-light}
+Feel free to explore my projects, and don’t hesitate to reach out! <br><br> [Download Resumé](images/resume.pdf){.btn .btn-outline-light} [Download Portfolio](images/urban_design_portfolio.pdf){.btn .btn-outline-light}
 ::::
 
 ::: {#image-container style="width: 50%; text-align: right;"}
