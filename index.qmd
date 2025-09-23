@@ -16,7 +16,7 @@ format:
 ::: {#intro-header}
 [Roxana Fiorella]{.name-line .desktop-line} [Guillen Hurtado]{.name-line .desktop-line} [Roxana]{.name-line .mobile-line} [Fiorella]{.name-line .mobile-line} [Guillen]{.name-line .mobile-line} [Hurtado]{.name-line .mobile-line}
 
-<img src="images/foto.png" id="profile-pic-small" width="150"/>
+![](images/foto.jpg){#profile-pic-small}
 :::
 
 <br> Welcome to my portfolio!
@@ -25,11 +25,11 @@ I am Fiorella Guillen, a postgraduate student in **Urban Spatial Science** at UC
 
 Here, you'll find insights into my work and academic projects, including spatial data analysis, and my experience in urban planning.
 
-Feel free to explore my projects, and don’t hesitate to reach out! <br><br> [Download Resumé](images/resume.pdf){.btn .btn-outline-light} [Download Portfolio](images/urban_design_portfolio.pdf){.btn .btn-outline-light}
+Feel free to explore my projects, and don’t hesitate to reach out! <br><br> [Download Resumé](images/resume.pdf){.btn .btn-outline-light} [Download ](images/urban_design_portfolio.pdf){.btn .btn-outline-light}[Portfolio](images/portfolio.pdf){.btn .btn-outline-light}
 ::::
 
 ::: {#image-container style="width: 50%; text-align: right;"}
-![](images/foto.png){#profile-pic-large width="385"}
+![](images/foto.jpg){#profile-pic-large width="385"}
 :::
 ::::::
 
