@@ -21,9 +21,9 @@ format:
 
 <br> Welcome to my portfolio!
 
-I am Fiorella Guillen, a postgraduate student in **Urban Spatial Science** at UCL with a background in architecture and urbanism. I have a strong interest in **sustainable urban development** and **spatial analysis**, and I'm passionate about leveraging data-driven solutions to tackle urban challenges.
+I’m Fiorella Guillén, a recent master’s graduate in **Urban Spatial Science** from UCL, with a background in architecture and urbanism. My work focuses on **sustainable urban development** and **spatial analysis**, and I’m passionate about using **data-driven** approaches to understand cities and inform better design and planning decisions.
 
-Here, you'll find insights into my work and academic projects, including spatial data analysis, and my experience in urban planning.
+Here, you’ll find examples of my academic and professional projects, from spatial data analysis to urban design and masterplanning.
 
 Feel free to explore my projects, and don’t hesitate to reach out! <br><br> [Download Resumé](images/resume.pdf){.btn .btn-outline-light} [Download Portfolio](images/portfolio.pdf){.btn .btn-outline-light}
 ::::
